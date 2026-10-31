@@ -86,3 +86,21 @@
 .instagram-follow .primary-button{display:inline-block}
 @media(max-width:1000px){.home-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:650px){.trego-style-products{padding-top:38px;padding-bottom:38px}.home-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.home-product-grid .product-image{height:185px}.trending-products{padding-left:6%;padding-right:6%}}
+
+/* Expanded Trego-inspired navigation and category menus */
+.category-nav{gap:clamp(15px,2.6vw,34px)}
+.nav-dropdown{height:100%;display:flex;align-items:center;position:relative}
+.nav-dropdown>a{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#5e4651;white-space:nowrap}
+.nav-dropdown-menu{display:none;position:absolute;left:-18px;top:100%;min-width:205px;padding:12px 0;background:#fff;box-shadow:0 12px 28px #4a29381c;border:1px solid #f2e2e8;z-index:30}
+.nav-dropdown-menu a{display:block;padding:10px 18px;font-size:11px;color:#5e4651;text-transform:none;letter-spacing:0}
+.nav-dropdown-menu a:hover{background:#fff3f7;color:#c95882}
+.nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown:focus-within .nav-dropdown-menu{display:block}
+#reviews{scroll-margin-top:150px}
+#skinCollection,#hairCollection{scroll-margin-top:145px}
+@media(max-width:650px){
+.category-nav{height:auto;align-items:stretch;gap:0}
+.category-nav .nav-dropdown{height:auto;display:block}
+.category-nav .nav-dropdown>a{display:block;padding:12px 18px}
+.nav-dropdown-menu{position:static;box-shadow:none;border:0;padding:0 0 8px 12px}
+.nav-dropdown:hover .nav-dropdown-menu{display:block}
+}
