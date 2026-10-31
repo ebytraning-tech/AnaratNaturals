@@ -70,3 +70,19 @@
 .primary-button:hover{background:#c95882}
 @media(max-width:900px){.skincare-hero{padding:45px 6%;grid-template-columns:1fr 1fr}.skincare-hero-art{height:340px}.routine-banner{margin-left:6%;margin-right:6%}}
 @media(max-width:650px){.skincare-hero{grid-template-columns:1fr;padding:38px 7% 28px;gap:20px}.skincare-hero-art{height:280px;grid-row:1}.skincare-hero .hero-copy{grid-row:2}.skincare-hero h1{font-size:43px}.skincare-categories .category-card{height:170px;padding:17px}.skincare-categories .category-card strong{font-size:21px}.routine-banner{margin:0 5% 45px;grid-template-columns:1fr}.routine-photo{min-height:230px}.routine-copy{padding:32px 8%}.category-nav.open{top:151px}.product-image{height:210px}}
+
+
+/* Trego-inspired homepage section rhythm */
+.trego-style-products{padding-top:56px;padding-bottom:55px}
+.trego-style-products .section-heading{margin-bottom:24px}
+.home-product-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.home-product-grid .product-image{height:205px}
+.home-product-grid .product-info h3,.home-product-grid .product-name{font-size:13px}
+.home-product-grid .product-info p{font-size:9px;min-height:30px}
+.trending-products{background:#fff7fa;max-width:none;padding-left:8%;padding-right:8%}
+.instagram-follow{text-align:center;padding-top:65px;padding-bottom:65px;background:#f8e5ec}
+.instagram-follow h2{font:500 clamp(32px,4vw,44px) var(--serif);margin:10px 0}
+.instagram-follow p:not(.eyebrow){font-size:12px;color:#806b75;margin-bottom:20px}
+.instagram-follow .primary-button{display:inline-block}
+@media(max-width:1000px){.home-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.trego-style-products{padding-top:38px;padding-bottom:38px}.home-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.home-product-grid .product-image{height:185px}.trending-products{padding-left:6%;padding-right:6%}}
