@@ -49,26 +49,23 @@ const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));
 let products=read("anarat_products",defaultProducts),cart=read("anarat_cart",[]),orders=read("anarat_orders",[]),profile=read("anarat_profile",null),activeFilter="all",searchTerm="";
 if(!localStorage.getItem("anarat_catalog_v4")){products=defaultProducts;save("anarat_products",products);localStorage.setItem("anarat_catalog_v4","1");}
 const money=n=>"Rs. "+Number(n||0).toLocaleString("en-PK");
-const productImages={
-cleanser:"https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=85",
-serum:"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85",
-toner:"https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85",
-cream:"https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=900&q=85",
-hair:"https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=900&q=85",
-body:"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85",
-sun:"https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=85",
-bundle:"https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=900&q=85"
-};
+const randomProductPhotos=[
+"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1600612253971-422e7f7faeb6?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85",
+"https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=900&q=85"
+];
 function imageForProduct(p){
- const n=(p.name+" "+(p.tag||"")).toLowerCase();
- if(/hair|scalp|shampoo|rosemary/.test(n))return productImages.hair;
- if(/sunscreen|sun shield|spf/.test(n))return productImages.sun;
- if(/body wash|hand & foot/.test(n))return productImages.body;
- if(/bundle|set|essentials/.test(n))return productImages.bundle;
- if(/cleanser|cleanse|face wash/.test(n))return productImages.cleanser;
- if(/toner/.test(n))return productImages.toner;
- if(/cream|moistur|eye gel|lip|balm/.test(n))return productImages.cream;
- return productImages.serum;
+ if(!p._randomImage)p._randomImage=randomProductPhotos[Math.floor(Math.random()*randomProductPhotos.length)];
+ return p._randomImage;
 }
 
 const $=id=>document.getElementById(id);
