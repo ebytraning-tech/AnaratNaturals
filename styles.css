@@ -104,3 +104,8 @@
 .nav-dropdown-menu{position:static;box-shadow:none;border:0;padding:0 0 8px 12px}
 .nav-dropdown:hover .nav-dropdown-menu{display:block}
 }
+
+.product-reviews{font-size:9px;color:#88727c;margin:7px 0 9px;letter-spacing:.01em}
+.product-reviews span{color:#d29a45;letter-spacing:1px;font-size:10px}
+.product-info p{margin-bottom:4px}
+.product-buy{margin-top:8px}
