@@ -1,12 +1,17 @@
 const defaultProducts=[
-{id:1,name:"Botanical Body Wash",desc:"A gentle everyday refresh",price:1290,category:"care",tag:"EVERYDAY CARE",symbol:"✿"},
-{id:2,name:"Calm Ritual Candle",desc:"A softer kind of evening",price:1650,category:"home",tag:"SLOW LIVING",symbol:"✳"},
-{id:3,name:"Daily Essentials Kit",desc:"Little things, thoughtfully picked",price:2190,category:"daily",tag:"CUSTOMER FAVOURITE",symbol:"a."},
-{id:4,name:"Herbal Care Blend",desc:"A simple moment for yourself",price:1450,category:"care",tag:"NATURAL CARE",symbol:"❋"}
+{id:1,name:"Vitamin C Glow Serum",desc:"A lightweight daily serum for a fresh, radiant-looking finish.",price:1490,category:"care",tag:"GLOW CARE",symbol:"✧"},
+{id:2,name:"Clarifying Face Cleanser",desc:"A gentle daily cleanser for skin that feels clean and refreshed.",price:1370,category:"care",tag:"DAILY CLEANSING",symbol:"◌"},
+{id:3,name:"Brightening Toner",desc:"A refreshing toner to complement your everyday skincare routine.",price:1329,category:"care",tag:"SKINCARE ESSENTIAL",symbol:"✿"},
+{id:4,name:"Daily Sun Protection SPF 50+",desc:"A daily sunscreen step for outdoor and everyday routines.",price:1389,category:"care",tag:"SUN CARE",symbol:"☼"},
+{id:5,name:"Hair Growth Care Serum",desc:"A leave-on hair-care serum for a simple scalp-care routine.",price:1599,category:"care",tag:"HAIR CARE",symbol:"❋"},
+{id:6,name:"Daily Moisture Cream",desc:"A comforting moisturizer for everyday skin care.",price:1419,category:"care",tag:"DAILY MOISTURE",symbol:"♡"},
+{id:7,name:"Even Tone Face Serum",desc:"A targeted serum to add to your evening skincare routine.",price:1499,category:"care",tag:"TARGETED CARE",symbol:"✧"},
+{id:8,name:"Glass Skin Gel Cleanser",desc:"A fresh-feeling gel cleanser for your daily face-wash routine.",price:1450,category:"care",tag:"GEL CLEANSER",symbol:"◌"}
 ];
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
 const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));
 let products=read("anarat_products",defaultProducts),cart=read("anarat_cart",[]),orders=read("anarat_orders",[]),profile=read("anarat_profile",null),activeFilter="all",searchTerm="";
+if(!localStorage.getItem("anarat_catalog_v2")){products=defaultProducts;save("anarat_products",products);localStorage.setItem("anarat_catalog_v2","1");}
 const money=n=>"Rs. "+Number(n||0).toLocaleString("en-PK");
 const $=id=>document.getElementById(id);
 function toast(message){$("toast").textContent=message;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),2400)}
