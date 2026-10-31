@@ -1,17 +1,45 @@
 const defaultProducts=[
-{id:1,name:"Vitamin C Glow Serum",desc:"A lightweight daily serum for a fresh, radiant-looking finish.",price:1490,category:"care",tag:"GLOW CARE",symbol:"✧"},
-{id:2,name:"Clarifying Face Cleanser",desc:"A gentle daily cleanser for skin that feels clean and refreshed.",price:1370,category:"care",tag:"DAILY CLEANSING",symbol:"◌"},
-{id:3,name:"Brightening Toner",desc:"A refreshing toner to complement your everyday skincare routine.",price:1329,category:"care",tag:"SKINCARE ESSENTIAL",symbol:"✿"},
-{id:4,name:"Daily Sun Protection SPF 50+",desc:"A daily sunscreen step for outdoor and everyday routines.",price:1389,category:"care",tag:"SUN CARE",symbol:"☼"},
-{id:5,name:"Hair Growth Care Serum",desc:"A leave-on hair-care serum for a simple scalp-care routine.",price:1599,category:"care",tag:"HAIR CARE",symbol:"❋"},
-{id:6,name:"Daily Moisture Cream",desc:"A comforting moisturizer for everyday skin care.",price:1419,category:"care",tag:"DAILY MOISTURE",symbol:"♡"},
-{id:7,name:"Even Tone Face Serum",desc:"A targeted serum to add to your evening skincare routine.",price:1499,category:"care",tag:"TARGETED CARE",symbol:"✧"},
-{id:8,name:"Glass Skin Gel Cleanser",desc:"A fresh-feeling gel cleanser for your daily face-wash routine.",price:1450,category:"care",tag:"GEL CLEANSER",symbol:"◌"}
+{id:1,name:"Vitamin C Radiance Serum",desc:"A lightweight serum for a bright, fresh-feeling skincare routine.",price:1499,category:"care",tag:"FACE SERUM",symbol:"✧"},
+{id:2,name:"Daily Clarifying Cleanser",desc:"A gentle everyday face cleanser.",price:1370,category:"care",tag:"FACE CLEANSER",symbol:"◌"},
+{id:3,name:"Brightening Daily Toner",desc:"A refreshing toner for your daily skincare steps.",price:1329,category:"care",tag:"FACE TONER",symbol:"✿"},
+{id:4,name:"Daily Sun Shield SPF 50+",desc:"A daily sun-care essential for outdoor routines.",price:1389,category:"care",tag:"SUN CARE",symbol:"☼"},
+{id:5,name:"Root Nourish Hair Serum",desc:"A leave-on serum for a simple scalp and hair-care routine.",price:1659,category:"care",tag:"HAIR CARE",symbol:"❋"},
+{id:6,name:"Comfort Moisture Cream",desc:"An everyday cream for a comfortable, moisturised feel.",price:1419,category:"care",tag:"MOISTURE CARE",symbol:"♡"},
+{id:7,name:"Even Tone Face Serum",desc:"A targeted serum to complement your daily skincare routine.",price:1499,category:"care",tag:"FACE SERUM",symbol:"✧"},
+{id:8,name:"Fresh Finish Gel Cleanser",desc:"A fresh-feeling gel cleanser for daily face washing.",price:1450,category:"care",tag:"GEL CLEANSER",symbol:"◌"},
+{id:9,name:"Smooth Skin Exfoliating Toner",desc:"An exfoliating-care step. Follow product directions and use sun protection.",price:1360,category:"care",tag:"EXFOLIATING CARE",symbol:"✧"},
+{id:10,name:"Blemish Care Cream",desc:"A targeted cream for blemish-prone skincare routines.",price:1380,category:"care",tag:"TARGETED CARE",symbol:"♡"},
+{id:11,name:"Age Support Face Serum",desc:"A serum for a nourishing evening skincare routine.",price:1570,category:"care",tag:"FACE SERUM",symbol:"✧"},
+{id:12,name:"Scalp Balance Drops",desc:"A scalp-care product for a clean, comfortable-feeling routine.",price:1070,category:"care",tag:"SCALP CARE",symbol:"❋"},
+{id:13,name:"Botanical Hair Oil",desc:"A botanical-inspired oil for hair-care rituals.",price:1559,category:"care",tag:"HAIR OIL",symbol:"❋"},
+{id:14,name:"Bright Look Eye Gel",desc:"A lightweight gel for your under-eye care routine.",price:1389,category:"care",tag:"EYE CARE",symbol:"♡"},
+{id:15,name:"Radiance Routine Bundle",desc:"A curated skincare set for a simple daily routine.",price:2990,category:"daily",tag:"VALUE BUNDLE",symbol:"✧"},
+{id:16,name:"Hydrating Face Cleanser",desc:"A gentle cleanser for a comfortable daily wash.",price:1370,category:"care",tag:"FACE CLEANSER",symbol:"◌"},
+{id:17,name:"Hand & Foot Care Cream",desc:"A rich-feel cream for hand and foot care.",price:1389,category:"care",tag:"BODY CARE",symbol:"♡"},
+{id:18,name:"Soft Lips Treatment Balm",desc:"A nourishing balm for everyday lip care.",price:1100,category:"care",tag:"LIP CARE",symbol:"♡"},
+{id:19,name:"Overnight Renewal Cream",desc:"A comforting cream for your evening skincare routine.",price:1380,category:"care",tag:"NIGHT CARE",symbol:"☾"},
+{id:20,name:"Rice Milk Face Cleanser",desc:"A gentle daily cleanser inspired by rice-based skincare.",price:1370,category:"care",tag:"RICE CARE",symbol:"◌"},
+{id:21,name:"Rice Milk Hydrating Toner",desc:"A refreshing toner for a hydrated-feeling routine.",price:1200,category:"care",tag:"RICE CARE",symbol:"✿"},
+{id:22,name:"Rice Glow Face Serum",desc:"A lightweight serum for everyday skincare.",price:1499,category:"care",tag:"RICE CARE",symbol:"✧"},
+{id:23,name:"Rose Soft Face Wash",desc:"A gentle face wash with a soft rose-inspired feel.",price:1100,category:"care",tag:"FACE WASH",symbol:"✿"},
+{id:24,name:"Rosemary Scalp Hair Oil",desc:"A botanical-inspired oil for scalp and hair-care rituals.",price:1559,category:"care",tag:"HAIR OIL",symbol:"❋"},
+{id:25,name:"Saffron Glow Face Wash",desc:"A gentle face wash for your everyday routine.",price:1100,category:"care",tag:"FACE WASH",symbol:"✿"},
+{id:26,name:"Strong Roots Hair Shampoo",desc:"An everyday shampoo for your hair-wash routine.",price:1250,category:"care",tag:"HAIR CARE",symbol:"❋"},
+{id:27,name:"Smooth & Shine Hair Serum",desc:"A finishing serum for a smooth-feeling hair routine.",price:1659,category:"care",tag:"HAIR CARE",symbol:"✧"},
+{id:28,name:"Brightening Body Wash",desc:"A refreshing body wash for everyday bathing.",price:1630,category:"care",tag:"BODY CARE",symbol:"✿"},
+{id:29,name:"Deep Hydration Body Wash",desc:"A moisturising-feel body wash for daily use.",price:1630,category:"care",tag:"BODY CARE",symbol:"♡"},
+{id:30,name:"AHA BHA Body Wash",desc:"An exfoliating body-care wash. Use as directed.",price:1690,category:"care",tag:"BODY CARE",symbol:"✧"},
+{id:31,name:"Clarifying & Hydrating Toner",desc:"A refreshing toner for a balanced-feeling routine.",price:1499,category:"care",tag:"FACE TONER",symbol:"✿"},
+{id:32,name:"Oily Skin Moisture Gel",desc:"A lightweight moisturiser for a fresh-feeling finish.",price:1419,category:"care",tag:"MOISTURE CARE",symbol:"♡"},
+{id:33,name:"Daily Hair Nourish Oil",desc:"A nourishing oil for regular hair-care rituals.",price:1559,category:"care",tag:"HAIR OIL",symbol:"❋"},
+{id:34,name:"Gentle Skin Polish Scrub",desc:"A face scrub for occasional exfoliating care. Use gently as directed.",price:1360,category:"care",tag:"EXFOLIATING CARE",symbol:"✧"},
+{id:35,name:"Everyday Skin Essentials Set",desc:"A curated collection of everyday skincare essentials.",price:3950,category:"daily",tag:"VALUE BUNDLE",symbol:"✧"},
+{id:36,name:"Complete Radiance Care Set",desc:"A multi-step skincare bundle for your daily routine.",price:5100,category:"daily",tag:"VALUE BUNDLE",symbol:"✿"}
 ];
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
 const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));
 let products=read("anarat_products",defaultProducts),cart=read("anarat_cart",[]),orders=read("anarat_orders",[]),profile=read("anarat_profile",null),activeFilter="all",searchTerm="";
-if(!localStorage.getItem("anarat_catalog_v2")){products=defaultProducts;save("anarat_products",products);localStorage.setItem("anarat_catalog_v2","1");}
+if(!localStorage.getItem("anarat_catalog_v3")){products=defaultProducts;save("anarat_products",products);localStorage.setItem("anarat_catalog_v3","1");}
 const money=n=>"Rs. "+Number(n||0).toLocaleString("en-PK");
 const $=id=>document.getElementById(id);
 function toast(message){$("toast").textContent=message;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),2400)}
