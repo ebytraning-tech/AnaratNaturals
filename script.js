@@ -1,81 +1,39 @@
-const products = [
-  {id:1,name:"Botanical Body Wash",desc:"A gentle everyday refresh",price:1290,category:"care",tag:"EVERYDAY CARE",symbol:"✿"},
-  {id:2,name:"Calm Ritual Candle",desc:"A softer kind of evening",price:1650,category:"home",tag:"SLOW LIVING",symbol:"✳"},
-  {id:3,name:"Daily Essentials Kit",desc:"Little things, thoughtfully picked",price:2190,category:"daily",tag:"CUSTOMER FAVOURITE",symbol:"a."},
-  {id:4,name:"Herbal Care Blend",desc:"A simple moment for yourself",price:1450,category:"care",tag:"NATURAL CARE",symbol:"❋"}
+const defaultProducts=[
+{id:1,name:"Botanical Body Wash",desc:"A gentle everyday refresh",price:1290,category:"care",tag:"EVERYDAY CARE",symbol:"✿"},
+{id:2,name:"Calm Ritual Candle",desc:"A softer kind of evening",price:1650,category:"home",tag:"SLOW LIVING",symbol:"✳"},
+{id:3,name:"Daily Essentials Kit",desc:"Little things, thoughtfully picked",price:2190,category:"daily",tag:"CUSTOMER FAVOURITE",symbol:"a."},
+{id:4,name:"Herbal Care Blend",desc:"A simple moment for yourself",price:1450,category:"care",tag:"NATURAL CARE",symbol:"❋"}
 ];
-let cart = [];
-let activeFilter = "all";
-let searchTerm = "";
-const money = value => "Rs. " + value.toLocaleString("en-PK");
-const grid = document.getElementById("productGrid");
-const cartCount = document.getElementById("cartCount");
-const drawerCount = document.getElementById("drawerCount");
-const cartItems = document.getElementById("cartItems");
-const cartTotal = document.getElementById("cartTotal");
-const drawer = document.getElementById("cartDrawer");
-const backdrop = document.getElementById("cartBackdrop");
-
-function getVisibleProducts(){
-  let visible = products.filter(p => (activeFilter === "all" || p.category === activeFilter) && (p.name + " " + p.desc).toLowerCase().includes(searchTerm));
-  const sort = document.getElementById("sortSelect").value;
-  if(sort === "low") visible.sort((a,b)=>a.price-b.price);
-  if(sort === "high") visible.sort((a,b)=>b.price-a.price);
-  if(sort === "name") visible.sort((a,b)=>a.name.localeCompare(b.name));
-  return visible;
-}
-function renderProducts(){
-  const visible = getVisibleProducts();
-  document.getElementById("resultCount").textContent = "Showing " + visible.length + (visible.length === 1 ? " product" : " products");
-  grid.innerHTML = visible.length ? visible.map(p=>`<article class="product-card"><div class="product-image ${p.category}"><span class="product-tag">${p.tag}</span><span class="product-symbol">${p.symbol}</span></div><div class="product-info"><h3>${p.name}</h3><p>${p.desc}</p><div class="product-buy"><span class="product-price">${money(p.price)}</span><button class="add-button" data-add="${p.id}" aria-label="Add ${p.name} to bag">+</button></div></div></article>`).join("") : '<p class="empty-results">No products found. Try another search.</p>';
-}
-function renderCart(){
-  const count = cart.reduce((sum,item)=>sum+item.qty,0);
-  const total = cart.reduce((sum,item)=>sum+item.price*item.qty,0);
-  cartCount.textContent=count;
-  drawerCount.textContent="("+count+")";
-  cartTotal.textContent=money(total);
-  cartItems.innerHTML = cart.length ? cart.map(item=>`<div class="cart-row"><div><strong>${item.name}</strong><small>${money(item.price)} × ${item.qty}</small></div><div><strong>${money(item.price*item.qty)}</strong><br><button data-remove="${item.id}">Remove</button></div></div>`).join("") : '<p class="empty-cart">Your bag is waiting for something lovely.</p>';
-}
-function showToast(message){
-  const toast=document.getElementById("toast");
-  toast.textContent=message;
-  toast.classList.add("show");
-  window.setTimeout(()=>toast.classList.remove("show"),2200);
-}
-function openCart(){drawer.classList.add("open");backdrop.classList.add("open");}
-function closeCart(){drawer.classList.remove("open");backdrop.classList.remove("open");}
-function setFilter(filter){
-  activeFilter=filter;
-  document.querySelectorAll("[data-filter]").forEach(b=>b.classList.toggle("active",b.dataset.filter===filter));
-  renderProducts();
-}
-
-grid.addEventListener("click",e=>{
-  const button=e.target.closest("[data-add]");
-  if(!button)return;
-  const product=products.find(p=>p.id===Number(button.dataset.add));
-  const existing=cart.find(p=>p.id===product.id);
-  if(existing)existing.qty++;else cart.push({...product,qty:1});
-  renderCart();showToast("Added to your bag");
-});
-cartItems.addEventListener("click",e=>{
-  const button=e.target.closest("[data-remove]");
-  if(!button)return;
-  cart=cart.filter(p=>p.id!==Number(button.dataset.remove));
-  renderCart();
-});
-document.querySelectorAll("[data-filter]").forEach(button=>button.addEventListener("click",()=>setFilter(button.dataset.filter)));
-document.querySelectorAll("[data-nav-filter]").forEach(link=>link.addEventListener("click",()=>setFilter(link.dataset.navFilter)));
-document.getElementById("sortSelect").addEventListener("change",renderProducts);
-document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();searchTerm=document.getElementById("searchInput").value.trim().toLowerCase();renderProducts();document.getElementById("shop").scrollIntoView({behavior:"smooth"});});
-document.getElementById("searchInput").addEventListener("input",e=>{searchTerm=e.target.value.trim().toLowerCase();renderProducts();});
-document.getElementById("cartButton").addEventListener("click",openCart);
-document.getElementById("closeCart").addEventListener("click",closeCart);
-backdrop.addEventListener("click",closeCart);
-document.getElementById("menuToggle").addEventListener("click",()=>document.getElementById("mainNav").classList.toggle("open"));
-document.getElementById("checkoutButton").addEventListener("click",()=>{if(!cart.length){showToast("Your bag is empty");return;}showToast("Checkout will be connected in the next step.");});
-document.getElementById("accountLink").addEventListener("click",e=>{e.preventDefault();showToast("Customer accounts will be added in a later step.");});
-document.getElementById("newsletterForm").addEventListener("submit",e=>{e.preventDefault();document.getElementById("newsletterMessage").textContent="Thanks for your interest! Newsletter signup will be connected soon.";e.target.reset();});
-document.getElementById("year").textContent=new Date().getFullYear();
-renderProducts();renderCart();
+const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
+const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));
+let products=read("anarat_products",defaultProducts),cart=read("anarat_cart",[]),orders=read("anarat_orders",[]),profile=read("anarat_profile",null),activeFilter="all",searchTerm="";
+const money=n=>"Rs. "+Number(n||0).toLocaleString("en-PK");
+const $=id=>document.getElementById(id);
+function toast(message){$("toast").textContent=message;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),2400)}
+function renderProducts(){let list=products.filter(p=>(activeFilter==="all"||p.category===activeFilter)&&(p.name+" "+p.desc).toLowerCase().includes(searchTerm));let sort=$("sortSelect").value;if(sort==="low")list.sort((a,b)=>a.price-b.price);if(sort==="high")list.sort((a,b)=>b.price-a.price);if(sort==="name")list.sort((a,b)=>a.name.localeCompare(b.name));$("resultCount").textContent="Showing "+list.length+" products";$("productGrid").innerHTML=list.length?list.map(p=>`<article class="product-card"><button class="product-image ${p.category}" data-detail="${p.id}" aria-label="View ${p.name}"><span class="product-tag">${p.tag||"ANARAT PICK"}</span><span class="product-symbol">${p.symbol||"✳"}</span></button><div class="product-info"><button class="product-name" data-detail="${p.id}">${p.name}</button><p>${p.desc||"Thoughtfully selected for your everyday."}</p><div class="product-buy"><span class="product-price">${money(p.price)}</span><button class="add-button" data-add="${p.id}" aria-label="Add to bag">+</button></div></div></article>`).join(""):'<p class="muted">No products found. Try another search.</p>'}
+function renderCart(){let count=cart.reduce((s,p)=>s+p.qty,0),total=cart.reduce((s,p)=>s+p.price*p.qty,0);$("cartCount").textContent=count;$("drawerCount").textContent="("+count+")";$("cartTotal").textContent=money(total);$("cartItems").innerHTML=cart.length?cart.map(p=>`<div class="cart-row"><div><strong>${p.name}</strong><small>${money(p.price)} × <button data-qty="${p.id}" data-change="-1">−</button> ${p.qty} <button data-qty="${p.id}" data-change="1">+</button></small></div><div><strong>${money(p.price*p.qty)}</strong><br><button data-remove="${p.id}">Remove</button></div></div>`).join(""):'<p class="empty-cart">Your bag is waiting for something lovely.</p>';save("anarat_cart",cart)}
+function setFilter(f){activeFilter=f;document.querySelectorAll("[data-filter]").forEach(b=>b.classList.toggle("active",b.dataset.filter===f));renderProducts()}
+function openCart(){ $("cartDrawer").classList.add("open");$("cartBackdrop").classList.add("open")}
+function closeCart(){$("cartDrawer").classList.remove("open");$("cartBackdrop").classList.remove("open")}
+function addToCart(id){let p=products.find(x=>x.id===Number(id));if(!p)return;let old=cart.find(x=>x.id===p.id);if(old)old.qty++;else cart.push({...p,qty:1});renderCart();toast("Added to your bag")}
+function showProduct(id){let p=products.find(x=>x.id===Number(id));if(!p)return;$("productDetail").innerHTML=`<div class="detail-art ${p.category}">${p.symbol||"✳"}</div><div class="detail-copy"><p class="eyebrow">${p.tag||"ANARAT PICK"}</p><h2>${p.name}</h2><p>${p.desc||"Thoughtfully selected for your everyday."}</p><strong>${money(p.price)}</strong><p class="muted">Product description, ingredients, size and usage information will be added after your final product catalogue is supplied.</p><button class="primary-button" data-add="${p.id}">Add to bag →</button></div>`;$("productBackdrop").classList.add("open")}
+function showView(view){$("homeView").hidden=view!=="home";["accountView","trackView","checkoutView","orderSuccessView","adminView","infoView"].forEach(id=>$(id).hidden=true);if(view==="account")$("accountView").hidden=false;if(view==="track")$("trackView").hidden=false;if(view==="checkout")$("checkoutView").hidden=false;if(view==="success")$("orderSuccessView").hidden=false;if(view==="admin")$("adminView").hidden=false;if(view==="info")$("infoView").hidden=false;document.querySelectorAll(".category-nav").forEach(n=>n.classList.remove("open"));window.scrollTo({top:0,behavior:"smooth"});if(view==="checkout")renderCheckout();if(view==="account")renderAccount();if(view==="admin")renderAdmin()}
+function renderCheckout(){let total=cart.reduce((s,p)=>s+p.price*p.qty,0);$("checkoutItems").innerHTML=cart.map(p=>`<div class="summary-line"><span>${p.name} × ${p.qty}</span><strong>${money(p.price*p.qty)}</strong></div>`).join("");$("checkoutSubtotal").textContent=money(total);$("checkoutTotal").textContent=money(total)}
+function renderAccount(){if(profile){$("accountForm").querySelector('[name="name"]').value=profile.name;$("accountForm").querySelector('[name="email"]').value=profile.email;$("accountForm").querySelector('[name="phone"]').value=profile.phone||""}let mine=profile?orders.filter(o=>o.email.toLowerCase()===profile.email.toLowerCase()):[];$("accountOrders").innerHTML=mine.length?mine.map(o=>`<p><strong>${o.id}</strong><br>${money(o.total)} · ${o.status}</p>`).join(""):'<p class="muted">No matching orders saved on this device yet.</p>'}
+function renderAdmin(){$("adminOrderCount").textContent=orders.length;$("adminProductCount").textContent=products.length;$("adminSales").textContent=money(orders.reduce((s,o)=>s+o.total,0));$("adminOrderList").innerHTML=orders.length?orders.slice().reverse().map(o=>`<div class="admin-order"><div><strong>${o.id}</strong><small>${o.name} · ${o.phone} · ${o.city}</small><small>${o.items.map(i=>i.name+" × "+i.qty).join(", ")}</small></div><div><strong>${money(o.total)}</strong><select data-status="${o.id}"><option ${o.status==="Received"?"selected":""}>Received</option><option ${o.status==="Confirmed"?"selected":""}>Confirmed</option><option ${o.status==="Packed"?"selected":""}>Packed</option><option ${o.status==="Dispatched"?"selected":""}>Dispatched</option><option ${o.status==="Delivered"?"selected":""}>Delivered</option></select></div></div>`).join(""):"No demo orders yet."}
+const info={shipping:["Shipping information","Delivery charges and estimated delivery times will be published here once your courier partner and shipping rates are confirmed. Orders are not yet sent to a courier."],returns:["Returns & refunds","Your final return and refund policy must be confirmed before launch. Add clear rules for damaged, incorrect or eligible returned items, including the return window and contact method."],faqs:["Frequently asked questions","How can I pay? Cash on Delivery is the planned payment method. How can I track my order? Use the order number on the Track Order page. When will my parcel arrive? Delivery estimates will be added after the courier is selected."],privacy:["Privacy policy","A complete privacy policy must explain what customer data is collected, why it is used, how long it is retained, and how customers can request access or deletion. Have this reviewed before launch."],terms:["Terms & conditions","Final terms must cover product details, pricing, order acceptance, cancellations, delivery, returns, liability and customer support. This placeholder is not legal advice."]};
+function route(){let hash=location.hash.slice(1)||"home";if(hash.startsWith("info/")){let key=hash.split("/")[1],data=info[key]||info.faqs;$("infoTitle").textContent=data[0];$("infoContent").textContent=data[1];showView("info")}else if(["account","track","checkout","admin"].includes(hash))showView(hash);else if(hash==="success")showView("success");else showView("home")}
+$("productGrid").addEventListener("click",e=>{let a=e.target.closest("[data-add]"),d=e.target.closest("[data-detail]");if(a)addToCart(a.dataset.add);else if(d)showProduct(d.dataset.detail)});
+$("productDetail").addEventListener("click",e=>{let b=e.target.closest("[data-add]");if(b){addToCart(b.dataset.add);$("productBackdrop").classList.remove("open")}});
+$("cartItems").addEventListener("click",e=>{let r=e.target.closest("[data-remove]"),q=e.target.closest("[data-qty]");if(r)cart=cart.filter(p=>p.id!==Number(r.dataset.remove));if(q){let p=cart.find(x=>x.id===Number(q.dataset.qty));p.qty+=Number(q.dataset.change);if(p.qty<1)cart=cart.filter(x=>x.id!==p.id)}renderCart()});
+document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.filter)));document.querySelectorAll("[data-nav-filter]").forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.navFilter)));
+$("sortSelect").addEventListener("change",renderProducts);$("searchForm").addEventListener("submit",e=>{e.preventDefault();searchTerm=$("searchInput").value.trim().toLowerCase();renderProducts();location.hash="shop"});$("searchInput").addEventListener("input",e=>{searchTerm=e.target.value.trim().toLowerCase();renderProducts()});
+$("cartButton").addEventListener("click",openCart);$("closeCart").addEventListener("click",closeCart);$("cartBackdrop").addEventListener("click",closeCart);$("checkoutButton").addEventListener("click",()=>{if(!cart.length){toast("Your bag is empty");return}closeCart();location.hash="checkout"});
+$("closeProduct").addEventListener("click",()=>$("productBackdrop").classList.remove("open"));$("productBackdrop").addEventListener("click",e=>{if(e.target===$("productBackdrop"))$("productBackdrop").classList.remove("open")});
+$("menuToggle").addEventListener("click",()=>$("mainNav").classList.toggle("open"));$("accountForm").addEventListener("submit",e=>{e.preventDefault();let f=new FormData(e.target);profile={name:f.get("name"),email:f.get("email"),phone:f.get("phone")};save("anarat_profile",profile);$("accountMessage").textContent="Demo profile saved on this device.";renderAccount()});
+$("checkoutForm").addEventListener("submit",e=>{e.preventDefault();if(!cart.length){$("checkoutMessage").textContent="Your bag is empty.";return}let f=new FormData(e.target),order={id:"ANR-"+Math.floor(100000+Math.random()*900000),name:f.get("name"),phone:f.get("phone"),email:f.get("email")||"",address:f.get("address"),city:f.get("city"),postal:f.get("postal"),notes:f.get("notes"),items:cart.map(p=>({id:p.id,name:p.name,price:p.price,qty:p.qty})),total:cart.reduce((s,p)=>s+p.price*p.qty,0),payment:"Cash on Delivery",status:"Received",date:new Date().toISOString()};orders.push(order);save("anarat_orders",orders);cart=[];save("anarat_cart",cart);renderCart();$("successText").textContent="Your demo order number is "+order.id+". Order total: "+money(order.total)+". Payment: Cash on Delivery.";location.hash="success"});
+$("trackForm").addEventListener("submit",e=>{e.preventDefault();let id=new FormData(e.target).get("orderId").trim().toUpperCase(),o=orders.find(x=>x.id===id);$("trackingResult").innerHTML=o?`<div class="panel tracking-card"><p class="eyebrow">ORDER ${o.id}</p><h3>${o.status}</h3><p>${o.name} · ${o.city}</p><p>Total: <strong>${money(o.total)}</strong></p><p>Payment: Cash on Delivery</p></div>`:'<div class="panel">No order with that number was found in this browser demo.</div>'});
+$("adminView").addEventListener("change",e=>{let id=e.target.dataset.status;if(!id)return;let o=orders.find(x=>x.id===id);if(o){o.status=e.target.value;save("anarat_orders",orders);toast("Demo order status updated")}});
+$("addProductForm").addEventListener("submit",e=>{e.preventDefault();let f=new FormData(e.target);products.push({id:Math.max(0,...products.map(p=>p.id))+1,name:f.get("name"),desc:"New Anarat product",price:Number(f.get("price")),category:f.get("category"),tag:"NEW ARRIVAL",symbol:"✳"});save("anarat_products",products);e.target.reset();renderProducts();renderAdmin();toast("Demo product added")});
+$("newsletterForm").addEventListener("submit",e=>{e.preventDefault();$("newsletterMessage").textContent="Thank you! Newsletter signup needs an email service connection.";e.target.reset()});
+$("year").textContent=new Date().getFullYear();window.addEventListener("hashchange",route);renderProducts();renderCart();route();
