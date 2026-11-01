@@ -164,8 +164,8 @@ body{background:#fffaf0;color:#263b16}
 .announcement{background:#293d16;color:#fff9e9}.announcement span{color:#d8b45d}
 .site-header{background:#fffaf0;border-bottom-color:#e9dfca}
 .brand-logo{display:flex;align-items:center;gap:10px;color:#294018;white-space:nowrap;text-decoration:none}
-.logo-emblem{width:54px;height:54px;border-radius:50%;background:#eee2c6;border:1px solid #d7c69e;display:grid;place-items:center;flex:none}
-.logo-mark{width:42px;height:50px;display:block;filter:drop-shadow(0 1px 1px #9b8b50)}
+.logo-emblem{width:48px;height:58px;background:transparent;border:0;border-radius:0;display:grid;place-items:center;flex:none}
+.logo-mark{width:43px;height:57px;display:block}
 .logo-wording{font-family:var(--serif);font-size:17px;line-height:.95;font-weight:700;letter-spacing:.02em}
 .logo-wording small{display:block;font:500 8px var(--sans);letter-spacing:.02em;margin-top:6px;color:#53633b}
 .category-nav{background:#fffaf0;border-color:#e8dec8}.category-nav a{color:#344820}
@@ -199,7 +199,7 @@ body{background:#fffaf0;color:#263b16}
 .product-image.daily:before{background:linear-gradient(90deg,#d4c394,#fff8e8,#b9a36d)}
 .detail-art,.detail-art.home,.detail-art.daily{background:#f3ecd9}
 .form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#fffdf7}
-@media(max-width:650px){.brand-logo{gap:6px}.logo-emblem{width:39px;height:39px}.logo-mark{width:31px;height:37px}.logo-wording{font-size:12px}.logo-wording small{font-size:6px;margin-top:4px}}
+@media(max-width:650px){.brand-logo{gap:6px}.logo-emblem{width:36px;height:43px}.logo-mark{width:33px;height:43px}.logo-wording{font-size:12px}.logo-wording small{font-size:6px;margin-top:4px}}
 
 
 /* Homepage hero banner */
