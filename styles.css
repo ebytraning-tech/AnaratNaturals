@@ -119,3 +119,40 @@
 .detail-art{padding:0;overflow:hidden}
 .detail-art img{width:100%;height:100%;min-height:300px;object-fit:cover;display:block}
 @media(max-width:650px){.detail-art img{min-height:190px}}
+
+/* ANARAT storefront refresh — editorial skincare boutique */
+:root{--ink:#35262d;--muted:#806e76;--cream:#fff8f8;--paper:#fff;--sage:#f5e3e8;--green:#bd718c;--line:#f0e1e6;--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+body{color:var(--ink);background:#fff}.announcement{background:#38272f;letter-spacing:.07em;text-transform:uppercase;font-size:10px;padding:11px 14px}
+.site-header{min-height:88px;padding-inline:7%;grid-template-columns:1fr minmax(220px,390px) 1fr}.brand{letter-spacing:.16em}.brand-mark{background:#f6e7ec;color:#ad617d}
+.category-nav{height:54px;gap:clamp(18px,3vw,42px)}.category-nav>a,.nav-dropdown>a{font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:#59444d}
+.hero{min-height:540px;padding:66px 9%;background:linear-gradient(110deg,#fff7f8 0%,#fff7f8 52%,#f8e8ed 100%)}
+.hero h1{font-size:clamp(48px,6vw,78px);line-height:1.04}.hero-description{font-size:14px;max-width:440px}
+.hero-art{height:405px;border-radius:48% 48% 4px 4px;background:radial-gradient(ellipse at 50% 42%,#fff 0%,#f4dce4 62%,#edcbd7 100%);overflow:hidden}
+.hero-art:before{content:"";position:absolute;width:64%;height:78%;bottom:-18%;left:18%;border-radius:50% 50% 0 0;background:linear-gradient(145deg,#e4c7b2,#c79e8b);opacity:.42}
+.hero-art:after{content:"ANARAT  ·  NATURALS";position:absolute;bottom:26px;letter-spacing:.24em;font-size:9px;color:#755b64}
+.hero-seal{z-index:1;width:112px;height:112px;border:1px solid #bd718c;border-radius:50%;display:grid;place-content:center;text-align:center;font-size:10px;line-height:1.5;letter-spacing:.12em;color:#815565;background:#fff9}
+.hero-seal b{font-size:22px;color:#bd718c}.service-strip{background:#fff;border-block:1px solid var(--line);padding:22px 7%;gap:18px}
+.service-strip>div{gap:12px}.service-strip>div>b{color:#bd718c}.section-wrap{padding-inline:7%}
+.trego-style-products{padding-top:66px;padding-bottom:66px}.section-heading{margin-bottom:25px}
+.section-heading h2,.category-section h2,.shop-section h2{font-size:clamp(34px,4vw,48px)}
+.product-grid{gap:25px 18px}.product-card{border:1px solid #f1e5e9;background:#fff;transition:transform .25s,box-shadow .25s}
+.product-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px #51323e12}
+.product-image{height:clamp(190px,23vw,285px);background:#f8eef1}.product-image img{object-fit:cover}
+.product-tag{font-size:8px;letter-spacing:.13em;padding:8px 10px}.product-info{padding:15px 14px 16px}
+.product-name{font-family:var(--serif);font-size:16px;line-height:1.35}.product-info p{font-size:10px;line-height:1.6;color:#897982;min-height:32px}
+.product-price{font-size:12px;font-weight:700}.add-button{width:34px;height:34px;border-radius:50%;background:#38272f;font-size:20px}
+.category-section{padding-top:65px;padding-bottom:65px;background:#fff9fa}.category-cards{gap:16px}
+.category-card{min-height:255px;padding:24px;justify-content:flex-end;position:relative;overflow:hidden}
+.category-card:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#35262dcc,transparent 70%)}
+.category-card>*{position:relative;color:#fff}.category-card strong{font:500 30px var(--serif)}
+.skin-card{background:linear-gradient(135deg,#d9b7b9,#a77b83)}.hair-card{background:linear-gradient(135deg,#b8b09d,#797c64)}.body-card{background:linear-gradient(135deg,#d7b5a3,#a97e72)}
+.shop-section{padding-top:72px;padding-bottom:76px}.shop-toolbar{border-block:1px solid var(--line);padding:15px 0}
+.category-pills button{border:1px solid #eadce1;background:#fff;padding:10px 14px;font-size:10px}
+.category-pills button.active{background:#38272f;color:#fff;border-color:#38272f}
+.routine-banner{background:#f4e5e9}.routine-copy h2,.offer-banner h2{font-size:clamp(38px,4.5vw,56px)}
+.offer-banner{background:#49353e}.story-section{background:#fff9fa}.newsletter{background:#fff8f8}
+.site-footer{background:#34262d;color:#fff}.footer-links a,.footer-main p,.footer-bottom{color:#d9cbd0}
+.primary-button{background:#38272f}.primary-button:hover{background:#bd718c}.text-link{color:#a45f79}
+.cart-drawer{box-shadow:-15px 0 50px #35262d20}
+@media(max-width:800px){.site-header{padding-inline:5%;grid-template-columns:auto 1fr auto;gap:12px}.header-search{grid-column:1/-1;grid-row:2}.hero{padding:48px 7%;gap:22px}.hero-art{height:300px}.service-strip{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.site-header{grid-template-columns:auto 1fr auto;min-height:70px}.brand{font-size:11px}.brand-mark{width:34px;height:34px}.hero{grid-template-columns:1fr;padding:42px 7%}.hero-art{height:245px;max-width:100%}.hero h1{font-size:48px}.hero-trust{gap:12px}.service-strip{padding:18px 7%;gap:18px}.section-wrap{padding-inline:6%}.product-grid{gap:12px}.home-product-grid .product-image{height:180px}.product-info{padding:12px 10px}.product-name{font-size:14px}.category-card{min-height:190px;padding:17px}.category-card strong{font-size:24px}.category-pills{gap:6px}.category-pills button{padding:9px 10px;font-size:9px}}
