@@ -156,3 +156,47 @@ body{color:var(--ink);background:#fff}.announcement{background:#38272f;letter-sp
 .cart-drawer{box-shadow:-15px 0 50px #35262d20}
 @media(max-width:800px){.site-header{padding-inline:5%;grid-template-columns:auto 1fr auto;gap:12px}.header-search{grid-column:1/-1;grid-row:2}.hero{padding:48px 7%;gap:22px}.hero-art{height:300px}.service-strip{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.site-header{grid-template-columns:auto 1fr auto;min-height:70px}.brand{font-size:11px}.brand-mark{width:34px;height:34px}.hero{grid-template-columns:1fr;padding:42px 7%}.hero-art{height:245px;max-width:100%}.hero h1{font-size:48px}.hero-trust{gap:12px}.service-strip{padding:18px 7%;gap:18px}.section-wrap{padding-inline:6%}.product-grid{gap:12px}.home-product-grid .product-image{height:180px}.product-info{padding:12px 10px}.product-name{font-size:14px}.category-card{min-height:190px;padding:17px}.category-card strong{font-size:24px}.category-pills{gap:6px}.category-pills button{padding:9px 10px;font-size:9px}}
+
+
+/* Anarat Naturals brand palette and logo refresh */
+:root{--ink:#263b16;--muted:#72765f;--cream:#fbf3df;--paper:#fffaf0;--sage:#e8dfc5;--green:#3b571d;--line:#e8dec8}
+body{background:#fffaf0;color:#263b16}
+.announcement{background:#293d16;color:#fff9e9}.announcement span{color:#d8b45d}
+.site-header{background:#fffaf0;border-bottom-color:#e9dfca}
+.brand-logo{display:flex;align-items:center;gap:10px;color:#294018;white-space:nowrap;text-decoration:none}
+.logo-emblem{width:54px;height:54px;border-radius:50%;background:#eee2c6;border:1px solid #d7c69e;display:grid;place-items:center;flex:none}
+.logo-leaf{font-size:34px;line-height:1;color:#466324;transform:rotate(-25deg)}
+.logo-wording{font-family:var(--serif);font-size:17px;line-height:.95;font-weight:700;letter-spacing:.02em}
+.logo-wording small{display:block;font:500 8px var(--sans);letter-spacing:.02em;margin-top:6px;color:#53633b}
+.category-nav{background:#fffaf0;border-color:#e8dec8}.category-nav a{color:#344820}
+.category-nav a:hover,.footer-links a:hover{color:#9a752d}
+.skincare-hero,.hero{background:#f7efd9}
+.skincare-hero{background:linear-gradient(105deg,#f5ead0 0%,#fff9ec 53%,#e6e4c8 100%)}
+.hero h1 em,h2 em{color:#8b792f}.eyebrow{color:#506b2d}
+.primary-button{background:#344e1c;color:#fff9eb;border-radius:18px}
+.primary-button:hover{background:#6b7835}
+.text-link{border-color:#9b8a4b;color:#52662d}
+.service-strip{background:#fffaf0;border-color:#e8dec8}.service-strip>div>b{color:#71843b}
+.category-section,.shop-section,.trending-products{background:#f8f3e6}
+.category-card{background:#e9e3c9}
+.skin-card{background:linear-gradient(135deg,#e9ddbd,#aeb98a)}
+.hair-card{background:linear-gradient(135deg,#d8d4b8,#68794b)}
+.body-card{background:linear-gradient(135deg,#e7d3b8,#a88b60)}
+.product-card{background:#fffaf0;border-color:#e8dec8}.product-image{background:#f5efdf}
+.product-tag{background:#fffaf0;color:#405725}.product-price{color:#2d411a}
+.add-button{background:#405b22;color:#fff8e8;border-color:#405b22}
+.add-button:hover{background:#293d16}
+.offer-banner{background:linear-gradient(110deg,#344d1c,#64763a)}
+.offer-banner .eyebrow{color:#e7dcae}
+.story-section{background:#f7f1df}
+.story-image{background:linear-gradient(145deg,#e7dfc2,#b5bf91)}
+.newsletter{background:#fffaf0}.site-footer{background:#293d16;color:#fff8e8}
+.footer-links a,.footer-main>p,.footer-bottom{color:#e7dfc7}
+.cart-button span{background:#405b22}.cart-drawer{background:#fffaf0}
+.toast{background:#293d16}
+.product-image:before{background:linear-gradient(100deg,#d8c79c,#fff8e8 50%,#c5b078)}
+.product-image.home:before{background:linear-gradient(130deg,#c9b78b,#f5ebd4)}
+.product-image.daily:before{background:linear-gradient(90deg,#d4c394,#fff8e8,#b9a36d)}
+.detail-art,.detail-art.home,.detail-art.daily{background:#f3ecd9}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#fffdf7}
+@media(max-width:650px){.brand-logo{gap:6px}.logo-emblem{width:39px;height:39px}.logo-leaf{font-size:27px}.logo-wording{font-size:12px}.logo-wording small{font-size:6px;margin-top:4px}}
