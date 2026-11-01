@@ -66,12 +66,12 @@ const randomProductPhotos=[
 ];
 function imageForProduct(p){
  const name=(p.name+" "+(p.tag||"")).toLowerCase();
- let pool=randomProductPhotos;
- if(p.category==="hair"||/hair|scalp|shampoo|roots/.test(name)) pool=[randomProductPhotos[4],randomProductPhotos[8],randomProductPhotos[11]];
- else if(p.category==="body"||/body|hand|foot|wash/.test(name)) pool=[randomProductPhotos[2],randomProductPhotos[5],randomProductPhotos[9]];
- else if(p.category==="daily") pool=[randomProductPhotos[0],randomProductPhotos[6],randomProductPhotos[10]];
- else pool=[randomProductPhotos[0],randomProductPhotos[1],randomProductPhotos[3],randomProductPhotos[6],randomProductPhotos[7]];
- return pool[(Number(p.id)||0)%pool.length];
+ if(p.category==="hair"||/hair|scalp|shampoo|roots/.test(name)) return "assets/products/haircare.svg";
+ if(p.category==="body"||/body|hand|foot/.test(name)) return "assets/products/body-lotion.svg";
+ if(/sunscreen|sun shield|spf/.test(name)) return "assets/products/sunscreen.svg";
+ if(/cleanser|face wash|gel wash/.test(name)) return "assets/products/cleanser.svg";
+ if(/cream|moistur|eye gel|balm/.test(name)) return "assets/products/cream.svg";
+ return "assets/products/serum.svg";
 }
 
 const $=id=>document.getElementById(id);
