@@ -65,8 +65,13 @@ const randomProductPhotos=[
 "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=900&q=85"
 ];
 function imageForProduct(p){
- if(!p._randomImage)p._randomImage=randomProductPhotos[(Number(p.id)||0)%randomProductPhotos.length];
- return p._randomImage;
+ const name=(p.name+" "+(p.tag||"")).toLowerCase();
+ let pool=randomProductPhotos;
+ if(p.category==="hair"||/hair|scalp|shampoo|roots/.test(name)) pool=[randomProductPhotos[4],randomProductPhotos[8],randomProductPhotos[11]];
+ else if(p.category==="body"||/body|hand|foot|wash/.test(name)) pool=[randomProductPhotos[2],randomProductPhotos[5],randomProductPhotos[9]];
+ else if(p.category==="daily") pool=[randomProductPhotos[0],randomProductPhotos[6],randomProductPhotos[10]];
+ else pool=[randomProductPhotos[0],randomProductPhotos[1],randomProductPhotos[3],randomProductPhotos[6],randomProductPhotos[7]];
+ return pool[(Number(p.id)||0)%pool.length];
 }
 
 const $=id=>document.getElementById(id);
