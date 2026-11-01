@@ -165,7 +165,7 @@ body{background:#fffaf0;color:#263b16}
 .site-header{background:#fffaf0;border-bottom-color:#e9dfca}
 .brand-logo{display:flex;align-items:center;gap:10px;color:#294018;white-space:nowrap;text-decoration:none}
 .logo-emblem{width:48px;height:58px;background:transparent;border:0;border-radius:0;display:grid;place-items:center;flex:none}
-.logo-mark{width:43px;height:57px;display:block}
+.logo-mark{width:43px;height:57px;display:block}.logo-image{width:100%;height:100%;object-fit:contain;display:block}
 .logo-wording{font-family:var(--serif);font-size:17px;line-height:.95;font-weight:700;letter-spacing:.02em}
 .logo-wording small{display:block;font:500 8px var(--sans);letter-spacing:.02em;margin-top:6px;color:#53633b}
 .category-nav{background:#fffaf0;border-color:#e8dec8}.category-nav a{color:#344820}
