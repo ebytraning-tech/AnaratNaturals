@@ -102,7 +102,7 @@ const moreSkincareProducts=[
 moreSkincareProducts.forEach((p,i)=>{if(!products.some(x=>x.name.toLowerCase()===p.name.toLowerCase()))products.push({id:60+i,desc:"A skincare essential for your everyday routine.",category:"skin",...p})});
 // Keep only the 20 products shown in the customer-approved screenshot
 const approvedProductNames=new Set(["Bright-Eye Gel","Anti-Acne / Scar Cream","Night Cream","Acne / Oil Control Toner","Clarifying and Hydrating Toner","Glycolic Acid Scrub","Niacinamide Scrub","Vitamin C Serum","Repairing Toner","Hydrating Facial Cleanser","Glass Skin Refreshing Gel Cleanser","Lip Pigmentation Treatment","Anti-Aging Serum","Rice Cleanser","Rice Milk Toner","Rice Serum","Rose Face Wash","Saffron Face Wash"]);
-products=products.filter(p=>approvedProductNames.has(p.name)||String(p.productUrl||"").includes("alfatah.pk"));
+products=products.filter(p=>approvedProductNames.has(p.name)||String(p.productUrl||"").includes("alfatah.pk")||/\b(shampoo|hair\s*oil|hair\s*serum|scalp|dandruff|root nourish|hair nourish)\b/i.test((p.name||"")+" "+(p.tag||"")+" "+(p.desc||"")));
 cart=cart.filter(p=>products.some(x=>x.id===p.id));
 save("anarat_products",products);
 save("anarat_cart",cart);
@@ -163,17 +163,17 @@ $("skinCategoryGrid").innerHTML=list.length?productCards(list):'<p class="muted"
 showView("skinCategory");
 }
 const hairCategoryInfo={
-shampoo:{title:"Shampoo",intro:"Shampoos for everyday hair cleansing.",match:/\\b(shampoo|shampoos)\\b/i},
-"hair-oil":{title:"Hair Oil",intro:"Hair oils for nourishing haircare routines.",match:/\\b(hair\\s*oil|hair\\s*oils|coconut\\s*oil|argan\\s*oil)\\b/i},
-"hair-serum":{title:"Hair Serum",intro:"Hair serums for smoothing and styling care.",match:/\\b(hair\\s*serum|serum.*hair|hair.*serum)\\b/i},
-"scalp-care":{title:"Scalp Care",intro:"Products made for scalp-focused haircare.",match:/\\b(scalp|anti[- ]dandruff|dandruff|root treatment)\\b/i}
+shampoo:{title:"Shampoo",intro:"Shampoos for everyday hair cleansing."},
+"hair-oil":{title:"Hair Oil",intro:"Hair oils for nourishing haircare routines."},
+"hair-serum":{title:"Hair Serum",intro:"Hair serums for smoothing and styling care."},
+"scalp-care":{title:"Scalp Care",intro:"Products made for scalp-focused haircare."}
 };
 function hairCategoryFor(p){
 const t=(p.name||"")+" "+(p.tag||"")+" "+(p.desc||"");
-if(/\\b(shampoo|shampoos)\\b/i.test(t))return "shampoo";
-if(/\\b(hair\\s*oil|hair\\s*oils|coconut\\s*oil|argan\\s*oil)\\b/i.test(t))return "hair-oil";
-if(/\\b(hair\\s*serum|serum.*hair|hair.*serum)\\b/i.test(t))return "hair-serum";
-if(/\\b(scalp|anti[- ]dandruff|dandruff|root treatment)\\b/i.test(t))return "scalp-care";
+if(/\b(shampoo|shampoos)\b/i.test(t))return "shampoo";
+if(/\b(hair\s*oil|hair\s*oils|coconut\s*oil|argan\s*oil)\b/i.test(t))return "hair-oil";
+if(/\b(hair\s*serum|serum.*hair|hair.*serum)\b/i.test(t))return "hair-serum";
+if(/\b(scalp|anti[- ]dandruff|dandruff|root treatment)\b/i.test(t))return "scalp-care";
 return "";
 }
 function renderHairCategory(slug){
