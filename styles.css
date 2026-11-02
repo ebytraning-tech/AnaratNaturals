@@ -484,3 +484,54 @@ h2 em,.section-heading h2 em,.story-copy h2 em{color:#81965d}
  .product-image{background:#f1f3e9}
  .section-wrap{padding-top:48px;padding-bottom:48px}
 }
+
+
+/* ANARAT NATURALS — balanced warm botanical theme */
+:root{color-scheme:light;--ink:#26351f;--muted:#69715f;--cream:#eee9d9;--paper:#f7f4e9;--sage:#dce2cf;--green:#526b38;--line:#d9ddcd}
+html,body,body{background:#f7f4e9;color:#26351f}
+.announcement{background:#354b28;color:#fff9e9}
+.site-header{background:#f7f4e9;border-color:#d9ddcd}
+.header-search,.cart-button{background:#eeefe5;border-color:#d4dac9;color:#26351f}
+.category-nav{background:#eeefe5;border-color:#d9ddcd}
+.category-nav a{color:#3e5230}
+.hero-banner{background:#e9e6d6}
+.hero,.skincare-hero{background:linear-gradient(115deg,#eee9d9,#e5e8d8 62%,#dce2cf);color:#26351f}
+h1,h2,h3,.product-name{color:#26351f}
+.hero-description,.page-intro,.muted,.section-heading>p,.story-copy>p:not(.eyebrow){color:#69715f}
+.eyebrow{color:#526b38}
+.primary-button{background:#526b38;color:#fff9e9}
+.primary-button:hover{background:#354b28}
+.service-strip{background:#f1efe4;border-color:#d9ddcd}
+.category-section{background:#e9ebdf}
+.shop-section{background:#eceee4;border-color:#d9ddcd}
+.category-pills button{background:#f8f6ee;border-color:#d3dac8;color:#536047}
+.category-pills button.active,.category-pills button:hover{background:#526b38;border-color:#526b38;color:#fff}
+.product-card{background:#fdfbf5;border-color:#dce0d3;box-shadow:0 5px 18px #26351f0d}
+.product-card:hover{border-color:#aebc9d;box-shadow:0 12px 26px #26351f18}
+.product-image{background:#e8eadf}
+.product-image img{mix-blend-mode:multiply}
+.product-tag{background:#dce2cf;color:#354b28}
+.product-info{background:#fdfbf5}
+.product-name{color:#26351f}
+.product-info p{color:#69715f}
+.product-price{color:#40572d}
+.add-button{background:#526b38;color:#fff;border-color:#526b38}
+.add-button:hover{background:#354b28}
+.offer-banner{background:linear-gradient(110deg,#526b38,#718354);color:#fff}
+.offer-banner h2,.offer-banner h2 em{color:#fff9e9}
+.offer-banner .eyebrow,.offer-banner p:not(.eyebrow){color:#edf0df}
+.light-button{background:#f7f4e9;color:#354b28}
+.story-section{background:#e9ebdf}
+.story-image{background:linear-gradient(145deg,#d9ddc8,#b9c4a4)}
+.newsletter{background:#f1efe4}
+.site-footer{background:#354b28;color:#fff9e9}
+.footer-main>p,.footer-links a,.footer-bottom{color:#e2e8d7}
+.cart-drawer{background:#f7f4e9;color:#26351f}
+.panel{background:#fdfbf5;border-color:#d9ddcd;color:#26351f}
+.panel h3{color:#26351f}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#f8f6ee;border-color:#d4dac9;color:#26351f}
+.payment-choice,.success-panel{background:#e9ebdf;color:#26351f}
+.product-modal{background:#f7f4e9;border-color:#d9ddcd}
+.detail-art,.detail-art.home,.detail-art.daily{background:#e8eadf}
+.skin-category-links a{background:#fdfbf5;border-color:#d9ddcd;color:#26351f}
+@media(max-width:650px){.site-header{background:#f7f4e9}.category-nav{background:#eeefe5}}
