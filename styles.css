@@ -218,3 +218,15 @@ body{background:#fffaf0;color:#263b16}
 .product-card:hover{transform:translateY(-3px)}
 @media(hover:none){.product-card:hover{transform:none}.product-card:hover .product-image img{transform:none}}
 @media(prefers-reduced-motion:reduce){.product-card,.product-card .product-image img{transition:none}}
+
+
+/* Skin care category landing and dedicated category pages */
+.skin-category-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:30px 0 50px}
+.skin-category-links a{display:flex;flex-direction:column;gap:9px;min-height:155px;padding:24px;background:#fbf8f5;border:1px solid var(--line);color:var(--ink);text-decoration:none;transition:transform .25s ease,box-shadow .25s ease}
+.skin-category-links a:hover{transform:translateY(-3px);box-shadow:0 12px 28px #4a293812}
+.skin-category-links a span{font-size:10px;letter-spacing:1.5px;color:var(--muted)}
+.skin-category-links a strong{font:500 21px var(--serif)}
+.skin-category-links a small{font-size:11px;color:var(--muted);margin-top:auto}
+#skinCategoryView>.text-link{display:inline-block;margin-bottom:28px}
+@media(max-width:760px){.skin-category-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.skin-category-links a{min-height:135px;padding:17px}.skin-category-links a strong{font-size:18px}}
+@media(max-width:420px){.skin-category-links{grid-template-columns:1fr}}
