@@ -228,3 +228,21 @@ fetch("/alfatah-products.json")
     if(location.hash.startsWith("skin/")) renderSkinCategory(location.hash.split("/")[1]);if(location.hash.startsWith("hair/")) renderHairCategory(location.hash.split("/")[1]);
   })
   .catch(error => console.error("Al-Fatah catalogue:", error));
+ 
+// Load the dedicated Alfatah shampoo catalogue into Hair Care > Shampoo.
+fetch("/alfatah-shampoo-products.json")
+  .then(response => { if (!response.ok) throw new Error("Shampoo catalogue JSON could not be loaded"); return response.json(); })
+  .then(data => {
+    (data.products || []).forEach(item => {
+      const existing = products.find(p => p.name.toLowerCase() === item.name.toLowerCase());
+      const product = { ...item, category: "hair", tag: "SHAMPOO", image: item.imageUrl, desc: "A shampoo product listed by Al-Fatah." };
+      if (existing) Object.assign(existing, product);
+      else products.push({ ...product, id: Math.max(0, ...products.map(p => Number(p.id) || 0)) + 1 });
+    });
+    save("anarat_products", products);
+    renderProducts();
+    renderHomeCollections();
+    if (location.hash.startsWith("hair/")) renderHairCategory(location.hash.split("/")[1]);
+  })
+  .catch(error => console.error("Al-Fatah shampoo catalogue:", error));
+
