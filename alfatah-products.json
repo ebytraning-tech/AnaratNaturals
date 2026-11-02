@@ -1,1186 +1,2002 @@
 [
   {
-    "name": "ABIB - HEARTLEAF SUN ESSENCE CALMING PUMP 50ML",
-    "price": 5695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809624727353.jpg?v=1785155544&width=500",
-    "productUrl": "https://alfatah.pk/products/abib-heartleaf-sun-essence-calming-pump-50ml",
+    "name": "LOREAL GLYCOLIC BRIGHT FACEWASH 100ML",
+    "price": 699.3,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340670671_08f46de9-13e7-449d-a0c5-f39255b2aace.jpg?v=1722235531&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-glycolic-bright-facewash-100ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "KIEHLS SUNSHINE ESSENTIALS SPF50 DUO 15/50ML",
-    "price": 19900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3605973084902.jpg?v=1786793466&width=500",
-    "productUrl": "https://alfatah.pk/products/kiehls-sunshine-essentials-spf50-duo-15-50ml",
+    "name": "PONDS FACE WASH BRIGHT BEAUTY 100 GM",
+    "price": 478.4,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_4_3af36aee-057f-47e4-aa33-0c70866a6d9e.png?v=1759997750&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-face-wash-bright-beauty-100-gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE-POSAY ANTHELIOS UV SERUM SUNSCREEN SPF 50 50ML",
-    "price": 15900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000650114.jpg?v=1786793465&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-uv-serum-sunscreen-spf-50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHE POSAY ANTHELIOS XL 60FPS/SPF UVB+UVA 9G",
-    "price": 8495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3337875759120_36aa5aa9-160a-43c5-bc6b-fb9e3e4e454a.jpg?v=1735018537&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-xl-60fps-spf-uvb-uva-9g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SPF60 WHITENING & VANISHING SUNBLOCK 100ML",
-    "price": 630,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000171396_946236a8-d5a3-4d79-8b8a-8a42d5ac7596.jpg?v=1754651075&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-sunblock-whitening-and-vanishing-spf-60-pc",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "6TH SENSE SUNBLOCK SPF 60",
-    "price": 395,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000571_b49fdeab-415e-41e4-9f60-af5450484832.jpg?v=1764423849&width=500",
-    "productUrl": "https://alfatah.pk/products/6th-sense-sunblock-spf-60",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "VINCE SUNBLOCK EXTRA SUN PROTECTION & SUN CARE SPF75 75 ML",
-    "price": 1270,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000090311_7e20a1d1-e8da-4460-a57b-ed6457d6d88b.jpg?v=1754651076&width=500",
-    "productUrl": "https://alfatah.pk/products/vince-sunblock-extra-sun-protection-sun-care-spf75-80-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SUNBLOCK WHITENING & VANISHING SPF60 40ML",
-    "price": 300,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000173560_59a7e7fe-0d8e-42f7-bb4a-ed29d3dc2cd6.jpg?v=1754651105&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-spf60-whiting-sun-block-pc",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BEAUTY OF JOSEON RICE+PROBIOTICS RELIEF SUN SCREEN SPF50+ PA",
-    "price": 5995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809782555508_5a6bebb6-dc45-4883-9dc5-6940e7ee3f17.jpg?v=1728644120&width=500",
-    "productUrl": "https://alfatah.pk/products/beauty-of-joseon-rice-probiotics-relief-sun-screen-spf50-pa",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "VINCE ULTRA SUN PROTECTION SPF50 SUN CARE 75 ML",
-    "price": 1130,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6165858300079_1.jpg?v=1716191392&width=500",
-    "productUrl": "https://alfatah.pk/products/vince-ultra-sun-protection-spf50-sun-care-80-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BEAUTY OF JOSEON - RELIEF SUN AQUA-FRESH RICE+B5 (SPF50+ PA+",
-    "price": 6495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_59_8f781d41-69f2-416c-84a8-30a3de6ffeb5.png?v=1786521535&width=500",
-    "productUrl": "https://alfatah.pk/products/beauty-of-joseon-relief-sun-aqua-fresh-rice-b5-spf50-pa",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SPF90 SUNBLOCK 100ML",
-    "price": 630,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000085096_a2e464d3-73d8-466a-a185-2b266842b1d6.jpg?v=1754651075&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-sunblock-protection-lotion-spf-90-150ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BODY LUXURIES KIDS SUNSCREEN CREAM SPF50 75ML",
+    "name": "CLEAN & CLEAR FOAMING FACIAL WASH 100 ML",
     "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_49_fe497296-3199-41bc-8d19-c5d060d86947.png?v=1775734172&width=500",
-    "productUrl": "https://alfatah.pk/products/body-luxuries-kids-sunscreen-cream-spf50-75ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2026-09-29T154529.019.png?v=1790678739&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-foaming-facial-wash-100-ml-1",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "NEUTROGENA HYDRO BOOST SUNBLOCK SPF 50 88ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600380326_fa45e033-2ee1-4ea0-b251-836484b37016.jpg?v=1722235404&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-hydro-boost-sunblock-spf-50-88ml",
+    "name": "PONDS BRIGHT BEAUTY SERUM FACIAL FORAM FACE WASH 100 GM",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000109394_e5a1ac54-9e51-4e4f-9187-232f432de14e.jpg?v=1754304915&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-pinkish-white-face-wash-100-gm-pc",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "BODY LUXURIES SUN SCREEN WHITENING 75 GM PC",
-    "price": 795,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000174677_46fd4370-7f0b-4bf0-bcf2-b7a961fe4eee.jpg?v=1754651108&width=500",
-    "productUrl": "https://alfatah.pk/products/body-luxuries-sun-screen-whitening-75-gm-pc",
+    "name": "PONDS PURE DETOX ANTI POLLUTION PURITY FACE WASH 100 ML",
+    "price": 478.4,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_2_f0122468-9114-4470-9fcf-aa32472cb347.png?v=1759997322&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-pure-detox-anti-pollution-purity-face-wash-100-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "PHYSIOGEL RED SOOTHING SUNSCREEN SPF 50 40ML",
-    "price": 3195,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8801051109597_5f2e9251-3c88-4c0c-9bee-2eeb297fe8e7.jpg?v=1726136100&width=500",
-    "productUrl": "https://alfatah.pk/products/physiogel-red-soothing-sunscreen-spf-50-40ml",
+    "name": "PONDS FLAWLESS RADIANCE EVEN TONE FACIAL FOAM 100 GM",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/rn-image_picker_lib_temp_c91cdc5d-3275-4246-a9b9-01a49ea38cb0.png?v=1788193681&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-flawless-radiance-even-tone-facial-foam-100-gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "RIVAJ SUNBLOCK SPF90 40ML",
-    "price": 300,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000286783_f735ab66-9ac6-497d-89ce-88392068ca55.jpg?v=1754651037&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-sunblock-spf90-40ml",
+    "name": "PONDS FACE WASH BRIGHT BEAUTY 50 GM",
+    "price": 330,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_4_e2101a15-2df7-4a69-b657-7c535b8b10f3.png?v=1759997677&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-face-wash-bright-beauty-50-gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "VINCE SUN BLOCK SPF40 75ML",
-    "price": 840,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000292008_51731154-d430-47f2-8c14-422a11cabb64.jpg?v=1754651058&width=500",
-    "productUrl": "https://alfatah.pk/products/vince-sun-block-spf40-75ml",
+    "name": "PONDS FACIAL FOAM PURE WHITE 100 GM BASIC",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_1_ef26d324-6ec3-452d-8418-6e9334e7d7bd.jpg?v=1716180465&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-facial-foam-pure-white-100-gm-basic",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "PONDS UV MIRACLE HYDRATE SPF 50 PA++++ SUNSCREEN 50 GM",
-    "price": 920,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/4800888280237.jpg?v=1782972871&width=500",
-    "productUrl": "https://alfatah.pk/products/ponds-uv-miracle-hydrate-spf-50-pa-sunscreen-50-gm",
+    "name": "CLEAN & CLEAR FACIAL WASH 50 ML",
+    "price": 445,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8991111111964_e5553f23-a3cb-425a-b100-99d2503c3f7b.jpg?v=1730547765&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-facial-wash-50-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "BODY LUXURIES NANO WHITE SUNBLOCK SPF 50 75ML",
-    "price": 795,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000393084_4ab3344d-0de1-427e-bc96-0127c4433512.jpg?v=1754651096&width=500",
-    "productUrl": "https://alfatah.pk/products/body-luxuries-nano-white-sunblock-spf-50-75ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "AVEENO BABY SUNSCREEN SPF50 88ML",
-    "price": 3995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600964700_8d120f35-0ab7-4dd4-8211-2b911c68cc4f.jpg?v=1730547434&width=500",
-    "productUrl": "https://alfatah.pk/products/aveeno-baby-sunscreen-spf50-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "PLUSH NATURAL SUN PROETCTION",
-    "price": 1750,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000252996_57289977-db89-47a6-8dbd-8fa81ca0da71.jpg?v=1754651023&width=500",
-    "productUrl": "https://alfatah.pk/products/plush-natural-sun-proetction",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "PLUSH NATURAL SUN BLOCK SPF 50",
-    "price": 2150,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000212581_0304c523-76b3-43ee-82e1-91fd3b2a6637.jpg?v=1754651070&width=500",
-    "productUrl": "https://alfatah.pk/products/plush-natural-coconut-olive-oil-mix",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "PONDS SUNBLOCK  CRM UV MIRACLE BRIGHT 50 GM",
-    "price": 920,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/4800888280220.jpg?v=1788845997&width=500",
-    "productUrl": "https://alfatah.pk/products/ponds-sunblock-crm-uv-miracle-bright-50-gm",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI SUNBLOCK SPRAY SPF 90 WKL 542 230 ML",
-    "price": 2295,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000264163.png?v=1693179768&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-sunblock-spray-spd-90-wkl-542-230-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "CO NATURAL SUPER ACTIVE SUN SCREEN SPF60",
-    "price": 1150,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000473006_aba68f29-d5de-4be9-9cb2-17c024142c91.png?v=1741086530&width=500",
-    "productUrl": "https://alfatah.pk/products/co-natural-super-active-sun-screen-spf60",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA SUNBLOCK ULTRA SHEER SPF 60 88 ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/rn-image_picker_lib_temp_c9630fb5-4935-4f1e-bc65-cb296d0d2dbb.png?v=1786879580&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sunblock-ultra-sheer-spf-60-88-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SPF50 KIDS SUN BLOCK 40 ML",
-    "price": 300,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/5056446708234_fc940d1c-37cd-4864-8fdb-dbaf35eb4c16.jpg?v=1731933595&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-spf50-kids-sun-block-40-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA SUNBLOCK ULTRA SHEER SPF100 88ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600656827.jpg?v=1780660318&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sunblock-ultra-sheer-spf100-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "VINCE SUN KISSED GLOW GEL SUNBLOCK SPF 50  30 ML",
-    "price": 1985,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964004548031.jpg?v=1784812500&width=500",
-    "productUrl": "https://alfatah.pk/products/vince-sun-kissed-glow-gel-sunblock-spf-50-30-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SKIN 02 OIL FREE GEL SUNSCREEN SPF50 50ML",
-    "price": 2495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/2026053000628.jpg?v=1786453252&width=500",
-    "productUrl": "https://alfatah.pk/products/skin-02-oil-free-gel-sunscreen-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SUNBLOCK ANTI-SEBUM SPF60 40ML",
-    "price": 345,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000173561_881a26ee-532c-47f8-b38f-6948a3edef93.jpg?v=1754651105&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-spf60-sun-block-50-ml-sebum-pc",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SPF 60 VITAMIN C SUNBLOCK100ML",
-    "price": 700,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/5056446719315_1a287ad7-0ac9-4072-bbd4-24fef7220fa9.jpg?v=1750678184&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-spf-60-vitamin-c-sunblock100ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "RIVAJ SPF50 KIDS SUNBLOCK 100ML",
-    "price": 630,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_2_ab048530-bba4-43f0-82e3-cb08423f1d87.png?v=1747210502&width=500",
-    "productUrl": "https://alfatah.pk/products/rivaj-spf50-kids-sunblock-100ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHAY POSAY PURE ANTHELIOS UVMUNE 400 50+ 50ML",
-    "price": 7995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3337875797597_b986ecb6-8864-481c-9641-ed4d31277058.jpg?v=1764423915&width=500",
-    "productUrl": "https://alfatah.pk/products/la-rochay-posay-pure-anthelios-uvmune-400-50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "GARNIER LIGHT COMPLETE UV MATTE SUNBLOCK SPF-50 30ML",
-    "price": 2095,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8994993011322.jpg?v=1703245151&width=500",
-    "productUrl": "https://alfatah.pk/products/garnier-light-complete-uv-matte-sunblock-spf-50-30ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA SUNBLOCK ULTRA SHEER SPF 55 88 ML",
-    "price": 5295,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_83_5baaa14d-653f-464c-a579-b0f165dd57a3.png?v=1778578766&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sunblock-ultra-sheer-spf-55-88-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "VINCE SUNBLOCK SPF 35 50ML",
-    "price": 590,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/0735816527082_2f26ead3-a820-420e-95b9-7fb8edd6dd27.jpg?v=1731933494&width=500",
-    "productUrl": "https://alfatah.pk/products/vince-sunblock-spf-35-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "Hair Energy Under The Sun 30 Ml",
-    "price": 2145,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/4322792736858_20c391d9-4eb4-44b2-94c8-dba47ee4ecdb.jpg?v=1693178548&width=500",
-    "productUrl": "https://alfatah.pk/products/hair-energy-under-the-sun-30-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BODY LUXURIES BROAD SPECTRUM OIL FREE 130 ML",
-    "price": 645,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000174676_cd9bb2b7-899f-41ad-8f24-09afd691e973.jpg?v=1754651105&width=500",
-    "productUrl": "https://alfatah.pk/products/body-luxuries-broad-spectrum-oil-free-130-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "AVEENO PROTECT HYDRATE MOISTURISING SUNCREEN SPF50 88ML",
-    "price": 3995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600380333_9fcdd4e7-830e-47bc-a75a-1724d9d71654.jpg?v=1730547428&width=500",
-    "productUrl": "https://alfatah.pk/products/aveeno-protect-hydrate-moisturising-suncreen-spf50-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "EVELINE SUN CARE EXPERT SPF 50 ML",
-    "price": 1995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000089288_0546667c-e74e-4442-b4d4-f2e9bd8b2c2e.jpg?v=1763535507&width=500",
-    "productUrl": "https://alfatah.pk/products/eveline-sun-care-expert-spf-50-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI KIDS SUN BLOCK SPF 35 CREAM 130 ML WKL 497",
-    "price": 1595,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000233544.png?v=1693179775&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-kids-sun-block-spf-35-cream-130-ml-wkl-497",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA SUNBLOCK ULTRA SHEER SPF 45 88 ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/086800687955_e721cee5-cf08-4fa7-939c-7e9cfbd1da08.jpg?v=1770443051&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sunblock-ultra-sheer-spf-45-88-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ONLYAURA ALOE VERA & VITAMIN C SPF60 SUNSCREEN 200ML",
-    "price": 1410,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/628774403003.jpg?v=1788845996&width=500",
-    "productUrl": "https://alfatah.pk/products/onlyaura-aloe-vera-vitamin-c-spf60-sunscreen-200ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "CETAPHIL HYDRATANT FACIAL MOISTURIZER SPF50 50ML",
-    "price": 5995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/772618070507_218771e7-7f0c-46e7-a9f1-9bb9c377484e.jpg?v=1738674170&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-hydratant-facial-moisturizer-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA SHEER ZINC MINERAL SFP50 88ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600964670_f5076c7f-ad1c-4c30-a569-ea52b43eaa1d.jpg?v=1726135981&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sheer-zinc-mineral-sfp50-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "CETAPHIL DAILY DEFENCE MINERAL CREAM SPF50 50GM",
-    "price": 5295,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3499320016162_7459dcc7-aeaf-40bb-9cf7-39ed0d5cb638.jpg?v=1764423858&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-daily-defence-mineral-cream-spf50-50gm",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "COSRX ULTRA LIGHT INVISIBLE SUNSCREEN SPF50 50ML",
-    "price": 3995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809598456242.jpg?v=1786014736&width=500",
-    "productUrl": "https://alfatah.pk/products/cosrx-ultra-light-invisible-sunscreen-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BIODERMA PHOTODERM SPOT AGE SPF 50 + 40 ML",
-    "price": 7695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3701129803738.jpg?v=1703245236&width=500",
-    "productUrl": "https://alfatah.pk/products/bioderma-photoderm-spot-age-spf-50-40-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI KIDS SUN BLOCK SPF 30 CREAM 130 ML WKL 496",
-    "price": 1595,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001836340_76541b15-7769-4345-8046-47cf729fb1ca.jpg?v=1753704880&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-kids-sun-block-spf-30-cream-130-ml-wkl-496",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ZERO MAKEUP SUNSCREEN SPF SUN100 60ML",
-    "price": 3190,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/0745314908139_7a9f6a3d-03cd-4d91-ae34-9665fa3e255c.jpg?v=1768807617&width=500",
-    "productUrl": "https://alfatah.pk/products/zero-makeup-sunscreen-spf-sun100-60ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI TURMERIC SUNSCREEN SPF60 PA+++ 100 ML HA3154",
-    "price": 1995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6975242601718_02e20102-f39e-4fd5-bc23-55b434418079.jpg?v=1765957220&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-turmeric-sunscreen-spf60-pa-100-ml-ha3154",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI SPRAY SUN BLOCK SPF 70 WKL 543 230 ML",
-    "price": 2295,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000254085_6ca425bb-988d-4eb1-a716-70a26194801f.jpg?v=1754651080&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-spray-sun-block-spf-70-wkl-543-230-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA CLEAR FACE SUNBLOCK SPF50 88ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/62600380548.jpg?v=1703245242&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-clear-face-sunblock-spf50-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI SUN BLOCK SPF 70 CREAM 130 ML WKL 492",
-    "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000233541.png?v=1693179780&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-sun-block-spf-70-cream-130-ml-wkl-492",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI PROTECT SUNSCREEN CREAM SPF-90 130G IR HA-3057",
-    "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841474_9a8c9d66-a645-4428-9a5a-2cec76d1d786.jpg?v=1722235629&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-protect-sunscreen-cream-spf-90-130g-ir-ha-3057",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER OIL CONTROL SS SPF50 50ML",
-    "price": 4695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574661875248.jpg?v=1782972871&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-oil-control-ss-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BIODERMA PHOTODERM AQUA FLUIDE SPF-50+ 40ML",
-    "price": 6645,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/1244671-1.jpg?v=1737200305&width=500",
-    "productUrl": "https://alfatah.pk/products/bioderma-photoderm-aqua-fluide-spf-50-100ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHE-POSAY UVMUNE 400 SPF50+ ANTI-DARK SPOTS FLUID 50 ML",
-    "price": 10500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3337875917407.jpg?v=1785155549&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-uvmune-400-spf50-anti-dark-spots-fluid-50-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI MILD SUN BLOCK BANANA SPF 90 WKL 329 80 ML",
+    "name": "SIMPLE MOISTURISING FACIAL FACE WASH SOAP FREE FOAM 150 ML",
     "price": 995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000254084.png?v=1693179773&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-mild-sun-block-banana-spf-90-wkl-329-80-ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/rn-image_picker_lib_temp_81ec5e1b-0ed9-47f5-a977-69df09c68a56.jpg?v=1783871963&width=500",
+    "productUrl": "https://alfatah.pk/products/simple-moisturising-facial-face-wash-soap-free-foam-150-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "NEUTROGENA CLEAR BODY SUNSCREEN SPRAY SPF-50 141G",
-    "price": 5595,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800072706.jpg?v=1775721198&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-clear-body-sunscreen-spray-spf-50-141g",
+    "name": "GARNIER MEN FACE WASH POWER WHITE SUPER DUO 100 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_22_67dcf7e3-a1d9-4d09-b197-42d0e50b9370.png?v=1783158595&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-face-wash-power-white-super-duo",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LAROCHE POSAY ANTHLIOS LIGHT FLUID SUNSCREEN TINTED MINRAL S",
-    "price": 15900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/883140020899_c95ff782-9f24-4d8f-8cf0-a8b0a36782ab.jpg?v=1726644125&width=500",
-    "productUrl": "https://alfatah.pk/products/laroche-posay-anthlios-light-fluid-sunscreen-tinted-minral-s",
+    "name": "FAIR & LOVELY FACE WASH INSTA GLOW 80 GM",
+    "price": 368,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_93_18781ef4-58d3-420a-87ad-d4f319c6d69e.png?v=1767083017&width=500",
+    "productUrl": "https://alfatah.pk/products/fair-and-lovely-face-wash-insta-glow-80-gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "BEAUTY OF JOSEON  - MATTE SUN STICK MUGWORT+CAMELIA SP50++",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809864766884_8bce430f-8016-4b24-9a72-d9d0f86b43fc.jpg?v=1728644124&width=500",
-    "productUrl": "https://alfatah.pk/products/beauty-of-joseon-matte-sun-stick-mugwort-camelia-sp50",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER HYDRATION SS SPF50 50ML",
-    "price": 4695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574661875125.jpg?v=1782972871&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-hydration-ss-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "GARNIER BB CREAM CLASSIC PERFECTING MEDIUM  ALL IN 1 SPF15 5",
-    "price": 2795,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3600542424660_7617ef0c-d613-4d48-a53c-23d3a1e6caa0.jpg?v=1765975994&width=500",
-    "productUrl": "https://alfatah.pk/products/garnier-bb-cream-classic-perfecting-medium-all-in-1-spf15-5",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHE ANTHELIOS LIGHT FLUID SUNSCREEN FAST ABSORBING SPF",
-    "price": 13900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/883140012993_1_fd79f923-2b77-4ba4-b0d0-70ee23c37d8e.jpg?v=1714369631&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-anthelios-light-fluid-sunscreen-fast-absorbing-spf",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA HYDRO BOOST CITY SHIELD SPF-25 WATER GEL 48G",
-    "price": 9900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800113478.jpg?v=1775721201&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-hydro-boost-city-shield-spf-25-water-gel-48g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI SUN BLOCK SPF 90 CREAM 130 ML WKL 490",
+    "name": "HIMALAYA PURIFYING NEEM FACE WASH 150 ML",
     "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001836258_5d4bd05b-f8ad-4ca8-bb15-d3315ba1baf6.jpg?v=1753704877&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-sun-block-spf-90-cream-130-ml-wkl-490",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_13_31cbda73-88d6-4729-81f8-d294b8102edb.png?v=1738129010&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-purifying-neem-face-wash-150-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "NEUTROGENA BEACH DEFENSE SUNSCREEN SPRAY SPF50 184G",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800112549.jpg?v=1775721198&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-beach-defense-sunscreen-spray-spf50-184g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA INVISILE DAILY DEFENSE BODY SPRAY SPF-60 141G",
-    "price": 6295,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800066491.jpg?v=1775721195&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-invisile-daily-defense-body-spray-spf-60-141g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI ALOE VERA SUN BLOCK CREAM 3IN1 SPF90+ WKL725 60ML",
-    "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841658_e0843602-fbd7-4604-bd1d-05c1fd80366a.jpg?v=1722235641&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-aloe-vera-sun-block-cream-3in1-spf90-wkl725-60ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA INVISIBLE DAILY SUNSCREEN LOTION 88ML",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/062600629678_81f7768a-2bd9-46fb-8d65-029297856368.jpg?v=1734411706&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-invisible-daily-sunscreen-lotion-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER DRY TOUCH SUN SCREEN BROAD SPECTRUM S",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/086800687856.jpg?v=1776514771&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-dry-touch-sun-screen-broad-spectrum-s",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHY POSAY ANTHELIOS LIGH FLUID SUNSCREEN NON-WHITENING",
-    "price": 15900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/883140000907_1_9b5ea9a9-4980-439c-907d-a96cef73a6d7.jpg?v=1714374378&width=500",
-    "productUrl": "https://alfatah.pk/products/la-rochy-posay-anthelios-ligh-fluid-sunscreen-non-whitening",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BIODERMA PHOTODERM ULTRA FLUIDE VISIBLE SPF50+ 40 ML",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3701129813614.jpg?v=1782972871&width=500",
-    "productUrl": "https://alfatah.pk/products/bioderma-photoderm-ultra-fluide-visible-spf50-40-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "AVEENO SUNSCREEN PROTECT HYDRATE SPF-60 88 ML",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/381371194605_b62c23e3-6afc-4eab-b4c9-276a434d162e.jpg?v=1753704871&width=500",
-    "productUrl": "https://alfatah.pk/products/aveeno-sunscreen-protect-hydrate-spf-60-88-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI SUN BLOCK SPF 60 CREAM 130 ML WKL 495",
-    "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001836333.jpg?v=1693179780&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-sun-block-spf-60-cream-130-ml-wkl-495",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LAROCHE POSAY ANTHELIOS CLEAR SKIN OIL FREE SPF 60 DRY TOUCH",
-    "price": 10900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000430488_4a83c1a5-e03b-4795-bd1a-d349b70c5568.jpg?v=1726644149&width=500",
-    "productUrl": "https://alfatah.pk/products/laroche-posay-anthelios-clear-skin-oil-free-spf-60-dry-touch",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "AVEENO BABY ZINC OXIDE SUNSCREEN SPF50 88ML",
-    "price": 5995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/381371164509_92d7f3a2-f8a9-4f04-8ffd-fb800744a4fe.jpg?v=1760162678&width=500",
-    "productUrl": "https://alfatah.pk/products/aveeno-baby-zinc-oxide-sunscreen-spf50-88ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "MAC STUDIO FIX FLUID BROAD SPECTRUM SPF 15 NC16 30 ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000513705-a_b5449766-0b62-4328-b00c-c65f9485554b.jpg?v=1757657925&width=500",
-    "productUrl": "https://alfatah.pk/products/mac-studio-fix-fluid-broad-spectrum-spf-15-nc16-30-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "CETAPHIL DAILY FACIAL MOISTURIZER WITH SUNSCREEN SPF 50 + DR",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/302993930020.jpg?v=1775643685&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-daily-facial-moisturizer-with-sunscreen-spf-50-dr",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LRP CICAPLAST BALM B5 SPF 50 40ML",
-    "price": 8495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000621992_37c9b237-3feb-4bfd-867b-a0281e3a7bde.jpg?v=1791360727&width=500",
-    "productUrl": "https://alfatah.pk/products/lrp-cicaplast-balm-b5-spf-50-40ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER BODY MIST SUNSCREEN SPF-45 141G",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800100393.jpg?v=1775721193&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-body-mist-sunscreen-spf-45-141g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA STUBBORN ANCE AM TREATMENT 56G",
-    "price": 5495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/70501400289.jpg?v=1775721202&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-stubborn-ance-am-treatment-56g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ELMORE ELIXIR MINERAL SUNSCREEN SPF +++65 100 ML",
-    "price": 1595,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/850017893900_37e1393c-6698-4254-b075-bbbc37576063.jpg?v=1761121156&width=500",
-    "productUrl": "https://alfatah.pk/products/elmore-elixir-mineral-sunscreen-spf-65-100-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "MIYO SUN KISSED MATT BRONZING",
-    "price": 7540,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3700467816646.jpg?v=1783772312&width=500",
-    "productUrl": "https://alfatah.pk/products/miyo-sun-kissed-matt-bronzing",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "BIODERMA PHOTODERM ULTRA FLUIDE TEINTE SHADE 03 SPF50+ 40 ML",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3701129813645.jpg?v=1782972872&width=500",
-    "productUrl": "https://alfatah.pk/products/bioderma-photoderm-ultra-fluide-teinte-shade-03-spf50-40-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "WOKALI MULTI VIT SUNSCREEN CREAM SPF-90 130G IR HA-3058",
-    "price": 695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841481_45974d6e-6640-43c8-a3a8-f01f1bea322f.jpg?v=1722235632&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-multi-vit-sunscreen-cream-spf-90-130g-ir-ha-3058",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER AGE SHIELD SS SPF50 50ML",
-    "price": 4695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574661874876.jpg?v=1782972871&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-age-shield-ss-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LAROCHE POSAY ANTHELIOS CLEAR SKIN SPF 60 DRY TOUCH 50 ML",
-    "price": 7995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/2026026001232.jpg?v=1784116770&width=500",
-    "productUrl": "https://alfatah.pk/products/laroche-posay-anthelios-clear-skin-spf-60-dry-touch-50-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ELMORE ELIXIR PINK FLUID SPF 50 OIL FREE 100 ML",
-    "price": 1695,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/850017893733_17c115ac-d9dc-45d4-84a6-0bc00eba495e.jpg?v=1746706766&width=500",
-    "productUrl": "https://alfatah.pk/products/elmore-elixir-pink-fluid-spf-50-oil-free-100-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ANUA ZERO CAST SUNCREEN SPF50 50ML",
-    "price": 6995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800307375915.jpg?v=1785155547&width=500",
-    "productUrl": "https://alfatah.pk/products/anua-zero-cast-suncreen-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA BEACH DEFENSE WATER+SUN SUNSCREEN SPRAY SFP-30 18",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800872733.jpg?v=1775721198&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-beach-defense-water-sun-sunscreen-spray-sfp-30-18",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "FLORMAR TINTED MOISTURZR SPF50 007 WARM HONEY 40ML",
-    "price": 3565,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8682536090445_dabc2d7e-f767-4558-83a8-03ea7366e93c.jpg?v=1763383212&width=500",
-    "productUrl": "https://alfatah.pk/products/flormar-tinted-moisturzr-spf50-007-warm-honey-40ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "THE ORDINARY SUNSCREEN SERUM SPF 45 60 ML",
-    "price": 8900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/769915234107_5bc1874b-c389-4cf1-a52a-e59bcf37ccb9.jpg?v=1753705182&width=500",
-    "productUrl": "https://alfatah.pk/products/the-ordinary-sunscreen-serum-spf-45-60-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LA ROCHE POSAY ANTHELIOS MELT IN MILK SUNSCREEN LOTION - SPF",
-    "price": 11900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000546103_2d1a725e-bbfe-44af-9d71-5227ebf32530.jpg?v=1748869476&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-melt-in-milk-sunscreen-lotion-spf",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "AURA SUNSHIELD SUNSCREEN 40ML",
-    "price": 2500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/IMG_5096.jpg?v=1693175521&width=500",
-    "productUrl": "https://alfatah.pk/products/aura-craft-mood-booster-aromatherapy-massage-oil",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER BODY MIST SUNSCREEN SPF-30 141G",
-    "price": 4995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800100386.jpg?v=1775721198&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-body-mist-sunscreen-spf-30-141g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "LANEIGE WATER BANK UV BARRIER SUNSCREEN SPF50 50ML",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809925196391.jpg?v=1786014737&width=500",
-    "productUrl": "https://alfatah.pk/products/laneige-water-bank-uv-barrier-sunscreen-spf50-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SKIN1004 - MADAGASCAR CENTELLA AIR-FIT SUNCREAM LIGHT SPF30",
-    "price": 4495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809576261608.jpg?v=1788845997&width=500",
-    "productUrl": "https://alfatah.pk/products/skin1004-madagascar-centella-air-fit-suncream-light-spf30",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA ULTRA SHEER FACE & BODY STICKS SPF-50 42G",
-    "price": 6895,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/86800102748.jpg?v=1775721202&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-ultra-sheer-face-body-sticks-spf-50-42g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ANUA GLOW STICK SPF50 INVISIBLE NEW 17.5G",
-    "price": 6995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800307372150.jpg?v=1785155551&width=500",
-    "productUrl": "https://alfatah.pk/products/anua-glow-stick-spf50-invisible-new-17-5g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "KIEHLS SUPER FLUID DAILY UV DEFENSE SUNSCREEN SPF 50+ ANTI-P",
-    "price": 17900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3605971618123_1.jpg?v=1693173958&width=500",
-    "productUrl": "https://alfatah.pk/products/kiehls-super-fluid-daily-uv-defense-sunscreen-spf-50-anti-p",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SKIN1004 - MADAGASCAR CENTELLA HYALU-CICA SILKY-FIT SUN STIC",
-    "price": 5495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809913830214.jpg?v=1774356666&width=500",
-    "productUrl": "https://alfatah.pk/products/skin1004-madagascar-centella-hyalu-cica-silky-fit-sun-stic",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "ANUA K-POP SPF50 GLOW STICK 17.5G",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800307375939.jpg?v=1785155551&width=500",
-    "productUrl": "https://alfatah.pk/products/anua-k-pop-spf50-glow-stick-17-5g",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "GARNIER AMBRE SOLAIRE INVISIBLE PROTECT SPF30 SPRAY 200ML",
+    "name": "NEUTROGENA FACE WASH CLEAR & RADIANT VIT-C & SALICYLIC 200ML",
     "price": 2195,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3600542449878_437dcf07-9a9b-42b0-9e2f-183130c4593e.jpg?v=1748609107&width=500",
-    "productUrl": "https://alfatah.pk/products/garnier-ambre-solaire-invisible-protect-spf30-spray-200ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NTG_EMEA_UK_3574660569759_90504500_Clear_Radiant_face_wash_200ML_000_TIF.webp?v=1781874905&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-face-wash-grapefruit-visibly-clear-200-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "LOREAL HYALURON FACEWASH 100ML",
+    "price": 839.3,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340672057_6d2a7ff4-0b9a-4cf7-ac55-992d1b0fc8fa.jpg?v=1730547594&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-hyaluron-facewash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN FACE WASH ACNO FIGHT 6IN1 100 ML",
+    "price": 415.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_6d324670-18b3-4140-b854-49ea3efbd3ab.png?v=1781870124&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-face-wash-acno-fight-6in1",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENSE WHITENING FACEWASH 100 ML",
+    "price": 695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000533.jpg?v=1760961808&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sense-whitening-facewash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER TURBO LIGHT OIL CONTROL 3 IN 1 CHARCOAL FACE WASH 10",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_5_27cce37e-6b5e-4e40-93e4-70c487086709.png?v=1761910184&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-turbo-light-oil-control-3-in-1-charcoal-face-wash-10",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS MEN FACE WASH WHITE BOOST 100 ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_15_ea1ed5a2-6a93-4af3-9e33-a3a0e6dd7739.png?v=1775546968&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-men-face-wash-white-boost-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS MEN ACNE FACE WASH OIL CONTROL 100 ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_16_1067fce9-92a7-4394-a962-601b9a45bec9.png?v=1781759792&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-men-acne-defense-facial-foam-100g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN OIL CLEAR DEEP CLEANSING FACE WASH 100ML",
+    "price": 679.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/products/AFP-000130659.jpg?v=1711443847&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-oil-clear-deep-cleansing-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FAIR & LOVELY MEN FACEWASH 50GM",
+    "price": 202.4,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000301675.jpg?v=1753789590&width=500",
+    "productUrl": "https://alfatah.pk/products/fair-and-lovely-men-facewash-50gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NIVEA MEN EXTRA BRIGHT FACE WASH 100ML",
+    "price": 695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4005808888368_ba9386ab-ba75-4f93-b4fd-2a977ed233d6.jpg?v=1734411739&width=500",
+    "productUrl": "https://alfatah.pk/products/nivea-men-extra-bright-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS FACE WASH PURE DETOX ANTI POLLUTION PURITY 50 GM",
+    "price": 330,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_23_47a1e91d-245a-4248-a1eb-0cd9ad5ee494.png?v=1759997620&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-face-wash-pure-detox-anti-pollution-purity-50-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS ACNE SOLUTION FACIAL FOAM 100 GM",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_dd770b9d-57c9-43ad-a6e5-f2ef38649f51.png?v=1771317044&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-acne-solution-facial-foam-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS SUN MIRACLE DETAN FACE WASH WITH NIACINAMIDE VITAMIN C",
+    "price": 506,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014269284.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-sun-miracle-detan-face-wash-with-niacinamide-vitamin-c",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA NEEM FACE WASH 100 ML",
+    "price": 575,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000107823_5647a10f-b0c1-4cd2-9c39-eb71a12f8e1c.jpg?v=1754304972&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-neem-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER SAKURA WHITE FOAM FACE WASH 100 ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-10-27T110156.963.png?v=1761544973&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-sakura-white-foam-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "LOREAL HA OILY FACE WASH 100ML",
+    "price": 699.3,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340674976_66ac8e18-a01e-4f23-8dd8-bb3a3bd1dd15.jpg?v=1753704874&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-ha-oily-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN POWER WHITE FACE WASH 100ML",
+    "price": 415.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_655d605b-2358-4400-8f31-232fab750788.png?v=1782215976&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-power-white-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS ACNE CONTROL TARGETS PIMPLES FACE WASH 50 GM",
+    "price": 325,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014248890.png?v=1759317064&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-acne-control-targets-pimples-face-wash-50-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS HYDRA MIRACLE ACNE CONTROL FACE WASH 100G",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014263206.jpg?v=1786453249&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-hydra-miracle-acne-control-face-wash-100g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENSE ANTI ACNE FACEWASH 100 ML",
+    "price": 695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000557.jpg?v=1760961808&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sense-anti-acne-facewash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FAIR & LOVELY FACE WASH INSTA GLOW 50 GM",
+    "price": 230,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_4_50693fac-0144-45ea-95e0-f0a82fee507d.png?v=1763464701&width=500",
+    "productUrl": "https://alfatah.pk/products/fair-lovely-face-wash-insta-glow-50-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS HYDRA MIRACLE BIOME CLEANSER GEL 90G",
+    "price": 525,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014269963.jpg?v=1782823693&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-hydra-miracle-biome-cleanser-gel-90g",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "CLEAN & CLEAR MORNING ENERGY SKIN ENERGISING DAILY FACE WASH",
+    "price": 1295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_14_1e799fc2-a44d-4487-af1e-fbf3269ca6ec.png?v=1782973599&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-morning-energy-skin-energising-daily-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "LOREAL MEN EXPERT HYDRA ENERGETIC FACE WASH 150ML",
+    "price": 2095,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3600524129125_4a1feadf-15ef-4c80-a166-4fdc96693def.jpg?v=1722235497&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-men-expert-hydra-energetic-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PONDS CLEANSING MILK WHITE BEAUTY 150 ML",
+    "price": 645,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-05-29T145644.036.png?v=1748512620&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-cleansing-milk-white-beauty-150-ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "DOVE MEN FACE WASH  EXTRA HYDRATING 100G",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/products/8886467042300_1.jpg?v=1708171876&width=500",
+    "productUrl": "https://alfatah.pk/products/dove-men-face-wash-extra-hydrating-100g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CLEAN & CLEAR DAILY WASH EXFOLIATING WASH 150 ML",
+    "price": 895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5000207007425_5015e7fb-125a-4e4b-8f4c-0f71f5e42746.jpg?v=1722340741&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-daily-wash-exfoliating-wash-150-ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "LA ROCHE-POSAY ANTHELIOS UV SPF-50 PRO-SPORT 200ML",
-    "price": 12900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000643642_0a5303db-b02e-4f1b-93c1-3bf152445165.jpg?v=1750678093&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-uv-spf-50-pro-sport-200ml",
+    "name": "GARNIER MEN COOLING FOAM TURBO LIGHT 100 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Gemini_Generated_Image_bcz7r7bcz7r7bcz7.png?v=1775301751&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-cooling-foam-turbo-light-100-ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "LA ROCHE-POSAY MELA B3 UV DAILY SUNSCREEN 40ML",
-    "price": 19900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3337875890113_72a1c700-11ed-4314-aa32-95013e919b74.jpg?v=1735018551&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-mela-b3-uv-daily-sunscreen-40ml",
+    "name": "PONDS AGE MERACLE HEXYL-RETINOL FACE WASH 90G",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8851932466356_f649ca8d-c39e-487f-88d4-cf707e6a8d5d.jpg?v=1730547714&width=500",
+    "productUrl": "https://alfatah.pk/products/ponds-age-meracle-hexyl-retinol-face-wash-90g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER SKIN ACTIVE FAST CLEAR FACE WASH 100ML",
+    "price": 557.1,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340672163_f18d305f-df93-4c5e-a764-a76c18bda095.jpg?v=1730547598&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-skin-active-fast-clear-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "SIMPLE DAILY SKIN DETOX PURIFYING FACIAL WASH 150ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_99_6a6ebe38-c206-4299-8e17-5a62de8851c3.png?v=1777871633&width=500",
+    "productUrl": "https://alfatah.pk/products/simple-daily-skin-detox-purifying-facial-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ROSA DAMASCENE FLOWER WATER PINEAPPLE EXTRACT & HYALURONIC",
+    "price": 2000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/08964003384012_413425e6-2406-4a14-942b-0fb0e444f872.jpg?v=1734612717&width=500",
+    "productUrl": "https://alfatah.pk/products/rosa-damascene-flower-water-pineapple-extract-hyaluronic",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "SAIRE SUNVISOR RADIANT MOSTURIZING SPF 35 40ML",
-    "price": 10900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/810029480994.png?v=1791971871&width=500",
-    "productUrl": "https://alfatah.pk/products/saire-sunvisor-radiant-mosturizing-spf-35-40ml",
+    "name": "RIVAJ PINKISH WHITE ADVANCED FACE WASH 120ML",
+    "price": 475,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000186524-1000.png?v=1693172052&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-whitening-pinkish-white-advanced-face-wash-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "SIMPLE GLOW FACIAL WASH SMOOTH RADIANT SKIN 150ML",
+    "price": 1095,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_84_6491f6a0-b757-48b4-9e0d-b30549b0010b.png?v=1776246981&width=500",
+    "productUrl": "https://alfatah.pk/products/simple-glow-facial-wash-smooth-radiant-skin-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL ROSE FACE WASH 150 ML",
+    "price": 1265,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/182.jpg?v=1735905285&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-rose-face-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "DOVE MEN FACE WASH  OIL CONTROL 100G",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/products/8886467042317_1.jpg?v=1708171879&width=500",
+    "productUrl": "https://alfatah.pk/products/dove-men-face-wash-oil-control-100g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ MILK EXTRACT WHITENING FACE WASH 100 ML",
+    "price": 395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_20_e58b10ad-b68d-4097-8c1f-10f18a80cba4.png?v=1780752949&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-milk-extract-whitening-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER CLEANSING WATER IN OIL 125ML",
+    "price": 749.25,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6902395661139.jpg?v=1777703378&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-cleansing-water-in-oil-125ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "6TH SENSE CHARCOAL FACEWASH 100 ML",
+    "price": 695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000540.jpg?v=1760961807&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sense-charcoal-facewash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN OIL CLEAR FW 50 ML",
+    "price": 367.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8901526205578-ZO-02.jpg?v=1736945243&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-oil-clear-skin",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA GENTL EXFOLIATING FACE WASH 150ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-05-29T120934.091.png?v=1748502586&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-gentl-eexfoliating-daily-face-wash-all-skin-types-1",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE  RICE FACE WASH 100 ML",
+    "price": 950,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964004049903.jpg?v=1777703378&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-rice-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO  NATURAL TEA TREE & NEEM FACE WASH 150 ML",
+    "price": 1325,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/217.jpg?v=1735905991&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-tea-tree-neem-face-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE HYDRA FACE WASH HYDRATING 120 ML",
+    "price": 830,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Hydra-Face-Wash.webp?v=1703108474&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-hydra-face-wash-hydrating-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL ROSE FACE WASH",
+    "price": 625,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/179.jpg?v=1735905245&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-rose-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL RICE FACE WASH 100ML",
+    "price": 945,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_1_4ce98e13-3756-4189-9ee1-ab11885f3cf0.png?v=1753706620&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-rice-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER PURE ACTIVE NEEM FACE WASH 100ML",
+    "price": 359.1,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/GarnierSkinActiveNeemPurifingFaceWash100ml.png?v=1693176758&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-pure-active-neem-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENCE VITAMIN C FACEWASH 250 ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000939.jpg?v=1773485640&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sence-vitamin-c-facewash-250-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "DOVE MEN FACE WASH HYDRATE 147 ML",
+    "price": 1295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/011111261327_4d10c1ee-2de6-42e0-aea0-e987cf22d529.jpg?v=1730547418&width=500",
+    "productUrl": "https://alfatah.pk/products/dove-men-face-wash-hydrate-147-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ FACE WASH RICE EXTRACT 100 ML",
+    "price": 650,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5056446714136.jpg?v=1777703378&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-face-wash-rice-extract-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN POWER WHITE 2IN1 FAIRNESS FACE WASH 100ML",
+    "price": 415.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/GarnierMenPowerWhite2-in-1FairnessFacewashandShavingFoam100ml.png?v=1693176794&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-power-white-2in1",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE VITAMIN C FACE WASH 120ML",
+    "price": 860,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/735816580551.jpg?v=1703333488&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-vitamin-c-face-wash-120ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA MOISTURIZING ALOE VERA FACE WASH 150 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_98_295c9353-64af-4673-bdb5-d88929b56c3a.png?v=1748502165&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-moisturizing-aloe-vera-face-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GLOW & LOVELY  FACE WASH BRIGHT WITH VITAMIN  C 80 GM",
+    "price": 368,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014268980.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/glow-lovely-face-wash-bright-with-vitamin-c-80-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL VITAMIN C FACE WASH 150ML",
+    "price": 1545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/233.jpg?v=1736249868&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-vitamin-c-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ WHITENING PINKISH WHITE FACE WASH 50 ML",
+    "price": 225,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-05-29T120541.766.png?v=1748502353&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-whitening-pinkish-white-face-wash-50-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL ALOE VERA FACE WASH 60 ML",
+    "price": 645,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/110.jpg?v=1735904116&width=500",
+    "productUrl": "https://alfatah.pk/products/aloe-vera-face-wash-60-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER PURE ACTIVE ANTI-ACNE WHITE FOAM 100 ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/IMG-20200420-WA0058.jpg?v=1693180684&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-pure-active-anti-acne-white-foam-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL TEA TREE & NEEM FACE WASH",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/213.jpg?v=1735905921&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-tea-tree-neem-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL ALOE VERA FACE WASH 150ML",
+    "price": 1399,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/113.jpg?v=1736249967&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-aloe-vera-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NEUTROGENA FACE WASH OIL BALANCING LIME & ALOE 200 ML",
+    "price": 1995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574661039725_ed90f7dc-8e43-4369-8f73-8d9adf899086.jpg?v=1761826382&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-face-wash-oil-balancing-lime-aloe-200-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VASELINE MEN OIL CONTROL FACE WASH 100 ML",
+    "price": 645,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000109346-1000.png?v=1693172327&width=500",
+    "productUrl": "https://alfatah.pk/products/vaseline-men-oil-control-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE  RICE FACE SCRUB 100 ML",
+    "price": 950,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964004049934.jpg?v=1780660317&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-rice-face-scrub-100-ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "ANUA INVISIBLE MATTE FINISH SUNCREEN SPF50 50ML",
-    "price": 8995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800307375922.jpg?v=1786014737&width=500",
-    "productUrl": "https://alfatah.pk/products/anua-invisible-matte-finish-suncreen-spf50-50ml",
+    "name": "VINCE WHITENING FACE WASH LIGHTNIX 120 ML",
+    "price": 840,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/rn-image_picker_lib_temp_0588f11e-d06f-40fe-adbf-66cb5082f326.jpg?v=1792256738&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-whitening-face-wash-lightnix-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ VITAMIN C FACE WASH 200ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5056446708562_1dae2618-f93b-47f5-bedd-0129554dc4ea.jpg?v=1726644549&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-vitamin-c-face-wash-200ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER PURE ACTIVE ANTI BLACKHEAD CHARCOAL 3 IN 1 150 ML PC",
+    "price": 1895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_52_8d0b89cd-e6c3-4c18-816a-38e54f2354b0.png?v=1738138923&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-pure-active-anti-blackhead-charcoal-3-in-1-150-ml-pc",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "LAROCHE POSAY ANTHELIOS MELT IN MILK SUNSCREEN SPF60 90ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000527355_b5103b95-fff9-4a4f-8ecf-9efb2cd09e87.jpg?v=1742381232&width=500",
-    "productUrl": "https://alfatah.pk/products/laroche-posay-anthelios-melt-in-milk-sunscreen-spf60-90ml",
+    "name": "CO NATURAL VITAMEN C FACEWASH 60 ML",
+    "price": 695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/237.jpg?v=1735906401&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-vitamen-c-facewash-60-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN ACNO FIGHT WASABI FOAM 100 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_82_c28e0688-26b1-42de-ba5a-359047715fe9.png?v=1777618938&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-acno-fight-wasabi-foam-100-ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "FLORMAR TINTED MOISTURIZER SPF50 008 CARAMEL 40ML",
-    "price": 3565,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8682536090773_f196e450-51ad-4a5b-8985-78535690f72d.jpg?v=1763383214&width=500",
-    "productUrl": "https://alfatah.pk/products/flormar-tinted-moisturizer-spf50-008-caramel-40ml",
+    "name": "VITAMIN E FACE WASH 100ML",
+    "price": 1035,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_2_113ed62b-3c6d-40e1-9669-8c69aadd86bb.png?v=1753706810&width=500",
+    "productUrl": "https://alfatah.pk/products/vitamin-e-face-wash-100ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "MAC STUDIO FIX FLUID SPF 15 NC-18",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000225189-a_67600c26-8ec8-4ff4-9c32-a030238e25ec.jpg?v=1757413653&width=500",
-    "productUrl": "https://alfatah.pk/products/mac-studio-fix-fluid-spf-15-foundation-shade-nc18",
+    "name": "Plush Natural Grape Fruit Face Wash",
+    "price": 1400,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_7_024ff586-6355-44bb-9513-694d657f377f.png?v=1757502514&width=500",
+    "productUrl": "https://alfatah.pk/products/plush-natural-grape-fruit-face-wash",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "AXIS Y - COMPLETE NO STRESS PHYSICAL SUNSCREEN 50 ML",
-    "price": 5995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809634610119_445f64f5-ab61-4f1d-a768-44dae8161cbc.jpg?v=1728644072&width=500",
-    "productUrl": "https://alfatah.pk/products/axis-y-complete-no-stress-physical-sunscreen-50-ml",
+    "name": "EVELINE WHITE PRESTIGE 4D WHITENING FACIAL WASH GEL 200 ML",
+    "price": 1795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000089269_44d544e3-ad6a-4797-98d0-f8e6f0410140.jpg?v=1763535523&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-white-prestige-4d-whitening-facial-wash-gel-200-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE-POSAY ANTHELIOS UV MINERAL SERUM SUNSCREEN SPF50  5",
-    "price": 15900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000645721.jpg?v=1785155549&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-uv-mineral-serum-sunscreen-spf50-5",
+    "name": "VINCE INTENSE GLOW FACE WASH 75 ML",
+    "price": 370,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_41_ee6e41d4-ab72-46e0-bceb-524d817867b2.png?v=1738134498&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-intense-glow-face-wash-75-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "CLINIQUE SUPER DEFENSE CITY BLOCK SPF50 40 ML",
-    "price": 15900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000294110.png?v=1693179400&width=500",
-    "productUrl": "https://alfatah.pk/products/clinique-super-defense-city-block-spf50-40-ml",
+    "name": "NIVEA FACE WASH NORMAL SKIN 150 ML",
+    "price": 1695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4005808669325_eab1fc91-fdb5-4bbd-8976-b1aa3649b2ba.jpg?v=1748609190&width=500",
+    "productUrl": "https://alfatah.pk/products/nivea-face-wash-normal-skin-150-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "BIOTHERM WATERLOVER SUN MILK SPF50 200ML",
-    "price": 14500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3614271701510.jpg?v=1777375320&width=500",
-    "productUrl": "https://alfatah.pk/products/biotherm-waterlover-sun-milk-spf50-200ml",
+    "name": "VINCE TURMERIC FACE WASH",
+    "price": 390,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/0735816906108_87e0dea2-ea93-48dd-bca6-f396b7b5b2ee.jpg?v=1742555357&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-turmeric-face-wash",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "EHY - SUNBLOCK 50+ 50GM",
-    "price": 2895,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964001548386_d135faa8-8056-4282-8ea1-096231694cb1.jpg?v=1742469827&width=500",
-    "productUrl": "https://alfatah.pk/products/ehy-sunblock-50-50gm",
+    "name": "RIVAJ WOMEN CHARCOAL WHITE FACE WASH 100ML",
+    "price": 475,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/download_5da3e7e1-d163-4bbf-8a9f-4a2a643e0913.jpg?v=1718977676&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-pure-white-face-wash-150-ml-pc",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE POSAY NEW DAILY INVISIBLE SUNSCREEN SPF50 50ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000613126_1_53a31186-570d-49df-8a99-c2013a9624b0.jpg?v=1721131868&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-new-daily-invisible-sunscreen-spf50-50ml",
+    "name": "GATSBY FACE WASH PAPAYA EXTRACT SPEEDY BRIGHT 100GM",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_2_942e1225-f2c0-461a-acc3-429835207867.png?v=1739864217&width=500",
+    "productUrl": "https://alfatah.pk/products/gatsby-face-wash-papaya-extract-speedy-bright-100gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE POSAY EFFACLAR DAILY ACNE ESSENTIALS KIT",
-    "price": 17900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000648159.jpg?v=1785155551&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-effaclar-daily-acne-essentials-kit",
+    "name": "CERAVE CLEANSER ACNE CONTROL CLEANSER 237ML",
+    "price": 6495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000577138.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/cerave-cleanser-acne-control-cleanser-237ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE CLEANSER"
   },
   {
-    "name": "ANUA INVISIBLE MATTE SUNCREEN SPF50 50ML",
-    "price": 8995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800307371221.jpg?v=1785155546&width=500",
-    "productUrl": "https://alfatah.pk/products/anua-invisible-matte-suncreen-spf50-50ml",
+    "name": "HIMALAYA MOISTURIZING ALOE VERA FACE WASH 100ML",
+    "price": 645,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/1180899-1.jpg?v=1731992698&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-moisturizing-aloe-vera-face-wash-100ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "WOKALI OUTDOOR SUNSCREEN CREAM SPF-60 130G IR HA-3055",
-    "price": 1395,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841450_659f1f6b-d6f6-450d-aa30-2105da2b9181.jpg?v=1731915345&width=500",
-    "productUrl": "https://alfatah.pk/products/wokali-outdoor-sunscreen-cream-spf-60-130g-ir-ha-3055",
+    "name": "VINCE ACNE AND OIL CLEAR FACE WASH 75 ML",
+    "price": 280,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_42_cefac66c-2d92-4651-a0c4-f3614dc2909f.png?v=1738134554&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-acne-and-oil-clear-face-wash-75-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "CLINIQUE SUN SCREEN SPF 50 50 ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000001293.png?v=1693179441&width=500",
-    "productUrl": "https://alfatah.pk/products/clinique-sun-screen-spf-50-50-ml",
+    "name": "RIVAJ WHITENING FACE WASH NEEM EXTRACT 50 ML",
+    "price": 190,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2024-12-04T143618.291.png?v=1733305018&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-whitening-face-wash-neem-extract-50-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "NEUTROGENA SUNBLOCK ULTRA SHEER SPF 70 147ML",
+    "name": "CO NATURAL SAFFRON FACE WASH 150ML",
+    "price": 1495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/199.jpg?v=1736250149&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-saffron-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENCE HYLORONIC FACEWASH 250 ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000915.jpg?v=1776081594&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sence-hyloronic-facewash-250-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NIVEA PURIFYING FACE WASH COMBINATION TO OILY 150 ML",
+    "price": 1695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000072328_412f1069-12dc-48d2-8975-f476f3201aab.jpg?v=1754304907&width=500",
+    "productUrl": "https://alfatah.pk/products/nivea-purifying-face-wash-combination-to-oily-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GATSBY FACE WASH CHARCOAL POWDER BLACK POWER 100GM",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_6_6224093a-b890-428d-b2a1-bdcef83195de.png?v=1736942609&width=500",
+    "productUrl": "https://alfatah.pk/products/gatsby-face-wash-charcoal-powder-black-power-100gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT COCONUT HYDRATING FACE WASH 100 ML",
+    "price": 345,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964003490294_225a9a8f-ee90-46c5-a620-d9217d4024ec.jpg?v=1731915387&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-coconut-hydrating-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA CLEAR COMPLEXION FACE WASH 150 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964001764113.jpg?v=1703333417&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-clear-complexion-face-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GATSBY FACE WASH TRIPLE ACTION TREATMENT 100GM",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222056595_a9872454-3703-48d1-add4-c6a8497799dc.jpg?v=1722235806&width=500",
+    "productUrl": "https://alfatah.pk/products/gatsby-face-wash-triple-action-treatment-100gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE MATTIFYING TEA TREE FACE WASH 120 ML",
+    "price": 410,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_61_b11e42eb-6ef3-44cc-9a50-331a96b6c581.png?v=1791185419&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-mattifying-tea-tree-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT POMEGRANATE MOISTURIZING FACE WASH 100 ML",
+    "price": 345,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964003490317_b6569a23-92c8-4c97-a216-0c25b5cb147c.jpg?v=1722235781&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-pomegranate-moisturizing-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "SIMPLE REGENERATION AGE RESISTING FACIAL WASH 150ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_34_d68dd97b-4d65-4c62-9ff0-e4d0a911d697.png?v=1777358076&width=500",
+    "productUrl": "https://alfatah.pk/products/simple-regeneration-age-resisting-facial-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GLOW & LOVELY  FACE WASH BRIGHT WITH VITAMIN  C 50 GM",
+    "price": 230,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961014268997.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/glow-lovely-face-wash-bright-with-vitamin-c-50-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER SKIN ACTIVE FAST CLEAR FACE WASH 50ML",
+    "price": 332.1,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340672170_b838751e-d126-4d60-9ae6-d5803f72e4e5.jpg?v=1730547602&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-skin-active-fast-clear-face-wash-50ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ DAILY ESS REFRESHING GEL FACE WASH 120ML",
+    "price": 435,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_35_629cedf5-10be-4ea3-a8c8-652ee8c9d029.png?v=1738134197&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-freshning-gel-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE WHITENING SCRUB FACE WASH LIGHTNIX 120 ML",
+    "price": 895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000090296_efa2b323-d188-4b31-bebf-032badbf84f4.jpg?v=1754304936&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-whitening-scrub-face-wash-lightnix-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "Plush Natural Rose Face Wash",
+    "price": 1750,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_1_8d1e5259-b4ff-48e6-98f6-9c8bc3cef0fb.png?v=1757503183&width=500",
+    "productUrl": "https://alfatah.pk/products/plush-natural-rose-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE LEMON FACE WASH 120ML",
+    "price": 370,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_43_216e3271-365e-4ce8-843a-74931700f6d8.png?v=1738134604&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-lemon-face-wash-120ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN ACNO FIGHT WASABI FACE WASH 100ML",
+    "price": 679.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340672187_df6ad027-4356-4a42-9df1-5cb9a3e931b3.jpg?v=1734611320&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-acno-fight-wasabi-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE ROSE FACE WASH PINKISH GLOW 120 ML",
+    "price": 480,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/1000698004.jpg?v=1793381842&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-rose-face-wash-pinkish-glow-120-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA CHARCOAL FACE WASH 150 ML",
+    "price": 795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000392069_8e0220cc-d97c-40de-be8f-3fe40522013d.jpg?v=1754304900&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-charcoal-face-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ NEEM EXTRACT WHITENING FACE WASH 100 ML",
+    "price": 395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_1_4b1ecfff-7b4c-4e9e-87f6-6785dfe98a4e.png?v=1788153976&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-neem-extract-whitening-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ BAMBOO CHARCOAL WHITENING FACE WASH 100 ML",
+    "price": 395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_38_5eb85d49-3b42-498a-a2ed-cd6fbba0d030.png?v=1781073761&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-bamboo-charcoal-whitening-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CERAVE HYDRATING FACIAL CLEANSER FOR NORMAL TO DRY SKIN 355M",
     "price": 6995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/070501112816_dde50d28-a433-4f13-a725-12de8bedd241.jpg?v=1770443046&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-sunblock-ultra-sheer-spf-70-147ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000537699.jpg?v=1788952250&width=500",
+    "productUrl": "https://alfatah.pk/products/cerave-hydrating-facial-cleanser-for-normal-to-dry-skin-355m",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "Hair Energy Whitening Expert Face Polisher 120 Gm",
+    "price": 1999,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_f2917f12-e1f4-409e-b2e4-d6b960a93fcb.png?v=1779704077&width=500",
+    "productUrl": "https://alfatah.pk/products/hair-energy-whitening-expert-face-polisher-120-gm",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CETAPHIL SHEER MINERAL SUSCREEN STICK SPF50 14G",
-    "price": 3095,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/302994108008_70881857-bef9-4259-8809-0e034b2e81ba.jpg?v=1760162738&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-sheer-mineral-suscreen-stick-spf50-14g",
+    "name": "CLEAN & CLEAR DEEP ACTION FACE WASH 100 GM",
+    "price": 745,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Clean---Clear-Deep-Action-Cleanser-Oil-Free--100g-34dc5e4-my-vitamin-store.png?v=1703091191&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-deep-action-face-wash-100-gm",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE-POSAY ANTHELIOS UV TONE INVISIBLE SUNSCREEN 50ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000622050_ffce89ff-e069-4bfa-ab43-c4aa49070876.jpg?v=1748695207&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-uv-tone-invisible-sunscreen-50ml",
+    "name": "TEA TREE FOAMING FACE WASH 200ML",
+    "price": 845,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5060120163424.jpg?v=1693175663&width=500",
+    "productUrl": "https://alfatah.pk/products/tea-tree-foaming-face-wash-200ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "LA ROCHE-POSAY ANTHELIOS UV CLEAR INVISIBLE SUNSCREEN 50ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2026-07-14T123002.243.png?v=1784014213&width=500",
-    "productUrl": "https://alfatah.pk/products/la-roche-posay-anthelios-uv-clear-invisible-sunscreen-50ml",
+    "name": "RIVAJ PAPAYA EXTRACT WHITENING FACE WASH 100ML",
+    "price": 395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2024-12-10T173035.145.png?v=1733833874&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-papaya-extract-whitening-face-wash-100ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "COSRX VITAMIN E VITALIZING SUNSCREEN SPF50+50ML",
+    "name": "Hair Energy Face Wash Deep Cleansing Whitening",
+    "price": 1949,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4322792263170_ca4560d9-bd10-40d7-8801-676538e2fd3c.jpg?v=1693178569&width=500",
+    "productUrl": "https://alfatah.pk/products/hair-energy-face-wash-deep-cleansing-whitening",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "EVELINE WHITE PRESTIGE 4D WHITENING FACE WASH GEL 100 ML",
+    "price": 1095,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000089278_5df4a645-6f44-4ebd-ae7e-351cdbe7578a.jpg?v=1763535517&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-white-prestige-4d-whitening-face-wash-gel-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NIVEA CLEAR UP  FACE WASH ACNE REPAIR 150 ML",
+    "price": 1695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4005900916525.jpg?v=1773485641&width=500",
+    "productUrl": "https://alfatah.pk/products/nivea-clear-up-face-wash-acne-repair-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NEUTROGENA ACNE WASH",
+    "price": 4765.5,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/070501028308_eb4d5ce4-2afc-4482-b95e-11363a473cc5.jpg?v=1730547438&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-acne-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ MEN ACTIVE WHITE POWER FACE WASH 100ML",
+    "price": 435,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000187361_9bc0dff7-ee81-4988-8bbe-95da502b84d4.jpg?v=1754304932&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-white-active-men-expert-face-wash-150-ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENCE AQUA FACEWASH 250 ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000977.jpg?v=1776081594&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sence-aqua-facewash-250-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL OIL CONTROL FACEWASH",
+    "price": 565,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/154.jpg?v=1736249945&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-oil-control-facewash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ PIMPLES CLEAR ACTIVE THYMO FACE WASH 100ML",
+    "price": 475,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_65_e86a2ae1-3ff4-4830-8257-737cc24db75f.png?v=1775125273&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-anti-pimples-face-wash-150-ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE 3X GLOW FACE WASH 75 ML",
+    "price": 299,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/0735816553432_185f7a75-0aae-4714-a7cf-e934af2c9457.jpg?v=1750678254&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-3x-glow-face-wash-75-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PLUSH NATURAL VITAMIN FACE WASH",
+    "price": 1400,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_8_5197ae27-648c-4c92-a36e-19a22aee9afc.png?v=1757502803&width=500",
+    "productUrl": "https://alfatah.pk/products/plush-natural-vitamin-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "6TH SENCE GRAPEFRUIT FACEWASH 250 ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/2025240000908.jpg?v=1773485640&width=500",
+    "productUrl": "https://alfatah.pk/products/6th-sence-grapefruit-facewash-250-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ MEN ACTIVE PURIFING CHARCOAL FACE WASH 100ML",
+    "price": 475,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000187351_c6e3e513-ad9c-43c0-8744-fc08be70af42.jpg?v=1754304932&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-pure-and-matte-charcol-face-wash-150-ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL ACNE DEFENCE FACEWASH",
+    "price": 565,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/03_3b30999e-b25e-42f4-8af9-da6b97f2dbc6.jpg?v=1735901618&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-acne-defence-facewash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "DERMA SHINE FACE WASH AND SCRUB TUBE 200 GM",
+    "price": 690,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000141321.png?v=1693179687&width=500",
+    "productUrl": "https://alfatah.pk/products/derma-shine-face-wash-and-scrub-tube-200-gm-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CERAVE FOAMING FACIAL CLEANSER FOR NORMAL TO OILY SKIN 473 M",
     "price": 8900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809598454613_2b9e9132-fbce-4b65-b446-78e95233226f.jpg?v=1735018628&width=500",
-    "productUrl": "https://alfatah.pk/products/cosrx-vitamin-e-vitalizing-sunscreen-spf50-50ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3606000537705.jpg?v=1693177877&width=500",
+    "productUrl": "https://alfatah.pk/products/cerave-foaming-facial-cleanser-for-normal-to-oily-skin-473-m",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "VIBRANT BEAUTY POMEGRANATE MOISTURIZING FACE WASH 200 ML",
+    "price": 745,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_60_1f21d17f-ba41-4acc-bdf9-7ae04bf37fbb.png?v=1738143288&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-beauty-pomegranate-moisturizing-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GATSBY FACE WASH CLAY POWDER OIL CONTROL 100G",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_9_09607421-8bd7-48d3-b3d6-b7c14fa43f27.png?v=1785907443&width=500",
+    "productUrl": "https://alfatah.pk/products/gatsby-face-wash-clay-powder-oil-control-100g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FASMC FACE WASH WITH ALEO VERA IR 100 ML FM076",
+    "price": 248,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001837057.jpg?v=1693180673&width=500",
+    "productUrl": "https://alfatah.pk/products/fasmc-face-wash-with-aleo-vera-ir-100-ml-fm076",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE 3X HANDSOME FACE WASH 75 ML",
+    "price": 299,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/0735816769956_6318f4b0-660d-4737-837e-5b1f682325b0.jpg?v=1751027294&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-3x-handsome-face-wash-75-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ LEMON EXTRACT WHITENING FACE WASH 100 ML",
+    "price": 395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-05-29T121805.572.png?v=1748503141&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-lemon-extract-whitening-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE PERFECT 30 S FACE WASH 120 ML",
+    "price": 895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Web-Wrinkles-Facewash-Dubai_1200x_b84d1843-d845-4514-825a-cb51764a1c37.webp?v=1727177608&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-perfect-30-s-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "JUNSUI FACE WASH WITH WHITENING COOL 100GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300162_debb1b18-c64d-4a15-89db-db914b32b3d2.jpg?v=1753704898&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-cool-100gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI RICE REPAIRING FOAM FACE WASH 150ML IR WKL694",
+    "price": 1595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001840699_d8f5b8fd-8dd4-4ed4-bcca-26bf65d4e3e9.jpg?v=1734411801&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-rice-repairing-foam-face-wash-150ml-ir-wkl694",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NIVEA ALMOND OIL GENTLE FACE WASH 150ML",
+    "price": 1195,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4005808668847.jpg?v=1786453249&width=500",
+    "productUrl": "https://alfatah.pk/products/nivea-almond-oil-gentle-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT BEAUTY COCONUT HYDRATING FACE WASH 200ML",
+    "price": 745,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964003490003.jpg?v=1703245270&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-beauty-coconut-hydrating-face-wash-200ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PLUSH NATURAL GUA SHA",
+    "price": 3200,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964000636343.jpg?v=1732103199&width=500",
+    "productUrl": "https://alfatah.pk/products/plush-natural-gua-sha",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "LANCOME UVEX SUPRASCREEN SPF50 B40MI NP2",
-    "price": 14500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2026-07-09T162615.207.png?v=1783596387&width=500",
-    "productUrl": "https://alfatah.pk/products/lancome-uvex-suprascreen-spf50-b40mi-np2",
+    "name": "VINCE OIL CONTROL FACE WASH 120 ML",
+    "price": 880,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6165858300116.jpg?v=1693180242&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-oil-control-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "Plush Natural Cleansing Face Wash 250Ml",
+    "price": 1750,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_93_d7e50f78-0a71-406a-9bc7-a4458c92c8db.png?v=1776249039&width=500",
+    "productUrl": "https://alfatah.pk/products/plush-natural-cleansing-face-wash-250ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL HYDRA POWER FACEWASH",
+    "price": 565,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/109.jpg?v=1735904029&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-hydra-power-facewash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "PURE FACE DEEP CLEANSE  WIPES 25S",
+    "price": 295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/0010276_pure-deep-cleanse-wipes-25s_510.jpg?v=1784543975&width=500",
+    "productUrl": "https://alfatah.pk/products/pure-face-deep-cleanse-wipes-25s",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CLINIQUE MOISTURE SURGE BROAD SPECTRUM SPF-28 HYDRATOR 75ML",
-    "price": 24900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/192333226834_80e05989-488e-4615-a05c-15435c0b00ba.jpg?v=1736426711&width=500",
-    "productUrl": "https://alfatah.pk/products/clinique-moisture-surge-broad-spectrum-spf-28-hydrator-75ml",
+    "name": "NEUTROGENA CLEAR & SOOTHE MOSTURISER OIL FREE 75ML",
+    "price": 1395,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_40_d783e363-522a-4dca-bf37-6414aa8b8b2f.png?v=1775050557&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-clear-soothe-mosturiser-oil-free-75ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "COSRX AIRY LIGHT CLEAR SPF 50 STICK 19G",
-    "price": 8900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809598457324.jpg?v=1785752674&width=500",
-    "productUrl": "https://alfatah.pk/products/cosrx-airy-light-clear-spf-50-stick-19g",
+    "name": "VINCE EXFOLIATING PAPAYA FACE WASH 120 ML",
+    "price": 370,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/imageye___-_imgi_5_VINCE_Papya_Face_Wash_Sulfate_Free_1024x1024_e14bc578-55bc-4cde-906c-c219e34bcda0.webp?v=1792303238&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-exfoliating-papaya-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NEUTROGENA SOPT CONTROLING DAILY WASH OIL FREE 200",
+    "price": 2495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/ntg_3574661333595_vclr_prov_cleans_wash_200me_200ml_000.webp?v=1789131480&width=500",
+    "productUrl": "https://alfatah.pk/products/nuetrogena-visibly-clear-and-protect-daily-wash-oil-free-200",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "SKIN 1004 CICA WATER FIT SUNSCREEN SERUM  SPF50 50ML",
-    "price": 10500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809913832805.jpg?v=1788952252&width=500",
-    "productUrl": "https://alfatah.pk/products/skin-1004-cica-water-fit-sunscreen-serum-spf50-50ml",
+    "name": "JUNSUI FACE WASH WITH WHITENING ICE COOL 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300360_41991620-d7e3-40d3-a568-9cdfefe099a0.jpg?v=1753704901&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-ice-cool-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "Co Natural Rose Water",
+    "price": 699,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/187.jpg?v=1735905320&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-rose-water",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CETAPHIL HYDRATANT FACIAL MOISTURIZER SPF15 120ML",
+    "name": "SANIDERM HYDRAYING FACE WASH COCONUT EXTRACT 90 GM",
+    "price": 575,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject-2025-05-29T121507.385.png?v=1748502945&width=500",
+    "productUrl": "https://alfatah.pk/products/saniderm-hydraying-face-wash-coconut-extract-90-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT WATERMELON EXFOLIATING FACE WASH 100 ML",
+    "price": 345,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964003490300_7f39b384-bfae-4438-a924-df31703d707d.jpg?v=1731915391&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-watermelon-exfoliating-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "SANIDERM EXFOLIATING FACE WASH LEMON EXTRACT 90 GM",
+    "price": 565,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000413872-1000.png?v=1693170823&width=500",
+    "productUrl": "https://alfatah.pk/products/saniderm-exfoliating-face-wash-lemon-extract-90-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "EVELINE FACEMED HYALURONIC FACE WASH GEL 150ML",
+    "price": 1695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5901761954951_4f457d03-30c8-4c7f-9034-f4a0ac63892f.jpg?v=1763623999&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-facemed-hyaluronic-face-wash-gel-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ONLYAURA NIACINAMIDE HYALURONIC ACID FACE WASH 150ML",
+    "price": 1000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6920428208243.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/onlyaura-niacinamide-hyaluronic-acid-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ MEN ACTIVE ACNO FIGHT ANTI-BACTERIAL FACE WASH 100ML",
+    "price": 475,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000187349_3d33a97c-b0ff-4d2e-8871-9baef6cf5e4f.jpg?v=1754304932&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-acno-fight-men-anti-bacteria-face-wash-150-ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "LOREAL MEN MAGNESIUM DEFENCE FACE WASH 100ML",
+    "price": 1995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3600524030520_84d7c2fb-e6f1-494d-84b1-3f1a11a13055.jpg?v=1742469667&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-men-magnesium-defence-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ANUA HEARTLEAF CONTROL CLEANSING OIL 20ML",
+    "price": 1795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809640738401.jpg?v=1780750235&width=500",
+    "productUrl": "https://alfatah.pk/products/anua-heartleaf-control-cleansing-oil-20ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "NEUTROGENA OIL-FREE ACNE WASH MICRO CLEAR 177ML",
+    "price": 4995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/images_c2468fb1-9210-4d48-851b-bbacc6408eca.jpg?v=1784271727&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-oil-free-acne-wash-micro-clear-177ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT EXFOLIATING LEMON FACEWASH 200 ML",
+    "price": 745,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_47_34b211a5-051d-48e1-a495-042b8dbe7ca4.png?v=1778221811&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-exfoliating-lemon-facewash-200-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "RIVAJ FACE WASH SAFFRON WHITENING 100 ML",
+    "price": 650,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5056446714129.jpg?v=1777703378&width=500",
+    "productUrl": "https://alfatah.pk/products/rivaj-face-wash-saffron-whitening-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HIMALAYA OIL CLEAR FACE WASH BLUEBERRY 100ML",
+    "price": 575,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964001764304.jpg?v=1703333418&width=500",
+    "productUrl": "https://alfatah.pk/products/himalaya-oil-clear-face-wash-blueberry-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VINCE FRECKLESS ADVANCED FACE WASH 120ML",
+    "price": 860,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/735816881122.jpg?v=1703333414&width=500",
+    "productUrl": "https://alfatah.pk/products/vince-freckless-advanced-face-wash-120ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ORGANIC REGENERATING FACE WASH - DAILY CLEANSING TREATMENT 1",
+    "price": 1199,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Regenerating_Cleanser_8964002695058_36f21b31-d4cc-435c-aaf6-069ad3f08260.jpg?v=1732885922&width=500",
+    "productUrl": "https://alfatah.pk/products/organic-regenerating-face-wash-daily-cleansing-treatment-1",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI FACE WASH GEL CUCUMBER N NATURAL OIL IR 130 ML WKL515",
+    "price": 498,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001836562.jpg?v=1693177914&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-face-wash-gel-cucumber-n-natural-oil-ir-130-ml-wkl515",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CLEAN & CLEAR SHINE CONTROL FACE WASH 150ML",
+    "price": 1295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574660682168.jpg?v=1693179690&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-shine-control-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CO NATURAL DAILY ESSENTIAL FACE WASH LAVENDER & CHAMOMILE 15",
+    "price": 1265,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/69.jpg?v=1735903064&width=500",
+    "productUrl": "https://alfatah.pk/products/co-natural-daily-essential-face-wash-lavender-chamomile-25",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "SANIDERM PURIFYING FACE WASH ROOT EXTRACT 90 GM",
+    "price": 575,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000413870-1000.png?v=1693170823&width=500",
+    "productUrl": "https://alfatah.pk/products/saniderm-purifying-face-wash-root-extract-90-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "JOHNSONS MICELLAR CLEANSING JELLY HYDRATION WITH ROSE WATER",
+    "price": 1195,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_8_b9e05465-458d-4bf2-b372-909d8df0ae61.png?v=1758883479&width=500",
+    "productUrl": "https://alfatah.pk/products/johnsons-micellar-cleansing-jelly-hydration-with-rose-water",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "JUNSUI FACE WASH WITH WHITENING NEEM 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300346_1.jpg?v=1693174037&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-neem-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI RICE FOAMING FACE WASH 150ML IR WKL731",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841757_b4d81c78-c941-4bdf-97eb-8c07a80bae69.jpg?v=1734411810&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-rice-foaming-face-wash-150ml-ir-wkl731",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT BEAUTY WATER MELON FACE WASH 200 ML",
+    "price": 745,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8427268420159.jpg?v=1703245258&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-beauty-water-melon-face-wash-200-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIBRANT PINEAPPLE REJUVENATING  FACE WASH 100 ML",
+    "price": 345,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8964003490324_0c45d81c-dbc3-4fb8-b421-38bab4318967.jpg?v=1734411887&width=500",
+    "productUrl": "https://alfatah.pk/products/vibrant-pineapple-rejuvenating-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CLEAN & CLEAR NIGHT RELAXING FACE WASH DEEP 240 ML",
+    "price": 2995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_72_9ad7bf75-69b3-431a-9175-48121aa98f44.png?v=1775127304&width=500",
+    "productUrl": "https://alfatah.pk/products/clean-clear-night-relaxing-face-wash-deep-240-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "Hair Energy Face Wash Organic Detox",
+    "price": 1949,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4322792256899_25f8eb60-a285-4f24-962b-701100acdc4a.jpg?v=1693178571&width=500",
+    "productUrl": "https://alfatah.pk/products/hair-energy-face-wash-organic-detox",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ONLYAURA AMINO ACID FACE WASH 150ML",
+    "price": 1000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6920428208236.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/onlyaura-amino-acid-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "GARNIER MEN ACNO FIGHT WASABI FACE WASH 50ML",
+    "price": 367.2,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3610340672194_be40a0f2-85c5-44fd-a377-85714bdecd58.jpg?v=1730547607&width=500",
+    "productUrl": "https://alfatah.pk/products/garnier-men-acno-fight-wasabi-face-wash-50ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CETAPHIL PRO CLEANSING FACE WASH SENSITIVE SKIN 236ML",
+    "price": 4995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000402263_5fd3b1d7-e6f8-4464-a2f9-a25b1604f7b0.jpg?v=1754304961&width=500",
+    "productUrl": "https://alfatah.pk/products/cetaphil-pro-cleansing-face-wash-sensitive-skin-236ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "VIPERA CEVERA RADIANT CREAMY CONCEALER CARAMEL",
+    "price": 2140,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6941553021675.jpg?v=1783687909&width=500",
+    "productUrl": "https://alfatah.pk/products/vipera-cevera-radiant-creamy-concealer-caramel",
+    "category": "skin",
+    "tag": "SKIN CARE"
+  },
+  {
+    "name": "JUNSUI FACE WASH WITH WHITENING PIMPLE FIGHTNING 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300148_1.jpg?v=1693174032&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-pimple-fightning-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ASTRAL ORIGINAL INTENSIVE FACE & BODY MOISTURISER 50 ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/0000050007820.jpg?v=1784812499&width=500",
+    "productUrl": "https://alfatah.pk/products/astral-original-intensive-face-body-moisturiser-50-ml",
+    "category": "skin",
+    "tag": "SKIN CARE"
+  },
+  {
+    "name": "VASELINE FACE WASH ANTI ACNE 100 G",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000109376-1000.png?v=1693172322&width=500",
+    "productUrl": "https://alfatah.pk/products/vaseline-face-wash-anti-acne-100-g",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BBA PEACH CLEANSING BALM",
+    "price": 3100,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961101594510_f1986ee6-2121-4a4a-b5e9-4f0b3d9afebd.jpg?v=1735733192&width=500",
+    "productUrl": "https://alfatah.pk/products/bba-peach-cleansing-balm",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "LOREAL NIACINAMIDE SPOT FADING CLEANSER 150ML",
+    "price": 3495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3600524129033.jpg?v=1786453249&width=500",
+    "productUrl": "https://alfatah.pk/products/loreal-niacinamide-spot-fading-cleanser-150ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "JUNSUI FACE WASH EXTRA WHITENING RADIANCE 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300377_1.jpg?v=1693174042&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-extra-whitening-radiance-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CAILYN-HEIMISH MATCHA BIOME MAINO ACNE CLEANSING FOAM 150G",
+    "price": 7480,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809481761811.jpg?v=1783687909&width=500",
+    "productUrl": "https://alfatah.pk/products/cailyn-heimish-matcha-biome-maino-acne-cleansing-foam-150g",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "BBA PEACH PUNCH FACEWASH FOR NORMAL TO DRY SKIN TYPE",
+    "price": 1300,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/facewashnormaltodryskin.jpg?v=1693175720&width=500",
+    "productUrl": "https://alfatah.pk/products/peach-punch-hydrating-face-wash-for-normal-to-dry-skin",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ONLYAURA YEAST PROTEIN ELASTIC FACE WASH 150ML",
+    "price": 1000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6920428208250.jpg?v=1789985245&width=500",
+    "productUrl": "https://alfatah.pk/products/onlyaura-yeast-protein-elastic-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI VITAMIN C FACE WASH 130ML IR WKL710",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841269_9a0d03d4-8aec-451a-b8cc-520bf321e25e.jpg?v=1722235620&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-vitamin-c-face-wash-130ml-ir-wkl710",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BEAUTY FORMULA TEA TREE EXFOLIATING FACIAL WASH 150 ML",
+    "price": 645,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5012251010412.jpg?v=1775643685&width=500",
+    "productUrl": "https://alfatah.pk/products/beauty-formula-tea-tree-exfoliating-facial-wash-150-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FASMC FACE WASH WITH LEMON IR 100 ML FM075",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001837040.jpg?v=1693180673&width=500",
+    "productUrl": "https://alfatah.pk/products/fasmc-face-wash-with-lemon-ir-100-ml-fm075",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FASMC FACE WASH WITH CUCUMBER IR 100 ML FM077",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001837064.jpg?v=1693180674&width=500",
+    "productUrl": "https://alfatah.pk/products/fasmc-face-wash-with-cucumber-ir-100-ml-fm077",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI TURMERIC FACE WASH CURCUMA OIL CONTROL 120 ML HA3158",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6975242601756_a4286375-8435-4076-be8d-8c384208deb2.jpg?v=1767003671&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-turmeric-face-wash-curcuma-oil-control-120-ml-ha3158",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ONLYAURA BAMBOO CHARCOAL FACE WASH 150ML",
+    "price": 1000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6920428208267.jpg?v=1788845996&width=500",
+    "productUrl": "https://alfatah.pk/products/onlyaura-bamboo-charcoal-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "EVELINE FACEMED PURIFYING FACE WASH 150ML",
+    "price": 1895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000175199_4b22658a-1ddf-47ae-b1f0-77d6a0aeb6ca.jpg?v=1763535514&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-facemed-purifying-face-wash-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "Hair Energy Take My Day Off - Cleanser 120 Ml",
+    "price": 2149,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/4322792736711_184766c8-07c6-49cc-a403-4eb2b6491cf0.jpg?v=1693178555&width=500",
+    "productUrl": "https://alfatah.pk/products/hair-energy-take-my-day-off-cleanser-120-ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "WOKALI VITAMIN C FOAMING FACE WASH 150ML IR WKL709",
+    "price": 1095,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001841252_898aeb26-7834-4553-a684-051252401ccb.jpg?v=1722235617&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-vitamin-c-foaming-face-wash-150ml-ir-wkl709",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "AURA ORGANIC ROSE WATER 260ML",
+    "price": 1500,
+    "imageUrl": "https://alfatah.pk/cdn/shop/products/AFP-000202633.jpg?v=1701952790&width=500",
+    "productUrl": "https://alfatah.pk/products/aura-craft-organic-rose-water",
+    "category": "skin",
+    "tag": "SKIN CARE"
+  },
+  {
+    "name": "BBA 24K GOLD & ROSES GENTLE DEEP CLEANSER",
+    "price": 1500,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961103010506_6421747c-a7dd-47da-bfac-0a98bdb01a75.jpg?v=1735733333&width=500",
+    "productUrl": "https://alfatah.pk/products/bba-24k-gold-roses-gentle-deep-cleanser",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "EVELINE FACEMED FACIAL WASH GEL ACTIVE CARBON 150ML PC",
+    "price": 1895,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000160913_9e249720-a814-45cd-94c6-3c1f5009d701.jpg?v=1763535522&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-facemed-facial-wash-gel-active-carbon-150ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "EVELINE BOTANIC EXPERT TEA TREE FACE WASH GEL 100ML",
+    "price": 1195,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5903416078722_8996b5b8-5d7b-453c-bdf4-058f8649e03e.jpg?v=1744866303&width=500",
+    "productUrl": "https://alfatah.pk/products/eveline-botanic-expert-tea-tree-face-wash-gel-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "MEDICUBE ZERO FOAM SA CLEANSER 120G",
+    "price": 5995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800256119226.jpg?v=1786014738&width=500",
+    "productUrl": "https://alfatah.pk/products/medicube-zero-foam-sa-cleanser-120g",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "SD ROSE BODY BUTTER 150 ML",
+    "price": 1250,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/Rose_Body_Butter_8964002695119_21f890e8-923e-4d67-afff-55ab251b4f4f.jpg?v=1732885925&width=500",
+    "productUrl": "https://alfatah.pk/products/sd-rose-body-butter-150-ml",
+    "category": "skin",
+    "tag": "SKIN CARE"
+  },
+  {
+    "name": "NEUTROGENA VISIBLY CLEAR PINK GRAPEFRUIT FACE WASH 200ML PC",
+    "price": 1695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/1201276-1.jpg?v=1693180292&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-visibly-clear-pink-grapefruit-face-wash-200ml-pc",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NEUTROGENA SPOT CONTROLING LIQUID EXFOLIANT 125ML",
+    "price": 3495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3574661751658.jpg?v=1782823692&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-spot-controling-liquid-exfoliant-125ml",
+    "category": "skin",
+    "tag": "SKIN CARE"
+  },
+  {
+    "name": "FASMC FACE WASH WITH PAPAYA IR 100 ML FM074",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001837033.jpg?v=1693180674&width=500",
+    "productUrl": "https://alfatah.pk/products/fasmc-face-wash-with-papaya-ir-100-ml-fm074",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "OILATUM INTENSE HYDRATING CLEANSER 200 ML",
+    "price": 6699,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5011309111514.jpg?v=1790838230&width=500",
+    "productUrl": "https://alfatah.pk/products/oilatum-intense-hydrating-cleanser-200-ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "JUNSUI FACE WASH WITH WHITENING OIL CONTROL 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300353.jpg?v=1776081595&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-oil-control-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI HYDROLYZED VIT C FOAMING FACE WASH IR WKL674 150ML",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001840507_d8b6743d-f67a-44f1-900f-67f375058980.jpg?v=1722235605&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-hydrolyzed-vit-c-foaming-face-wash-ir-wkl674-150ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BEAUTY BY AMNA PURIFYING FACEWASH",
+    "price": 2200,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/purifying-face-wash_ccb12ef7-c5db-48e3-80c1-f6fae463da85.jpg?v=1693175847&width=500",
+    "productUrl": "https://alfatah.pk/products/shop-product-05-purifying-face-wash-762",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BEAUTY BY AMNA GENTLE SKIN CLEANSER",
+    "price": 3000,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/cleanser_55da6763-3447-442d-936a-55904649f6af.jpg?v=1693175840&width=500",
+    "productUrl": "https://alfatah.pk/products/shop-product-01-gentle-skin-cleanser-756",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "BBA FACEWASH HYDRATING NORMAL TO DRY SKIN TYPE",
+    "price": 1300,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/facewashdryskin_e33c132e-7bbe-44e0-89c2-5920729640c6.jpg?v=1693175779&width=500",
+    "productUrl": "https://alfatah.pk/products/vitamin-c-brightening-face-wash-for-normal-to-dry-skin",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "DR ALTHEA AMINO ACID GENTLE BUBBLE CLEANSER 140ML",
+    "price": 4295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809447251400.jpg?v=1786014736&width=500",
+    "productUrl": "https://alfatah.pk/products/dr-althea-amino-acid-gentle-bubble-cleanser-140ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "BBA FACEWASH FOR NORMAL TO DRY SKIN TYPE",
+    "price": 1300,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/facewashdryskin_6da909f7-681c-4cbf-8676-3c674e6f391a.jpg?v=1693175753&width=500",
+    "productUrl": "https://alfatah.pk/products/aloe-vera-hydrating-face-wash-for-normal-to-dry-skin",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "JUNSUI FACE WASH WITH WHITENING CUCUMBER 100 GM",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8992222300469_41ab0f64-4c30-4bdf-a3ba-ee0c17e93e37.jpg?v=1753704905&width=500",
+    "productUrl": "https://alfatah.pk/products/junsui-face-wash-with-whitening-cucumber-100-gm",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI VITAMIN E FOAMING FACE WASH 150ML IR WKL673",
+    "price": 1095,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000440913_3161e330-4565-4844-a8b0-a478b76d4d14.jpg?v=1746096524&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-vitamin-e-foaming-face-wash-150ml-ir-wkl673",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BIODANCE COLLAGEN MASK TO FOAM CLEANSER 150ML",
     "price": 5495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/772618081206_e661b299-84b1-4a4a-a7d4-87779e022f71.jpg?v=1738674177&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-hydratant-facial-moisturizer-spf15-120ml",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809937361572.jpg?v=1786014737&width=500",
+    "productUrl": "https://alfatah.pk/products/biodance-collagen-mask-to-foam-cleanser-150ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "NEUTROGENA OIL FREE ACNE WASH PINK GRAPEFRUIT 198ML",
+    "price": 4995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/70501053751.jpg?v=1775721193&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-oil-free-acne-wash-pink-grapefruit-198ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "FASMC FACE WASH WITH SNAIL IR 100 ML FM079",
+    "price": 495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001837125.jpg?v=1693180678&width=500",
+    "productUrl": "https://alfatah.pk/products/fasmc-face-wash-with-snail-ir-100-ml-fm079",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "NEUTROGENA ULTYRA GENTLE DAILY CLEANSER 473ML",
+    "price": 5995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/70501112748.jpg?v=1775721198&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-ultyra-gentle-daily-cleanser-473ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "SKIN1004 - MADAGASCAR CENTELLA TEA TRICA BHA FOAM 125ML",
+    "price": 3995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809576261714.jpg?v=1788845997&width=500",
+    "productUrl": "https://alfatah.pk/products/skin1004-madagascar-centella-tea-trica-bha-foam-125ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "MAC STUDIO FIX FLUID SPF 15 NW-15 30 ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000012933-a_faf4f9d8-6641-4a0e-9b3f-c328ace335b5.jpg?v=1757680204&width=500",
-    "productUrl": "https://alfatah.pk/products/mac-studio-fix-fluid-spf-15-nw-15-30-ml",
+    "name": "CETAPHIL OIL REMOVING FOAM WASH 137ML",
+    "price": 5495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/302993931188.jpg?v=1775643686&width=500",
+    "productUrl": "https://alfatah.pk/products/cetaphil-oil-removing-foam-wash-137ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CLINIQUE PEP-START DAILY UV PROTECTOR SPF 50 PC",
-    "price": 10500,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/020714884116_774a0f98-5697-4d77-8551-b19b6a25babd.jpg?v=1763382994&width=500",
-    "productUrl": "https://alfatah.pk/products/clinique-pep-start-daily-uv-protector-spf-50-pc",
+    "name": "BBA FACEWASH FOR OILY SKIN TYPE",
+    "price": 1300,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8961101594329_b526b6cb-019a-49f6-a9eb-a1fd09d9902e.jpg?v=1735733182&width=500",
+    "productUrl": "https://alfatah.pk/products/bba-facewash-for-oily-skin-type",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "ESTEE LAUDER REVIALIZING SUPREME+YOUTH POWER CREME SPF25 50M",
-    "price": 55900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_52_76d819ef-cfc5-41b5-a6ef-ee6e83ebe863.png?v=1786354843&width=500",
-    "productUrl": "https://alfatah.pk/products/estee-lauder-revializing-supreme-youth-power-creme-spf25-50m",
+    "name": "NEUTROGENA OIL FREE ACNE WASH SENSTIVE SKIN 269ML",
+    "price": 5295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_5_b861bc20-5c8c-4b0d-bc8c-fc825e5f90a1.png?v=1777962494&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-oil-free-acne-wash-senstive-skin-269ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "SHISEIDOOIL FREE MINRAL WITH HYALURONIC ACID SPF42 30ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/730852182110_96ab811f-bddf-4afe-b19b-4205dcbdd761.jpg?v=1755090445&width=500",
-    "productUrl": "https://alfatah.pk/products/shiseidooil-free-minral-with-hyaluronic-acid-spf42-30ml",
+    "name": "CETAPHIL GELTLE SKIN CLEANSING CLOTHS",
+    "price": 1295,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/302993934578.jpg?v=1776081595&width=500",
+    "productUrl": "https://alfatah.pk/products/cetaphil-geltle-skin-cleansing-cloths",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE CLEANSER"
   },
   {
-    "name": "ESTEE LAUDER REVIALIZING SUPREME+YOUTH POWER CREME SPF25 75M",
-    "price": 54900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/NewProject_53_87e2b91a-cd83-4271-8354-8c255d483587.png?v=1786355118&width=500",
-    "productUrl": "https://alfatah.pk/products/estee-lauder-revializing-supreme-youth-power-creme-spf25-75m",
+    "name": "WOKALI MILKY ALOE VERA FOAMING FACE WASH WKL675 IR 150ML",
+    "price": 1050,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001840514_d2af762e-0288-4f45-8814-7335c026b7e7.jpg?v=1722235608&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-milky-aloe-vera-foaming-face-wash-wkl675-ir-150ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
   },
   {
-    "name": "MAC STUDIO FIX FLUID SPF15 NW-25 30 ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000012935-a_6f876a31-2b74-4d96-a6b9-1edf4130eac5.jpg?v=1757413659&width=500",
-    "productUrl": "https://alfatah.pk/products/mac-studio-fix-fluid-spf15-nw-25-30-ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "DR. JART BB PREMIUM BEAUTY BALM SPF40 FAIR-LIGHT 40ML",
-    "price": 18900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809844990704_ad6d66cf-d229-404f-aee6-d619e660e112.jpg?v=1736426988&width=500",
-    "productUrl": "https://alfatah.pk/products/dr-jart-bb-premium-beauty-balm-spf40-fair-light-40ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SHISEIDO EMULSION WHITE LUCENT DAY EMULSION BROAD SPECTRUM S",
-    "price": 24900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/730852149342_1.jpg?v=1693173687&width=500",
-    "productUrl": "https://alfatah.pk/products/shiseido-emulsion-white-lucent-day-emulsion-broad-spectrum-s",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SHISEIDO URBAN ENVIRMENT SUN DUAL CARE FRESH MOISTURE WITH H",
-    "price": 11120,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/730852182103_89c13030-bec2-4790-878b-6fae641a6984.jpg?v=1735105930&width=500",
-    "productUrl": "https://alfatah.pk/products/shiseido-urban-envirment-sun-dual-care-fresh-moisture-with-h",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "SUPER GOOF GLOW SUNSCREEN GOLDEN HOUR SPF 40 50ML",
-    "price": 14900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/816218028978.jpg?v=1703245585&width=500",
-    "productUrl": "https://alfatah.pk/products/super-goof-glow-sunscreen-golden-hour-spf-40-50ml",
-    "category": "skin",
-    "tag": "SKIN CARE"
-  },
-  {
-    "name": "NEUTROGENA HYDRO BOOST WATER GEL LOTION SUNSCREEN SPF 50",
+    "name": "DR ALTHEA PURE GRINDING CLEANSING BALM 50ML",
     "price": 7995,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/070501113424_3f938665-468b-4a1e-bef2-648d98ffbcfc.jpg?v=1730547441&width=500",
-    "productUrl": "https://alfatah.pk/products/neutrogena-hydro-boost-water-gel-lotion-sunscreen-spf-50",
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809447255071.jpg?v=1786014739&width=500",
+    "productUrl": "https://alfatah.pk/products/dr-althea-pure-grinding-cleansing-balm-50ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "TATCHA  THE RICE FACEWASH 120ML",
+    "price": 15900,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/793888686045_c7a3b21a-f841-4029-a4fb-a63cb037d9d6.jpg?v=1751115103&width=500",
+    "productUrl": "https://alfatah.pk/products/tatcha-the-rice-facewash-120ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "CETAPHIL DRY STRESSED SOOTHING WASH 296ML",
+    "price": 7695,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/302990210200.jpg?v=1775643684&width=500",
+    "productUrl": "https://alfatah.pk/products/cetaphil-dry-stressed-soothing-wash-296ml",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CETAPHIL DAILY NOISTURIZER WITH SUNSCREEN SPF 15",
-    "price": 7495,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/302993928041_60fccbfc-cc2b-4e3f-8e11-41869317a4fc.jpg?v=1721132121&width=500",
-    "productUrl": "https://alfatah.pk/products/cetaphil-daily-noisturizer-with-sunscreen-spf-15",
+    "name": "WOKALI VITAMIN + FOAMING FACE WASH 150ML IR WKL676",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001840521_8ad841d3-02c7-4626-b50e-e9e2cf037d1f.jpg?v=1722235610&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-vitamin-foaming-face-wash-150ml-ir-wkl676",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ELMORE CHARCOAL + CLAY DAILY FACE WASH 100 ML",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/850017893214_1_72c173e8-f93b-44cc-8f1b-14d3732d6c11.jpg?v=1715434916&width=500",
+    "productUrl": "https://alfatah.pk/products/elmore-charcoal-clay-daily-face-wash-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "ELMORE BEAR BERRY BRIGHTENING DAILY FACE WASH CLARIFYING 100",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/850017893245_3a6a5dbf-f2b2-4971-a274-492ffda41d52.jpg?v=1727175183&width=500",
+    "productUrl": "https://alfatah.pk/products/elmore-bear-berry-brightening-daily-face-wash-clarifying-100",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "MIYO LIP CONTOUR SCRIBER 03 (WALNUT)",
+    "price": 3240,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3700467845981.jpg?v=1783687911&width=500",
+    "productUrl": "https://alfatah.pk/products/miyo-lip-contour-scriber-03-walnut",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "CLINQUE AFTER SUN RESCUE BALM WITH ALOE 150 ML",
-    "price": 17900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/020714353865_31241460-4392-454c-ade2-3e74ef9ea227.jpg?v=1737024459&width=500",
-    "productUrl": "https://alfatah.pk/products/clinque-after-sun-rescue-balm-with-aloe-150-ml",
+    "name": "MEDICUBE ZERO FOAM CLEANSER 120G",
+    "price": 5995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8800240575298.jpg?v=1786014739&width=500",
+    "productUrl": "https://alfatah.pk/products/medicube-zero-foam-cleanser-120g",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "NEUTROGENA OIL-FREE ACNE WASH PINK GRAPEFRUIT 59ML",
+    "price": 1795,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/70501112731.jpg?v=1775721198&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-oil-free-acne-wash-pink-grapefruit-59ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI LICORICE ROOT DEEP CLEANSING FACE WASH 150ML HA-3078",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6975242600087_7d98551c-4ff0-4913-ac83-32324afadca0.jpg?v=1742555558&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-licorice-root-deep-cleansing-face-wash-150ml-ha-3078",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "THE BODY SHOP SEAWEED OIL CONTROL FACE WASH",
+    "price": 6495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/5028197268602_1_49b117bf-7e12-410e-a0ee-0609c985c9e9.jpg?v=1714394136&width=500",
+    "productUrl": "https://alfatah.pk/products/the-body-shop-seaweed-oil-control-face-wash",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BBA FACEWASH CLEANSING OILY SKIN TYPE",
+    "price": 1300,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/facewashforoilyskin_53bf6bee-7539-4dff-a35d-573c0e1ab450.jpg?v=1693175772&width=500",
+    "productUrl": "https://alfatah.pk/products/vitamin-c-brightening-face-wash-for-oily-skin",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BBA PEACH PUNCH FACE",
+    "price": 1800,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/foamyfacewashallskintype.jpg?v=1693175729&width=500",
+    "productUrl": "https://alfatah.pk/products/peach-punch-foamy-face-wash-for-a-clean-and-refreshed-skin-for-all-skin-types",
     "category": "skin",
     "tag": "SKIN CARE"
   },
   {
-    "name": "KIEHL MOISTURESUNSCREEN SPF-20 MEN 200ML NEW",
-    "price": 19900,
-    "imageUrl": "https://alfatah.pk/cdn/shop/files/3605971766046.jpg?v=1784897065&width=500",
-    "productUrl": "https://alfatah.pk/products/kiehl-moisturesunscreen-spf-20-men-200ml-new",
+    "name": "CLINIQUE FACE WASH FOR MEN 200 ML",
+    "price": 10900,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/020714672072.jpg?v=1693176167&width=500",
+    "productUrl": "https://alfatah.pk/products/clinique-face-wash-for-men-200-ml",
     "category": "skin",
-    "tag": "SKIN CARE"
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "BIODANCE COLLAGEN CLEANSING OIL 200ML",
+    "price": 6995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/8809891183807.jpg?v=1786014736&width=500",
+    "productUrl": "https://alfatah.pk/products/biodance-collagen-cleansing-oil-200ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "NEUTROGENA STUBBORN TEXTURE DAILY CLEANSER 186ML",
+    "price": 5495,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/070501193075.jpg?v=1776514770&width=500",
+    "productUrl": "https://alfatah.pk/products/neutrogena-stubborn-texture-daily-cleanser-186ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "BIOTHERM BIOSOURCE SOFTENING FOAMING CLEANSER 150ML",
+    "price": 9400,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/3605540526415.jpg?v=1777375317&width=500",
+    "productUrl": "https://alfatah.pk/products/biotherm-biosource-softening-foaming-cleanser-150ml",
+    "category": "skin",
+    "tag": "FACE CLEANSER"
+  },
+  {
+    "name": "ELMORE NEEM PURIFYING DAILY FACE WASH HERBAL 100 ML",
+    "price": 545,
+    "imageUrl": "https://alfatah.pk/cdn/shop/products/850017893269_1.jpg?v=1710762794&width=500",
+    "productUrl": "https://alfatah.pk/products/elmore-neem-purifying-daily-face-wash-herbal-100-ml",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "WOKALI FACE WASH GEL SNAIL WITH Q10 N COLLAGEN IR 130 ML WKL",
+    "price": 995,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/6928001836777.jpg?v=1693177913&width=500",
+    "productUrl": "https://alfatah.pk/products/wokali-face-wash-gel-snail-with-q10-n-collagen-ir-130-ml-wkl",
+    "category": "skin",
+    "tag": "FACE WASH"
+  },
+  {
+    "name": "HAMME NATURALS GLOW AND LIGHTENING LEMON FACE WASH 100ML",
+    "price": 595,
+    "imageUrl": "https://alfatah.pk/cdn/shop/files/AFP-000341386-1000.png?v=1693171608&width=500",
+    "productUrl": "https://alfatah.pk/products/hamme-naturals-glow-and-lightening-lemon-face-wash-100ml",
+    "category": "skin",
+    "tag": "FACE WASH"
   }
 ]
