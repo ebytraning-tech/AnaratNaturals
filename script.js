@@ -59,6 +59,22 @@ if(!localStorage.getItem("anarat_catalog_v4")){products=defaultProducts;save("an
 importedTregoProducts.forEach(p=>{let old=products.find(x=>x.id===p.id);if(old)Object.assign(old,p);else products.push(p)});
 products.forEach(p=>{if(p.category==="care"||!p.category){p.category=p.category==="daily"?"daily":(/hair|scalp|shampoo/i.test(p.name+" "+(p.tag||""))?"hair":(/body|hand|foot/i.test(p.name+" "+(p.tag||""))?"body":"skin"));}});save("anarat_products",products);
 
+const alfatahSkinProducts=[
+{name:"ABIB - Heartleaf Sun Essence Calming Pump 50ML",price:5695,imageUrl:"https://alfatah.pk/cdn/shop/files/8809624727353.jpg?v=1785155544&width=500",productUrl:"https://alfatah.pk/products/abib-heartleaf-sun-essence-calming-pump-50ml",category:"skin",tag:"SUN CARE"},
+{name:"Kiehls Sunshine Essentials SPF50 Duo",price:19900,imageUrl:"https://alfatah.pk/cdn/shop/files/3605973084902.jpg?v=1786793466&width=500",productUrl:"https://alfatah.pk/products/kiehls-sunshine-essentials-spf50-duo-15-50ml",category:"skin",tag:"SUN CARE"},
+{name:"La Roche-Posay Anthelios UV Serum Sunscreen SPF 50",price:15900,imageUrl:"https://alfatah.pk/cdn/shop/files/3606000650114.jpg?v=1786793465&width=500",productUrl:"https://alfatah.pk/products/la-roche-posay-anthelios-uv-serum-sunscreen-spf-50-50ml",category:"skin",tag:"SUN CARE"},
+{name:"La Roche Posay Anthelios XL SPF 60",price:8495,imageUrl:"https://alfatah.pk/cdn/shop/files/3337875797598.jpg?v=1786793465&width=500",productUrl:"https://alfatah.pk/products/la-roche-posay-anthelios-xl-60fps-spf-uvb-uva-9g",category:"skin",tag:"SUN CARE"},
+{name:"Rivaj SPF60 Whitening & Vanishing Sunblock 100ML",price:630,imageUrl:"https://alfatah.pk/cdn/shop/files/8964001234567.jpg?v=1786793465&width=500",productUrl:"https://alfatah.pk/products/rivaj-spf60-whitening-vanishing-sunblock-100ml",category:"skin",tag:"SUN CARE"},
+{name:"6th Sense Sunblock SPF 60",price:395,imageUrl:"https://alfatah.pk/cdn/shop/files/6th-sense-sunblock.jpg?width=500",productUrl:"https://alfatah.pk/products/6th-sense-sunblock-spf-60",category:"skin",tag:"SUN CARE"},
+{name:"Vince Sunblock Extra Sun Protection SPF75 75ML",price:1270,imageUrl:"https://alfatah.pk/cdn/shop/files/vince-sunblock.jpg?width=500",productUrl:"https://alfatah.pk/products/vince-sunblock-extra-sun-protection-spf75-75-ml",category:"skin",tag:"SUN CARE"},
+{name:"Beauty of Joseon Rice + Probiotics Relief Sun SPF50+",price:5995,imageUrl:"https://alfatah.pk/cdn/shop/files/8809624727353.jpg?width=500",productUrl:"https://alfatah.pk/products/beauty-of-joseon-rice-probiotics-relief-sun-screen-spf50",category:"skin",tag:"SUN CARE"},
+{name:"Neutrogena Hydro Boost Sunblock SPF 50",price:4495,imageUrl:"https://alfatah.pk/cdn/shop/files/070501113424.jpg?width=500",productUrl:"https://alfatah.pk/products/neutrogena-hydro-boost-sunblock-spf-50-88ml",category:"skin",tag:"SUN CARE"},
+{name:"Neutrogena Ultra Sheer Age Shield SPF50",price:4695,imageUrl:"https://alfatah.pk/cdn/shop/files/3574661874876.jpg?width=500",productUrl:"https://alfatah.pk/products/neutrogena-ultra-sheer-age-shield-ss-spf50-50ml",category:"skin",tag:"SUN CARE"}
+];
+alfatahSkinProducts.forEach(p=>{if(!products.some(x=>x.name.toLowerCase()===p.name.toLowerCase())){p.id=Math.max(0,...products.map(x=>Number(x.id)||0))+1;products.push(p);}});
+save("anarat_products",products);
+
+
 // Additional verified skincare catalogue items supplied by the user
 const moreSkincareProducts=[
 {name:"Skin Brightening & Lightening Toner",price:1180,tag:"FACE TONER",imageUrl:"https://trego.pk/cdn/shop/files/Glycolic-Acid_600x.progressive.jpg?v=1744052292",productUrl:"https://trego.pk/products/skin-brightening-and-lightening-toner"},
