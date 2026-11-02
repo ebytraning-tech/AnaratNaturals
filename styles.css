@@ -208,3 +208,13 @@ body{background:#fffaf0;color:#263b16}
 .hero-banner img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;image-rendering:auto}
 .hero-banner-link{position:absolute;left:5%;bottom:3%;width:14%;height:14%;border-radius:40px}
 @media(max-width:650px){.hero-banner img{width:100%;height:auto;min-height:0;max-height:none;object-fit:contain;object-position:center}.hero-banner-link{left:4%;bottom:5%;width:25%;height:15%}}
+
+
+/* Product image hover zoom */
+.product-card .product-image{overflow:hidden;isolation:isolate}
+.product-card .product-image img{transition:transform .35s ease;transform:scale(1);will-change:transform}
+.product-card:hover .product-image img,.product-card:focus-within .product-image img{transform:scale(1.07)}
+.product-card{transition:transform .35s ease}
+.product-card:hover{transform:translateY(-3px)}
+@media(hover:none){.product-card:hover{transform:none}.product-card:hover .product-image img{transform:none}}
+@media(prefers-reduced-motion:reduce){.product-card,.product-card .product-image img{transition:none}}
