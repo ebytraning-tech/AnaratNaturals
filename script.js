@@ -178,7 +178,7 @@ return "";
 }
 function renderHairCategory(slug){
 const meta=hairCategoryInfo[slug];if(!meta)return;
-const list=products.filter(p=>p.category==="hair"&&hairCategoryFor(p)===slug);
+const list=products.filter(p=>hairCategoryFor(p)===slug);
 $("hairCategoryTitle").textContent=meta.title;
 $("hairCategoryIntro").textContent=meta.intro;
 $("hairCategoryCount").textContent="Showing "+list.length+" products";
@@ -230,7 +230,7 @@ fetch("/alfatah-products.json")
   .catch(error => console.error("Al-Fatah catalogue:", error));
  
 // Load the dedicated Alfatah shampoo catalogue into Hair Care > Shampoo.
-fetch("/alfatah-shampoo-products.json")
+fetch("/alfatah-shampoo-products.json?catalog=20261102",{cache:"no-store"})
   .then(response => { if (!response.ok) throw new Error("Shampoo catalogue JSON could not be loaded"); return response.json(); })
   .then(data => {
     (data.products || []).forEach(item => {
