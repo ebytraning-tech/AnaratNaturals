@@ -213,7 +213,7 @@ body{background:#fffaf0;color:#263b16}
 /* Product image hover zoom */
 .product-card .product-image{overflow:hidden;isolation:isolate}
 .product-card .product-image img{transition:transform .35s ease;transform:scale(1);will-change:transform}
-.product-card:hover .product-image img,.product-card:focus-within .product-image img{transform:scale(1.07)}
+.product-card:hover .product-image img,.product-card:focus-within .product-image img{transform:scale(1.12)}
 .product-card{transition:transform .35s ease}
 .product-card:hover{transform:translateY(-3px)}
 @media(hover:none){.product-card:hover{transform:none}.product-card:hover .product-image img{transform:none}}
