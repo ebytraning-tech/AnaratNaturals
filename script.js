@@ -85,7 +85,7 @@ const moreSkincareProducts=[
 ];
 moreSkincareProducts.forEach((p,i)=>{if(!products.some(x=>x.name.toLowerCase()===p.name.toLowerCase()))products.push({id:60+i,desc:"A skincare essential for your everyday routine.",category:"skin",...p})});
 // Keep only the 20 products shown in the customer-approved screenshot
-const approvedProductNames=new Set(["Bright-Eye Gel","Anti-Acne / Scar Cream","Night Cream","Moisturizing Cream","Oily Skin Moisturizer","Acne / Oil Control Toner","Clarifying and Hydrating Toner","Glycolic Acid Scrub","Niacinamide Scrub","Vitamin C Serum","Repairing Toner","Hydrating Facial Cleanser","Glass Skin Refreshing Gel Cleanser","Lip Pigmentation Treatment","Anti-Aging Serum","Rice Cleanser","Rice Milk Toner","Rice Serum","Rose Face Wash","Saffron Face Wash"]);
+const approvedProductNames=new Set(["Bright-Eye Gel","Anti-Acne / Scar Cream","Night Cream","Acne / Oil Control Toner","Clarifying and Hydrating Toner","Glycolic Acid Scrub","Niacinamide Scrub","Vitamin C Serum","Repairing Toner","Hydrating Facial Cleanser","Glass Skin Refreshing Gel Cleanser","Lip Pigmentation Treatment","Anti-Aging Serum","Rice Cleanser","Rice Milk Toner","Rice Serum","Rose Face Wash","Saffron Face Wash"]);
 products=products.filter(p=>approvedProductNames.has(p.name));
 cart=cart.filter(p=>approvedProductNames.has(p.name));
 save("anarat_products",products);
