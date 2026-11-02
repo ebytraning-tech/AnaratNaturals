@@ -601,3 +601,36 @@ h1,h2,h3,.product-name{color:#263b27}
 .payment-choice,.success-panel{background:#e0ecd9;color:#263b27}
 .skin-category-links a{background:#f6f8f1;border-color:#d0dfca;color:#263b27}
 @media(max-width:650px){.site-header{background:#f0f6eb}.category-nav{background:#e2ecdc}.product-image{background:#e1ecdc}}
+
+
+/* ANARAT NATURALS — slightly deeper sage-green palette */
+html,body{background:#dce8d5;color:#233823}
+.site-header{background:#e4eddd;border-color:#c5d5bc}
+.header-search,.cart-button{background:#d9e5d2;border-color:#c2d3b9;color:#233823}
+.category-nav{background:#d3e1cc;border-color:#c3d4bb}
+.category-nav a{color:#2f482d}
+.hero-banner{background:#cbdcc2}
+.hero,.skincare-hero{background:linear-gradient(115deg,#d8e6d0,#cbdcc1 62%,#bfd3b3);color:#233823}
+h1,h2,h3,.product-name{color:#233823}
+.hero-description,.page-intro,.muted,.section-heading>p,.story-copy>p:not(.eyebrow){color:#53684e}
+.eyebrow{color:#3f6035}
+.service-strip,.newsletter{background:#d6e3cf;border-color:#c3d4bb}
+.category-section,.story-section{background:#cbdcc2}
+.shop-section{background:#d2e0ca;border-color:#c3d4bb}
+.category-pills button{background:#e5eedf;border-color:#bfd2b6;color:#3b5734}
+.category-pills button.active,.category-pills button:hover{background:#456936;border-color:#456936;color:#fff}
+.product-card,.product-info{background:#edf3e8;border-color:#c4d5bc}
+.product-image,.detail-art,.detail-art.home,.detail-art.daily{background:#d4e2cc}
+.product-tag{background:#c8ddbd;color:#2f4a29}
+.product-price{color:#35582e}
+.primary-button,.add-button{background:#456936;border-color:#456936;color:#fff}
+.primary-button:hover,.add-button:hover{background:#344f2b}
+.offer-banner{background:linear-gradient(110deg,#3d5d30,#5b7948)}
+.light-button{background:#e5eedf;color:#2f4a29}
+.site-footer{background:#293f25;color:#fff}
+.cart-drawer,.product-modal{background:#e4eddd;color:#233823}
+.panel{background:#edf3e8;border-color:#c3d4bb;color:#233823}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select,.admin-order select{background:#e5eedf;border-color:#c2d3b9;color:#233823}
+.payment-choice,.success-panel{background:#cfdfc6;color:#233823}
+.skin-category-links a{background:#edf3e8;border-color:#c3d4bb;color:#233823}
+@media(max-width:650px){.site-header{background:#e4eddd}.category-nav{background:#d3e1cc}.product-image{background:#d4e2cc}}
