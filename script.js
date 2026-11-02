@@ -202,5 +202,6 @@ fetch("/alfatah-products.json")
     save("anarat_products", products);
     renderProducts();
     renderHomeCollections();
+    if(location.hash.startsWith("skin/")) renderSkinCategory(location.hash.split("/")[1]);
   })
   .catch(error => console.error("Al-Fatah catalogue:", error));
