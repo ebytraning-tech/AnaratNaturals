@@ -162,3 +162,18 @@ $("adminView").addEventListener("change",e=>{let id=e.target.dataset.status;if(!
 $("addProductForm").addEventListener("submit",e=>{e.preventDefault();let f=new FormData(e.target);products.push({id:Math.max(0,...products.map(p=>p.id))+1,name:f.get("name"),desc:"New Anarat product",price:Number(f.get("price")),category:f.get("category"),tag:"NEW ARRIVAL",symbol:"✳"});save("anarat_products",products);e.target.reset();renderProducts();renderAdmin();toast("Demo product added")});
 $("newsletterForm").addEventListener("submit",e=>{e.preventDefault();$("newsletterMessage").textContent="Thank you! Newsletter signup needs an email service connection.";e.target.reset()});
 $("year").textContent=new Date().getFullYear();window.addEventListener("hashchange",route);renderProducts();renderHomeCollections();renderCart();route();
+
+// Load the full Al-Fatah catalogue from the companion JSON data file.
+fetch("/alfatah-products.json")
+  .then(response => { if (!response.ok) throw new Error("Catalogue JSON could not be loaded"); return response.json(); })
+  .then(items => {
+    items.forEach(item => {
+      const existing = products.find(p => p.name.toLowerCase() === item.name.toLowerCase());
+      if (existing) Object.assign(existing, item, { category: "skin", image: item.imageUrl });
+      else products.push({ ...item, id: Math.max(0, ...products.map(p => Number(p.id) || 0)) + 1, desc: "A skincare product listed by Al-Fatah.", image: item.imageUrl, category: "skin" });
+    });
+    save("anarat_products", products);
+    renderProducts();
+    renderHomeCollections();
+  })
+  .catch(error => console.error("Al-Fatah catalogue:", error));
