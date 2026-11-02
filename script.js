@@ -251,7 +251,7 @@ fetch("/alfatah-products.json")
   .catch(error => console.error("Al-Fatah catalogue:", error));
  
 // Load and validate the dedicated Alfatah shampoo catalogue.
-fetch("/alfatah-shampoo-products.json?v=20261102c",{cache:"no-store"})
+fetch("/alfatah-shampoo-products.json?v=20261102d",{cache:"no-store"})
   .then(response => {
     if (!response.ok) throw new Error("Catalogue request failed: "+response.status);
     return response.json();
@@ -275,9 +275,15 @@ fetch("/alfatah-shampoo-products.json?v=20261102c",{cache:"no-store"})
       else products.push(product);
     });
     save("anarat_products", products);
-    if (location.hash.startsWith("#hair/")) renderHairCategory(location.hash.split("/")[1]);
     renderProducts();
     renderHomeCollections();
+    // Always re-run the current route after the remote catalogue is merged.
+    // This ensures a directly opened Shampoo URL is populated even if the
+    // initial route rendered before the JSON request completed.
+    route();
+    if (location.hash.toLowerCase().includes("hair/shampoo")) {
+      renderHairCategory("shampoo");
+    }
   })
   .catch(error => {
     console.error("Al-Fatah shampoo catalogue:", error);
