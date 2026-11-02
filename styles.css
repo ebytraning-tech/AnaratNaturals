@@ -535,3 +535,36 @@ h1,h2,h3,.product-name{color:#26351f}
 .detail-art,.detail-art.home,.detail-art.daily{background:#e8eadf}
 .skin-category-links a{background:#fdfbf5;border-color:#d9ddcd;color:#26351f}
 @media(max-width:650px){.site-header{background:#f7f4e9}.category-nav{background:#eeefe5}}
+
+
+/* ANARAT NATURALS — slightly deeper warm botanical palette */
+:root{--ink:#202d1b;--muted:#5f6855;--cream:#e5dfcc;--paper:#eee9da;--sage:#d1d9c0;--green:#496132;--line:#cfd5c1}
+html,body{background:#eee9da;color:#202d1b}
+.site-header{background:#eee9da;border-color:#cfd5c1}
+.header-search,.cart-button,.category-nav{background:#e4e4d6;border-color:#cfd5c1;color:#202d1b}
+.category-nav a{color:#34482a}
+.hero-banner{background:#dfddc9}
+.hero,.skincare-hero{background:linear-gradient(115deg,#e5dfcc,#dce1cf 62%,#cfd8bd);color:#202d1b}
+h1,h2,h3,.product-name{color:#202d1b}
+.hero-description,.page-intro,.muted,.section-heading>p,.story-copy>p:not(.eyebrow){color:#5f6855}
+.eyebrow{color:#496132}
+.primary-button,.add-button{background:#496132;border-color:#496132;color:#fff}
+.primary-button:hover,.add-button:hover{background:#354b28}
+.service-strip,.newsletter{background:#e6e3d3;border-color:#cfd5c1}
+.category-section,.story-section{background:#dfe3d4}
+.shop-section{background:#e2e5d8;border-color:#cfd5c1}
+.category-pills button{background:#efecdf;border-color:#cbd2bf;color:#48543d}
+.category-pills button.active,.category-pills button:hover{background:#496132;border-color:#496132;color:#fff}
+.product-card,.product-info{background:#f3f0e5;border-color:#d0d6c5}
+.product-image,.detail-art,.detail-art.home,.detail-art.daily{background:#dfe3d4}
+.product-tag{background:#d1d9c0;color:#354b28}
+.product-price{color:#354b28}
+.offer-banner{background:linear-gradient(110deg,#43592f,#63764a)}
+.light-button{background:#eee9da;color:#354b28}
+.site-footer{background:#2f4325;color:#fff9e9}
+.cart-drawer,.product-modal{background:#eee9da;color:#202d1b}
+.panel{background:#f3f0e5;border-color:#cfd5c1;color:#202d1b}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select,.admin-order select{background:#e9e6d8;border-color:#cbd2bf;color:#202d1b}
+.payment-choice,.success-panel{background:#dfe3d4;color:#202d1b}
+.skin-category-links a{background:#f3f0e5;border-color:#cfd5c1;color:#202d1b}
+@media(max-width:650px){.site-header{background:#eee9da}.category-nav{background:#e4e4d6}.product-image{background:#dfe3d4}}
