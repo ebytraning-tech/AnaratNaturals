@@ -701,3 +701,70 @@ h2 em,.section-heading h2 em,.story-copy h2 em{color:#a77b32}
 .skin-category-links small{color:#78684e}
 .toast{background:#98702c;color:#fffaf0}
 @media(max-width:650px){.site-header{background:#f4e8cf}.menu-toggle{color:#493719}.category-nav{background:#ebdcb9;border-color:#d5bd8b}.product-image{background:#ead9b5}}
+
+
+/* ANARAT NATURALS — logo-matched antique gold & leaf green */
+:root{--ink:#302b1d;--muted:#766b50;--cream:#f8f4e8;--paper:#fbf9f1;--sage:#e9e2ca;--green:#a98535;--line:#dfd2aa}
+html,body{background:#f7f3e6;color:#302b1d}
+.announcement{background:#4b542f;color:#fffdf3}
+.announcement span{color:#d8bd70}
+.site-header{background:#fbf9f1;border-color:#e4d8b7}
+.brand-mark,.logo-emblem{background:#f0e5c4;color:#a98535}
+.header-search,.cart-button,.category-nav{background:#f2ecd9;border-color:#dfd2aa;color:#302b1d}
+.header-search button,.account-link{color:#98752e}
+.category-nav a{color:#4d5832}
+.category-nav a:hover,.footer-links a:hover{color:#b18b3e}
+.hero-banner{background:#eee5ca}
+.hero,.skincare-hero{background:linear-gradient(115deg,#fbf8ed,#f0e8d1 62%,#e7dbb7);color:#302b1d}
+h1,h2,h3,.product-name{color:#302b1d}
+h2 em,.section-heading h2 em,.story-copy h2 em{color:#a98535}
+.eyebrow{color:#92712f}
+.hero-description,.page-intro,.muted,.section-heading>p,.story-copy>p:not(.eyebrow){color:#766b50}
+.primary-button,.add-button{background:#a98535;border-color:#a98535;color:#fffdf5}
+.primary-button:hover,.add-button:hover{background:#876728}
+.service-strip,.newsletter{background:#f2ecd9;border-color:#dfd2aa}
+.service-strip>div>b{color:#a98535}
+.category-section,.story-section{background:#eee6cf}
+.shop-section{background:#f4efdf;border-color:#dfd2aa}
+.category-pills button{background:#fbf9f1;border-color:#dfd2aa;color:#59623b}
+.category-pills button.active,.category-pills button:hover{background:#59663a;border-color:#59663a;color:#fff}
+.product-card,.product-info,.panel{background:#fbf9f1;border-color:#e2d7b9;color:#302b1d}
+.product-card:hover{border-color:#b18b3e;box-shadow:0 12px 26px #6d59221c}
+.product-image,.detail-art,.detail-art.home,.detail-art.daily{background:#f0ead8}
+.product-tag{background:#e9dfc0;color:#59613b}
+.product-price,.detail-copy>strong{color:#92712f}
+.product-name{color:#302b1d}
+.product-info p,.detail-copy p{color:#766b50}
+.offer-banner{background:linear-gradient(110deg,#59663a,#8d793e 58%,#b18b3e);border-color:#c9b46e;color:#fffdf5}
+.offer-banner h2,.offer-banner h2 em{color:#fff8e5}
+.offer-banner .eyebrow,.offer-banner p:not(.eyebrow){color:#f2e8c9}
+.light-button{background:#fbf9f1;color:#59613b}
+.offer-art{border-color:#d6c48c;color:#f2e3b5}
+.story-image{background:radial-gradient(circle,#eee1bd,#b89a55)}
+.story-image:before{background:linear-gradient(90deg,#8d6b2d,#e1c77d 50%,#a98535);box-shadow:15px 15px 35px #4b542f25}
+.story-stamp{background:#fbf9f1;color:#92712f;border:1px solid #dfd2aa}
+.newsletter>p:not(.eyebrow),.newsletter>small{color:#766b50}
+.newsletter input{color:#302b1d}
+.newsletter input::placeholder{color:#9b906f}
+.newsletter form{border-color:#cdbb83}
+.newsletter form button{color:#92712f}
+.site-footer{background:#414c2d;color:#fffdf3;border-top:1px solid #b18b3e}
+.footer-main>p,.footer-links a,.footer-bottom{color:#e9dfc0}
+.cart-backdrop{background:#343b2a66}
+.cart-drawer,.product-modal{background:#fbf9f1;color:#302b1d;border-color:#dfd2aa}
+.cart-head,.cart-bottom,.cart-row{border-color:#e2d7b9}
+.cart-head button{color:#302b1d}
+.cart-row small,.cart-bottom>p,.empty-cart{color:#766b50}
+.cart-row button{color:#92712f}
+.panel h3{color:#302b1d}
+.form-stack label,.track-form label,.two-fields label{color:#766b50}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select,.admin-order select{background:#fbf9f1;border-color:#dfd2aa;color:#302b1d}
+.form-message,.payment-choice p{color:#92712f}
+.payment-choice,.success-panel{background:#eee6cf;color:#302b1d}
+.notice{background:#f2ecd9;border-color:#d8c58f;color:#59613b}
+.modal-backdrop{background:#343b2a88}
+.skin-category-links a{background:#fbf9f1;border-color:#dfd2aa;color:#302b1d}
+.skin-category-links a:hover{border-color:#b18b3e}
+.skin-category-links small{color:#766b50}
+.toast{background:#59663a;color:#fffdf5}
+@media(max-width:650px){.site-header{background:#fbf9f1}.menu-toggle{color:#414c2d}.category-nav{background:#f2ecd9;border-color:#dfd2aa}.product-image{background:#f0ead8}}
