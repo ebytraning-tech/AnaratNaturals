@@ -234,3 +234,133 @@ body{background:#fffaf0;color:#263b16}
 /* Hair care category pages */
 #hairCategoryView>.text-link{display:inline-block;margin-bottom:28px}
 #haircareView .skin-category-links a,#hairCategoryView .skin-category-links a{background:#f4f1e6;border-color:#ded8c3}
+
+
+
+/* ANARAT NATURALS — Midnight botanical dark theme */
+:root{
+  color-scheme:dark;
+  --ink:#f1eee7;--muted:#a7a79d;--cream:#171d19;--paper:#101511;
+  --sage:#202b23;--green:#c6a66a;--line:#303a31;
+  --serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif;
+}
+html,body{background:#101511;color:#f1eee7}
+body{background:radial-gradient(ellipse at 50% -18%,#26352a 0%,#101511 58%) fixed}
+.announcement{background:#c6a66a;color:#111710;letter-spacing:.12em;font-weight:700}
+.announcement span{color:#28382b}
+.site-header{background:#121914;border-bottom:1px solid #354137;box-shadow:0 12px 35px #0005}
+.brand-logo,.brand{color:#f4f0e6}
+.logo-emblem,.brand-mark{background:#26352a;color:#d6b879;border:1px solid #657451}
+.header-search{background:#19221b;border:1px solid #39463b;border-radius:30px}
+.header-search input{color:#f1eee7}
+.header-search input::placeholder{color:#929b8e}
+.header-search button{color:#d6b879}
+.account-link{color:#c6c7b9}
+.cart-button{background:#202a22;border:1px solid #495647;color:#f3eee3;border-radius:30px}
+.cart-button span{background:#c6a66a;color:#151a14}
+.category-nav{background:#151d17;border-color:#354137}
+.category-nav a{color:#c6c9bb;letter-spacing:.1em}
+.category-nav a:hover,.footer-links a:hover{color:#e0c58c}
+.hero-banner{background:#172119}
+.hero-banner img{filter:brightness(.82) saturate(.78)}
+.eyebrow{color:#d1b477;letter-spacing:.22em}
+h1,h2,h3,.product-name{color:#f2eee5}
+h1,h2{letter-spacing:-.045em}
+h2 em,.section-heading h2 em,.story-copy h2 em{color:#d2b477}
+.hero,.skincare-hero{background:linear-gradient(115deg,#17231a,#202d23 55%,#151d17);color:#f2eee5}
+.hero-description,.page-intro,.muted,.section-heading>p,.story-copy>p:not(.eyebrow){color:#b1b6a9}
+.primary-button{background:#c6a66a;color:#171b15;border-radius:30px;font-weight:800;letter-spacing:.08em}
+.primary-button:hover{background:#e0c58b;color:#101510}
+.service-strip{background:#151d17;border-color:#354137}
+.service-strip>div>b{color:#d0b477}
+.service-strip strong{color:#f0ede3}
+.service-strip small{color:#a7afa2}
+.section-wrap{background:transparent}
+.trego-style-products,.trending-products{background:transparent}
+.text-link{color:#ddc58e;border-color:#9b8151}
+.category-section{background:#121914}
+.skincare-categories .category-card{border:1px solid #3a463a;box-shadow:0 14px 30px #0003}
+.skincare-categories .category-card:before{background:linear-gradient(0deg,#0b100dd9 0%,#0b100d12 82%)}
+.skincare-categories .category-card>span{color:#e0c58c}
+.shop-section{background:#141c16;border-top:1px solid #354137;border-bottom:1px solid #354137}
+.shop-toolbar{border-color:#354137}
+.category-pills button{background:#1d281f;border-color:#465344;color:#c6c9bb}
+.category-pills button.active,.category-pills button:hover{background:#c6a66a;border-color:#c6a66a;color:#111710}
+.sort-control{color:#b7b9ac}
+.sort-control select{background:#1b251d;color:#eee9dd}
+.result-count{color:#b2b9aa}
+.product-grid{gap:28px 20px}
+.product-card{background:#1a241c;border:1px solid #344034;border-radius:5px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}
+.product-card:hover{transform:translateY(-5px);border-color:#a58c5a;box-shadow:0 18px 35px #0005}
+.product-image{background:radial-gradient(circle at 50% 42%,#354536,#202b22 70%);border:0}
+.product-image img{mix-blend-mode:normal;object-fit:contain;padding:15px}
+.product-tag{background:#c6a66a;color:#171b15;border-radius:20px;font-weight:800}
+.product-info{padding:15px}
+.product-name{color:#f1eee7;font-size:15px;line-height:1.45}
+.product-info p{color:#adb4a7;line-height:1.6}
+.product-reviews{color:#b7a77f!important}
+.product-price{color:#e1c78f}
+.add-button{background:#28352a;border:1px solid #657451;color:#e5d3a5}
+.add-button:hover{background:#c6a66a;color:#101510;border-color:#c6a66a}
+.catalogue-note{color:#929d8f}
+.offer-banner{background:linear-gradient(115deg,#293a2d,#40513b);border:1px solid #657451}
+.offer-banner .eyebrow{color:#e3cc9a}
+.offer-banner h2 em{color:#e2c58b}
+.offer-banner p:not(.eyebrow){color:#d1d7c9}
+.light-button{background:#c6a66a;color:#151a14;border-radius:30px;font-weight:800}
+.offer-art{border-color:#d8c18b;color:#e4d2a7}
+.story-section{background:#172119;border-top:1px solid #344034;border-bottom:1px solid #344034}
+.story-image{background:radial-gradient(circle,#344a37,#19251c)}
+.story-image:before{background:linear-gradient(90deg,#9b8052,#d7c08b 50%,#7d8c68);box-shadow:25px 20px 55px #0006}
+.story-stamp{background:#1a251c;color:#e5d2a0;border:1px solid #a58c5a}
+.newsletter{background:#141c16}
+.newsletter>p:not(.eyebrow){color:#b1b6a9}
+.newsletter input{color:#f1eee7}
+.newsletter input::placeholder{color:#929b8e}
+.newsletter form{border-color:#657451}
+.newsletter form button{color:#dfc58c}
+.newsletter>small{color:#a7afa2}
+.site-footer{background:#0b100d;border-top:1px solid #354137}
+.footer-brand .brand-mark{background:#26352a}
+.footer-main>p{color:#d9c18d}
+.footer-links a{color:#b9bbaa}
+.footer-bottom{color:#9ea797;border-color:#354137}
+.cart-backdrop{background:#000b}
+.cart-drawer{background:#151d17;color:#f1eee7;border-left:1px solid #465344}
+.cart-head,.cart-bottom,.cart-row{border-color:#354137}
+.cart-head button{color:#eee9dd}
+.cart-row small,.cart-bottom>p,.empty-cart{color:#adb4a7}
+.cart-row button{color:#d7bb80}
+.cart-total{color:#eee9dd}
+.panel{background:#1a241c;border-color:#3b493c;color:#f1eee7}
+.panel h3{color:#f1eee7}
+.form-stack label,.track-form label,.two-fields label{color:#b5b9ab}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#111813;border-color:#465344;color:#f1eee7}
+.form-stack input::placeholder,.track-form input::placeholder{color:#879184}
+.form-message{color:#d7bb80}
+.payment-choice,.success-panel{background:#202c22;color:#f1eee7}
+.payment-choice p{color:#d5b778}
+.notice{background:#332b1c;border-color:#79633d;color:#e5d1a1}
+.admin-stats .panel small{color:#adb4a7}
+.admin-order{border-color:#354137}
+.admin-order select{background:#111813;border-color:#465344;color:#eee9dd}
+.info-copy{color:#b1b6a9}
+.modal-backdrop{background:#050805df}
+.product-modal{background:#18221a;border-color:#465344}
+.modal-close{color:#f1eee7}
+.detail-art,.detail-art.home,.detail-art.daily{background:radial-gradient(circle at 50% 45%,#354536,#202b22)}
+.detail-copy p{color:#b1b6a9}
+.detail-copy>strong{color:#e0c58c}
+.toast{background:#c6a66a;color:#111710}
+.app-page{background:transparent}
+.skin-category-links a{background:#1a241c;border-color:#3b493c;color:#f1eee7}
+.skin-category-links a:hover{border-color:#c6a66a}
+.skin-category-links small{color:#adb4a7}
+@media(max-width:650px){
+ .site-header{background:#121914}
+ .menu-toggle{color:#eee9dd}
+ .category-nav{background:#151d17;border-top:1px solid #354137}
+ .product-image{background:radial-gradient(circle at 50% 42%,#354536,#202b22 70%)}
+ .section-wrap{padding-top:48px;padding-bottom:48px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
