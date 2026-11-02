@@ -44,11 +44,19 @@ const defaultProducts=[
 {id:35,name:"Everyday Skin Essentials Set",desc:"A curated collection of everyday skincare essentials.",price:3950,category:"daily",tag:"VALUE BUNDLE",symbol:"✧"},
 {id:36,name:"Complete Radiance Care Set",desc:"A multi-step skincare bundle for your daily routine.",price:5100,category:"daily",tag:"VALUE BUNDLE",symbol:"✿"}
 ];
+const importedTregoProducts=[
+{id:45,name:"Hand and Feet Brightening Cream",desc:"Brightens hands and feet while helping deeply hydrate dry skin.",price:1140,category:"body",tag:"HAND & FOOT CARE",imageUrl:"https://trego.pk/cdn/shop/files/hand-and-foot-whitening-cream_600x.progressive.jpg?v=1738826293",productUrl:"https://trego.pk/products/hands-and-feet-brightening-cream"},
+{id:46,name:"Bright-Eye Gel",desc:"A lightweight under-eye gel for hydration and a refreshed look.",price:1140,category:"skin",tag:"EYE CARE",imageUrl:"https://trego.pk/cdn/shop/files/dark-circle-cream_600x.progressive.jpg?v=1744051700",productUrl:"https://trego.pk/products/bright-eye-gel"},
+{id:47,name:"Anti-Acne / Scar Cream",desc:"A targeted cream for blemish-prone skin and the appearance of post-acne marks.",price:1400,category:"skin",tag:"BLEMISH CARE",imageUrl:"https://trego.pk/cdn/shop/files/acne-scar-cream_600x.progressive.jpg?v=1745024246",productUrl:"https://trego.pk/products/anti-acne-scar-cream"},
+{id:48,name:"Night Cream",desc:"An overnight moisturising cream for your evening skincare routine.",price:1090,category:"skin",tag:"NIGHT CARE",imageUrl:"https://trego.pk/cdn/shop/files/night-cream_600x.progressive.jpg?v=1762894391",productUrl:"https://trego.pk/products/night-cream"},
+{id:49,name:"Moisturizing Cream",desc:"Daily hydration to help support a soft, comfortable skin barrier.",price:1120,category:"skin",tag:"MOISTURE CARE",imageUrl:"https://trego.pk/cdn/shop/files/best-moisturizer-for-dry-skin_600x.progressive.jpg?v=1773230307",productUrl:"https://trego.pk/products/moisturizing-cream"},
+{id:50,name:"Oily Skin Moisturizer",desc:"A lightweight moisturiser for oily-skin routines.",price:1120,category:"skin",tag:"OILY SKIN CARE",imageUrl:"https://trego.pk/cdn/shop/files/03_600x.progressive.jpg?v=1767617308",productUrl:"https://trego.pk/products/oily-skin-moisturizer"}
+];
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
 const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));
 let products=read("anarat_products",defaultProducts),cart=read("anarat_cart",[]),orders=read("anarat_orders",[]),profile=read("anarat_profile",null),activeFilter="all",searchTerm="";
 if(!localStorage.getItem("anarat_catalog_v4")){products=defaultProducts;save("anarat_products",products);localStorage.setItem("anarat_catalog_v4","1");}
-products.forEach(p=>{if(p.category==="care"||!p.category){p.category=p.category==="daily"?"daily":(/hair|scalp|shampoo/i.test(p.name+" "+(p.tag||""))?"hair":(/body|hand|foot/i.test(p.name+" "+(p.tag||""))?"body":"skin"));}});save("anarat_products",products);
+importedTregoProducts.forEach(p=>{let old=products.find(x=>x.id===p.id);if(old)Object.assign(old,p);else products.push(p)});\nproducts.forEach(p=>{if(p.category==="care"||!p.category){p.category=p.category==="daily"?"daily":(/hair|scalp|shampoo/i.test(p.name+" "+(p.tag||""))?"hair":(/body|hand|foot/i.test(p.name+" "+(p.tag||""))?"body":"skin"));}});save("anarat_products",products);
 const money=n=>"Rs. "+Number(n||0).toLocaleString("en-PK");
 const randomProductPhotos=[
 "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85",
