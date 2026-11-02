@@ -200,7 +200,25 @@ function renderCheckout(){let total=cart.reduce((s,p)=>s+p.price*p.qty,0);$("che
 function renderAccount(){if(profile){$("accountForm").querySelector('[name="name"]').value=profile.name;$("accountForm").querySelector('[name="email"]').value=profile.email;$("accountForm").querySelector('[name="phone"]').value=profile.phone||""}let mine=profile?orders.filter(o=>o.email.toLowerCase()===profile.email.toLowerCase()):[];$("accountOrders").innerHTML=mine.length?mine.map(o=>`<p><strong>${o.id}</strong><br>${money(o.total)} · ${o.status}</p>`).join(""):'<p class="muted">No matching orders saved on this device yet.</p>'}
 function renderAdmin(){$("adminOrderCount").textContent=orders.length;$("adminProductCount").textContent=products.length;$("adminSales").textContent=money(orders.reduce((s,o)=>s+o.total,0));$("adminOrderList").innerHTML=orders.length?orders.slice().reverse().map(o=>`<div class="admin-order"><div><strong>${o.id}</strong><small>${o.name} · ${o.phone} · ${o.city}</small><small>${o.items.map(i=>i.name+" × "+i.qty).join(", ")}</small></div><div><strong>${money(o.total)}</strong><select data-status="${o.id}"><option ${o.status==="Received"?"selected":""}>Received</option><option ${o.status==="Confirmed"?"selected":""}>Confirmed</option><option ${o.status==="Packed"?"selected":""}>Packed</option><option ${o.status==="Dispatched"?"selected":""}>Dispatched</option><option ${o.status==="Delivered"?"selected":""}>Delivered</option></select></div></div>`).join(""):"No demo orders yet."}
 const info={shipping:["Shipping information","Delivery charges and estimated delivery times will be published here once your courier partner and shipping rates are confirmed. Orders are not yet sent to a courier."],returns:["Returns & refunds","Your final return and refund policy must be confirmed before launch. Add clear rules for damaged, incorrect or eligible returned items, including the return window and contact method."],faqs:["Frequently asked questions","How can I pay? Cash on Delivery is the planned payment method. How can I track my order? Use the order number on the Track Order page. When will my parcel arrive? Delivery estimates will be added after the courier is selected."],privacy:["Privacy policy","A complete privacy policy must explain what customer data is collected, why it is used, how long it is retained, and how customers can request access or deletion. Have this reviewed before launch."],terms:["Terms & conditions","Final terms must cover product details, pricing, order acceptance, cancellations, delivery, returns, liability and customer support. This placeholder is not legal advice."]};
-function route(){let hash=location.hash.slice(1)||"home";if(hash.startsWith("info/")){let key=hash.split("/")[1],data=info[key]||info.faqs;$("infoTitle").textContent=data[0];$("infoContent").textContent=data[1];showView("info")}else if(hash.startsWith("skin/"))renderSkinCategory(hash.split("/")[1]);else if(hash.startsWith("hair/"))renderHairCategory(hash.split("/")[1]);else if(hash==="haircare")showView("haircare");else if(["skincare","account","track","checkout","admin"].includes(hash))showView(hash);else if(hash==="success")showView("success");else showView("home")}
+function route(){
+const hash=decodeURIComponent((location.hash||"#home").replace(/^#/,"")).trim().toLowerCase()||"home";
+if(hash.startsWith("info/")){const key=hash.split("/")[1],data=info[key]||info.faqs;$("infoTitle").textContent=data[0];$("infoContent").textContent=data[1];showView("info");return}
+if(hash.startsWith("skin/")){renderSkinCategory(hash.split("/")[1]);return}
+if(hash.startsWith("hair/")){const slug=hash.split("/")[1];if(hairCategoryInfo[slug]){renderHairCategory(slug);return}showView("haircare");return}
+if(hash==="haircare"){showView("haircare");return}
+if(["skincare","account","track","checkout","admin"].includes(hash)){showView(hash);return}
+if(hash==="success"){showView("success");return}
+showView("home");
+}
+document.addEventListener("click",event=>{
+ const link=event.target.closest('a[href^="#hair/"]');
+ if(!link)return;
+ const slug=link.getAttribute("href").slice(6).toLowerCase();
+ if(!hairCategoryInfo[slug])return;
+ event.preventDefault();
+ if(location.hash==="#"+link.getAttribute("href").slice(1)) route();
+ else location.hash="hair/"+slug;
+});
 ["productGrid","newArrivalGrid","trendingGrid","skinCollectionGrid","hairCollectionGrid","skinCategoryGrid","hairCategoryGrid"].forEach(id=>$(id).addEventListener("click",e=>{let a=e.target.closest("[data-add]"),d=e.target.closest("[data-detail]");if(a)addToCart(a.dataset.add);else if(d)showProduct(d.dataset.detail)}));
 $("productDetail").addEventListener("click",e=>{let b=e.target.closest("[data-add]");if(b){addToCart(b.dataset.add);$("productBackdrop").classList.remove("open")}});
 $("cartItems").addEventListener("click",e=>{let r=e.target.closest("[data-remove]"),q=e.target.closest("[data-qty]");if(r)cart=cart.filter(p=>p.id!==Number(r.dataset.remove));if(q){let p=cart.find(x=>x.id===Number(q.dataset.qty));p.qty+=Number(q.dataset.change);if(p.qty<1)cart=cart.filter(x=>x.id!==p.id)}renderCart()});
@@ -214,7 +232,7 @@ $("trackForm").addEventListener("submit",e=>{e.preventDefault();let id=new FormD
 $("adminView").addEventListener("change",e=>{let id=e.target.dataset.status;if(!id)return;let o=orders.find(x=>x.id===id);if(o){o.status=e.target.value;save("anarat_orders",orders);toast("Demo order status updated")}});
 $("addProductForm").addEventListener("submit",e=>{e.preventDefault();let f=new FormData(e.target);products.push({id:Math.max(0,...products.map(p=>p.id))+1,name:f.get("name"),desc:"New Anarat product",price:Number(f.get("price")),category:f.get("category"),tag:"NEW ARRIVAL",symbol:"✳"});save("anarat_products",products);e.target.reset();renderProducts();renderAdmin();toast("Demo product added")});
 $("newsletterForm").addEventListener("submit",e=>{e.preventDefault();$("newsletterMessage").textContent="Thank you! Newsletter signup needs an email service connection.";e.target.reset()});
-$("year").textContent=new Date().getFullYear();window.addEventListener("hashchange",route);renderProducts();renderHomeCollections();renderCart();route();
+$("year").textContent=new Date().getFullYear();window.addEventListener("hashchange",route);window.addEventListener("pageshow",route);renderProducts();renderHomeCollections();renderCart();route();
 
 // Load the full Al-Fatah catalogue from the companion JSON data file.
 fetch("/alfatah-products.json")
@@ -233,7 +251,7 @@ fetch("/alfatah-products.json")
   .catch(error => console.error("Al-Fatah catalogue:", error));
  
 // Load and validate the dedicated Alfatah shampoo catalogue.
-fetch("/alfatah-shampoo-products.json?v=20261102b",{cache:"no-store"})
+fetch("/alfatah-shampoo-products.json?v=20261102c",{cache:"no-store"})
   .then(response => {
     if (!response.ok) throw new Error("Catalogue request failed: "+response.status);
     return response.json();
