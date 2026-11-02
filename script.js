@@ -178,11 +178,14 @@ return "";
 }
 function renderHairCategory(slug){
 const meta=hairCategoryInfo[slug];if(!meta)return;
-const list=products.filter(p=>hairCategoryFor(p)===slug);
+const list=products.filter(p=>{
+  if(slug==="shampoo") return /shampoo/i.test((p.name||"")+" "+(p.tag||""));
+  return hairCategoryFor(p)===slug;
+});
 $("hairCategoryTitle").textContent=meta.title;
 $("hairCategoryIntro").textContent=meta.intro;
 $("hairCategoryCount").textContent="Showing "+list.length+" products";
-$("hairCategoryGrid").innerHTML=list.length?productCards(list):'<p class="muted">Products for this category are being added.</p>';
+$("hairCategoryGrid").innerHTML=list.length?productCards(list):'<p class="muted">Shampoo catalogue is loading. Please refresh in a moment.</p>';
 showView("hairCategory");
 }
 function renderProducts(){let list=products.filter(p=>(activeFilter==="all"||p.category===activeFilter)&&(p.name+" "+p.desc).toLowerCase().includes(searchTerm));let sort=$("sortSelect").value;if(sort==="low")list.sort((a,b)=>a.price-b.price);if(sort==="high")list.sort((a,b)=>b.price-a.price);if(sort==="name")list.sort((a,b)=>a.name.localeCompare(b.name));$("resultCount").textContent="Showing "+list.length+" products";$("productGrid").innerHTML=list.length?productCards(list):'<p class="muted">No products found. Try another search.</p>'}
@@ -229,20 +232,38 @@ fetch("/alfatah-products.json")
   })
   .catch(error => console.error("Al-Fatah catalogue:", error));
  
-// Load the dedicated Alfatah shampoo catalogue into Hair Care > Shampoo.
-fetch("/alfatah-shampoo-products.json?catalog=20261102",{cache:"no-store"})
-  .then(response => { if (!response.ok) throw new Error("Shampoo catalogue JSON could not be loaded"); return response.json(); })
+// Load and validate the dedicated Alfatah shampoo catalogue.
+fetch("/alfatah-shampoo-products.json?v=20261102b",{cache:"no-store"})
+  .then(response => {
+    if (!response.ok) throw new Error("Catalogue request failed: "+response.status);
+    return response.json();
+  })
   .then(data => {
-    (data.products || []).forEach(item => {
-      const existing = products.find(p => p.name.toLowerCase() === item.name.toLowerCase());
-      const product = { ...item, category: "hair", tag: "SHAMPOO", image: item.imageUrl, desc: "A shampoo product listed by Al-Fatah." };
+    const items = Array.isArray(data) ? data : (Array.isArray(data.products) ? data.products : []);
+    if (!items.length) throw new Error("Catalogue JSON contains no products");
+    let nextId = Math.max(0, ...products.map(p => Number(p.id) || 0)) + 1;
+    items.forEach(item => {
+      if (!item || !item.name) return;
+      const existing = products.find(p => (p.name||"").toLowerCase() === item.name.toLowerCase());
+      const product = {
+        ...item,
+        id: existing ? existing.id : nextId++,
+        category: "hair",
+        tag: "SHAMPOO",
+        image: item.imageUrl || item.image || imageForProduct({name:item.name,category:"hair"}),
+        desc: "A shampoo product listed by Al-Fatah."
+      };
       if (existing) Object.assign(existing, product);
-      else products.push({ ...product, id: Math.max(0, ...products.map(p => Number(p.id) || 0)) + 1 });
+      else products.push(product);
     });
     save("anarat_products", products);
+    if (location.hash.startsWith("#hair/")) renderHairCategory(location.hash.split("/")[1]);
     renderProducts();
     renderHomeCollections();
-    if (location.hash.startsWith("hair/")) renderHairCategory(location.hash.split("/")[1]);
   })
-  .catch(error => console.error("Al-Fatah shampoo catalogue:", error));
+  .catch(error => {
+    console.error("Al-Fatah shampoo catalogue:", error);
+    const count = document.getElementById("hairCategoryCount");
+    if (location.hash === "#hair/shampoo" && count) count.textContent = "Shampoo products could not load. Please contact support.";
+  });
 
