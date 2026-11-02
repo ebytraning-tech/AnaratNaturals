@@ -110,7 +110,7 @@ function imageForProduct(p){
  return "assets/products/serum.svg";
 }
 
-products.forEach(p=>{p.image=imageForProduct(p)});save("anarat_products",products);
+products.forEach(p=>{p.image=p.imageUrl||imageForProduct(p)});save("anarat_products",products);
 
 const $=id=>document.getElementById(id);
 function toast(message){$("toast").textContent=message;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),2400)}
