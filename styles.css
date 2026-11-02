@@ -230,3 +230,7 @@ body{background:#fffaf0;color:#263b16}
 #skinCategoryView>.text-link{display:inline-block;margin-bottom:28px}
 @media(max-width:760px){.skin-category-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.skin-category-links a{min-height:135px;padding:17px}.skin-category-links a strong{font-size:18px}}
 @media(max-width:420px){.skin-category-links{grid-template-columns:1fr}}
+
+/* Hair care category pages */
+#hairCategoryView>.text-link{display:inline-block;margin-bottom:28px}
+#haircareView .skin-category-links a,#hairCategoryView .skin-category-links a{background:#f4f1e6;border-color:#ded8c3}
