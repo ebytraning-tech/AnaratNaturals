@@ -34,3 +34,32 @@
 
 /* Floating WhatsApp chat button */
 .wa-float{position:fixed;right:22px;bottom:22px;z-index:9999;display:flex;align-items:center;gap:10px;padding:11px 17px 11px 12px;border-radius:999px;background:#20b85a;color:#fff;box-shadow:0 8px 24px #102c1c35;font:600 12px var(--sans);letter-spacing:.02em;transition:transform .2s ease,box-shadow .2s ease}.wa-float:hover{transform:translateY(-3px);box-shadow:0 12px 28px #102c1c45}.wa-float-icon{display:grid;place-items:center;width:29px;height:29px;border:1.5px solid #ffffffc9;border-radius:50%;font-size:19px;line-height:1}.wa-float-label{white-space:nowrap}@media(max-width:520px){.wa-float{right:14px;bottom:14px;padding:10px 14px 10px 10px}.wa-float-label{font-size:11px}}
+
+/* Premium Brightora-inspired motion system */
+html{scroll-behavior:smooth}
+.motion-reveal{opacity:1;transform:none}
+.motion-ready .motion-reveal{opacity:0;transform:translate3d(0,34px,0);transition:opacity .85s cubic-bezier(.2,.7,.2,1),transform .85s cubic-bezier(.2,.7,.2,1);transition-delay:var(--motion-delay,0ms);will-change:opacity,transform}
+.motion-ready .motion-reveal.is-visible{opacity:1;transform:translate3d(0,0,0)}
+.anarat-copy .eyebrow{animation:anarat-rise .75s .08s both}
+.anarat-copy h1{animation:anarat-rise .9s .18s both}
+.anarat-copy .anarat-intro{animation:anarat-rise .9s .3s both}
+.anarat-copy .hero-actions{animation:anarat-rise .9s .42s both}
+.anarat-product-art{--jar-parallax:0px}
+.anarat-product-art .jar-body{animation:anarat-jar-float 5s ease-in-out infinite;transform:translateY(var(--jar-parallax,0px))}
+.anarat-product-art .jar-lid{animation:anarat-lid-shimmer 5s ease-in-out infinite}
+.anarat-product-art .jar-shadow{animation:anarat-shadow 5s ease-in-out infinite}
+.anarat-product-art:after{content:"";position:absolute;inset:-40% auto -40% -65%;width:35%;background:linear-gradient(90deg,transparent,#ffffff55,transparent);transform:skewX(-18deg);animation:anarat-sheen 7s 1.2s ease-in-out infinite}
+.anarat-marquee{overflow:hidden;white-space:nowrap}
+.anarat-marquee{background-image:linear-gradient(90deg,#173b29,#214b35,#173b29)}
+.benefit-grid article,.ingredient-grid article,.pack-options>div{transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
+.benefit-grid article:hover,.ingredient-grid article:hover{transform:translateY(-7px)}
+.pack-options>div:hover{transform:translateY(-5px);box-shadow:0 12px 28px #173b2914;border-color:#b49a55}
+.button,.header-cta,.text-link{transition:transform .25s ease,background-color .25s ease,box-shadow .25s ease}
+.button-dark:hover{transform:translateY(-3px);box-shadow:0 12px 24px #173b2930;background:#28553b}
+.header{position:sticky;top:0;z-index:80;background:#ffffffed;backdrop-filter:blur(12px)}
+@keyframes anarat-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes anarat-jar-float{0%,100%{translate:0 0}50%{translate:0 -13px}}
+@keyframes anarat-shadow{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(.88);opacity:.5}}
+@keyframes anarat-lid-shimmer{0%,100%{filter:brightness(1)}50%{filter:brightness(1.09)}}
+@keyframes anarat-sheen{0%,65%,100%{left:-65%}35%{left:130%}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.motion-ready .motion-reveal{opacity:1;transform:none}}
