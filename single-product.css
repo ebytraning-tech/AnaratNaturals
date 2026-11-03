@@ -249,3 +249,37 @@ html{scroll-behavior:smooth}
 .cod-submit:hover{background:#173b29}
 .order-note{min-width:0}
 @media(max-width:560px){.cod-form{gap:11px}.cod-form input,.cod-form textarea,.cod-form select{font-size:16px}}
+
+
+/* Shopping cart — Anarat Naturals */
+.header-actions{display:flex;align-items:center;gap:12px}
+.cart-trigger{display:inline-flex;align-items:center;gap:8px;border:1px solid #cbd7c5;border-radius:30px;padding:10px 15px;background:transparent;color:#254b32;font:600 12px var(--sans);cursor:pointer;transition:.2s}
+.cart-trigger span{display:grid;place-items:center;min-width:21px;height:21px;padding:0 4px;border-radius:50%;background:#e7eadb;color:#254b32}
+.cart-trigger:hover{background:#173b29;color:#fff;border-color:#173b29}
+.cart-trigger:hover span{background:#d9c48a;color:#173b29}
+.add-cart{display:block;width:100%;margin-top:12px;padding:10px 12px;border:1px solid #244b32;border-radius:24px;background:transparent;color:#244b32;font:600 11px var(--sans);cursor:pointer;transition:.2s}
+.add-cart:hover{background:#173b29;color:#fff}
+.cart-backdrop{position:fixed;inset:0;z-index:1000;background:#102b1dcc;backdrop-filter:blur(3px)}
+.cart-backdrop[hidden]{display:none}
+.cart-drawer{position:fixed;z-index:1001;right:0;top:0;width:min(440px,100%);height:100dvh;padding:28px;box-sizing:border-box;background:#fbfaf4;box-shadow:-20px 0 60px #102b1d25;display:flex;flex-direction:column;transform:translateX(105%);transition:transform .3s ease}
+.cart-drawer.is-open{transform:translateX(0)}
+.cart-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;border-bottom:1px solid #dce3d6}
+.cart-head .eyebrow{font-size:9px;letter-spacing:.2em;color:#9a8050;margin:0 0 6px}
+.cart-head h2{margin:0;color:#203f2d;font:600 30px var(--serif)}
+.cart-head>button{width:40px;height:40px;border:1px solid #d8dfce;border-radius:50%;background:#f1f2e9;color:#173b29;font-size:25px;cursor:pointer}
+.cart-items{flex:1;overflow:auto;padding:16px 0}
+.cart-items>p{color:#718174;font-size:14px}
+.cart-line{display:flex;justify-content:space-between;gap:12px;padding:18px 0;border-bottom:1px solid #e3e6dc;color:#254b32}
+.cart-line b{display:block;font-size:13px}
+.cart-line small{display:block;margin-top:5px;color:#788675;font-size:11px}
+.cart-line>strong{white-space:nowrap;font-size:13px}
+.cart-qty{display:flex;align-items:center;gap:10px;margin-top:12px}
+.cart-qty button{border:1px solid #d2dccb;border-radius:20px;background:#fff;padding:5px 10px;color:#254b32;cursor:pointer}
+.cart-qty button:last-child{border:0;background:transparent;color:#9a655a;text-decoration:underline}
+.cart-qty span{font-size:12px}
+.cart-footer{padding-top:18px;border-top:1px solid #dce3d6}
+.cart-total{display:flex;justify-content:space-between;color:#203f2d;font-size:15px}
+.cart-footer>p{color:#7b8878;font-size:11px}
+.cart-footer>.button{width:100%;cursor:pointer}
+body.cart-open{overflow:hidden}
+@media(max-width:700px){.header-actions{gap:6px}.cart-trigger{padding:8px 10px;font-size:11px}.cart-drawer{padding:22px}.pack-options>div{height:auto}}
