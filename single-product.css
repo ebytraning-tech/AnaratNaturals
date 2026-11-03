@@ -13,7 +13,7 @@
 
 /* Original Anarat Naturals homepage banner — retained unchanged */
 .hero-banner{position:relative;width:100%;overflow:hidden;background:#e9eee5;line-height:0}
-.hero-banner img{display:block;width:100%;height:auto;max-height:560px;object-fit:cover;object-position:center}
+.hero-banner img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center}
 .hero-banner-link{position:absolute;inset:0;display:block}
 @media(max-width:700px){.hero-banner img{width:100%;height:auto;min-height:0;max-height:none;object-fit:contain}}
 
