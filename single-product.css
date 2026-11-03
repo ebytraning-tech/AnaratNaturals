@@ -218,3 +218,15 @@ html{scroll-behavior:smooth}
 .ritual-card-grid p{margin:0;color:#718174;font:400 13px/1.75 var(--sans)}
 @media(max-width:950px){.ritual-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.ritual-card-grid article{min-height:220px}.ritual-showcase>h2{margin-bottom:42px}}
 @media(max-width:560px){.anarat-ritual.ritual-showcase{padding:60px 6% 65px}.ritual-showcase>h2{font-size:29px;margin-bottom:32px}.ritual-break{display:none}.ritual-card-grid{grid-template-columns:1fr;gap:13px}.ritual-card-grid article{min-height:0;padding:24px;border-radius:23px}.ritual-card-grid .ritual-number{font-size:48px}.ritual-card-grid h3{font-size:20px}.ritual-card-grid p{font-size:12px}}
+
+
+/* Consistent dark-green hover state for all website buttons */
+.button:hover,.button:focus-visible,.shop-whatsapp:hover,.shop-whatsapp:focus-visible,.header-cta:hover,.header-cta:focus-visible,.wa-float:hover,.wa-float:focus-visible{
+  background:#173b29!important;
+  border-color:#173b29!important;
+  color:#fff!important;
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px #173b2930;
+}
+.button-dark:hover,.button-dark:focus-visible{background:#173b29!important;color:#fff!important}
+.shop-actions .button:hover{background:#173b29!important;color:#fff!important}
