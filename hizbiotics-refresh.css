@@ -1,23 +1,23 @@
 /* Hizbiotics-inspired storefront refresh for Anarat Naturals */
 :root{
- --ink:#24352b;--muted:#6f7c73;--cream:#f5f7f1;--paper:#fff;--sage:#e8eee3;--green:#a18a43;--line:#e4e8df;
+ --ink:#173b29;--muted:#68786c;--cream:#edf2eb;--paper:#fff;--sage:#dce8dc;--green:#174b32;--line:#dce5dc;
  --serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif
 }
 html{scroll-behavior:smooth}
 body{background:#fff;color:#24352b;font-family:var(--sans)}
-.announcement{background:#25362c;color:#f8f7ef;padding:11px 14px;font-size:10px;letter-spacing:.09em;text-transform:uppercase}
+.announcement{background:#173b29;color:#f8f7ef;padding:11px 14px;font-size:10px;letter-spacing:.09em;text-transform:uppercase}
 .site-header{min-height:88px;padding:12px 5%;grid-template-columns:1fr minmax(230px,400px) 1fr;gap:28px;background:#fff;border-bottom:1px solid #e9ece5;box-shadow:none}
 .brand-logo{display:flex;align-items:center;gap:11px;white-space:nowrap}
 .logo-emblem{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;background:#f5f3e9;overflow:hidden}
 .logo-image{width:100%;height:100%;object-fit:contain}
-.logo-wording{font-size:13px;line-height:1.05;letter-spacing:.15em;font-weight:800;color:#26372c}
+.logo-wording{font-size:13px;line-height:1.05;letter-spacing:.15em;font-weight:800;color:#173b29}
 .logo-wording small{display:block;margin-top:5px;font-size:7px;letter-spacing:.16em;color:#8c7842;font-weight:600}
-.header-search{height:42px;border:1px solid #dfe5dc;border-radius:2px;background:#fafbf8}
+.header-search{height:42px;border:1px solid #dfe5dc;border-radius:2px;background:#f3f7f2}
 .header-search button{color:#8b7948}
 .header-actions{gap:18px}
 .account-link{color:#56645a}
-.cart-button{border:1px solid #dfe5dc;border-radius:2px;padding:10px 16px;color:#26372c}
-.cart-button span{background:#26372c}
+.cart-button{border:1px solid #dfe5dc;border-radius:2px;padding:10px 16px;color:#173b29}
+.cart-button span{background:#173b29}
 .category-nav{height:50px;gap:clamp(18px,3vw,42px);background:#fff;border-bottom:1px solid #e9ece5}
 .category-nav a{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:#46554b}
 .category-nav a:hover{color:#9a854b}
@@ -28,18 +28,18 @@ body{background:#fff;color:#24352b;font-family:var(--sans)}
 .hero-banner{position:relative;width:100%;height:clamp(260px,42vw,540px);overflow:hidden;background:#edf1e8}
 .hero-banner img{display:block;width:100%;height:100%;object-fit:cover}
 .hero-banner-link{position:absolute;inset:0}
-.service-strip{padding:22px 7%;background:#fafbf8;border-bottom:1px solid var(--line);grid-template-columns:repeat(4,1fr)}
+.service-strip{padding:22px 7%;background:#f3f7f2;border-bottom:1px solid var(--line);grid-template-columns:repeat(4,1fr)}
 .service-strip>div>b{color:#a18a43}
-.service-strip strong{font-size:10px;letter-spacing:.04em;color:#344439}
+.service-strip strong{font-size:10px;letter-spacing:.04em;color:#244c36}
 .service-strip small{color:#78847b}
 .section-wrap{padding:76px 7%}
 .eyebrow{color:#9b8547;letter-spacing:.2em;font-size:9px}
 .section-heading{align-items:end;margin-bottom:25px}
-.section-heading h2,.story-copy h2{font-size:clamp(34px,4vw,48px);color:#26372c}
+.section-heading h2,.story-copy h2{font-size:clamp(34px,4vw,48px);color:#173b29}
 .section-heading h2 em,.story-copy h2 em{color:#9a854b}
-.text-link{border-color:#b6a777;color:#344439;font-size:10px;letter-spacing:.05em}
+.text-link{border-color:#b6a777;color:#244c36;font-size:10px;letter-spacing:.05em}
 .trego-style-products{background:#fff}
-.trending-products{background:#f7f8f4}
+.trending-products{background:#edf3ec}
 .product-grid{gap:22px}
 .product-card{background:#fff;transition:transform .25s ease}
 .product-card:hover{transform:translateY(-4px)}
@@ -47,38 +47,38 @@ body{background:#fff;color:#24352b;font-family:var(--sans)}
 .product-image img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;padding:15px}
 .product-tag{top:13px;left:13px;background:#fff;color:#58664f;font-size:7px;letter-spacing:.12em;border:1px solid #e8ece3}
 .product-info{padding:14px 3px}
-.product-name{font-size:16px;color:#2b3a30}
+.product-name{font-size:16px;color:#1b432e}
 .product-info p{font-size:10px;line-height:1.6;color:#7b867d;min-height:30px}
-.product-price{font-size:12px;color:#26372c}
-.add-button{border:1px solid #dce3d8;color:#344439;background:#fff;width:34px;height:34px}
-.add-button:hover{background:#26372c;color:#fff}
+.product-price{font-size:12px;color:#173b29}
+.add-button{border:1px solid #dce3d8;color:#244c36;background:#fff;width:34px;height:34px}
+.add-button:hover{background:#173b29;color:#fff}
 .product-reviews{font-size:9px;color:#9a8b58;margin-bottom:8px}
-.category-section{background:#f7f8f4}
+.category-section{background:#edf3ec}
 .category-cards{gap:16px}
-.category-card{height:220px;padding:26px;background:#e9eee4;color:#29392f}
+.category-card{height:220px;padding:26px;background:#dfeade;color:#1b432e}
 .category-card:before{background:#ffffff70}
 .category-card:after{background:linear-gradient(100deg,#c9d3c0,#f4f0df 55%,#b7c3ac)}
-.category-card strong{font-size:25px;color:#29392f}
+.category-card strong{font-size:25px;color:#1b432e}
 .category-card small,.category-card>span{color:#647367}
-.skin-card{background:#edf0e7}.hair-card{background:#e6ece2}.body-card{background:#f0eee4}
+.skin-card{background:#e4eee2}.hair-card{background:#dce8dc}.body-card{background:#f0eee4}
 .shop-section{background:#fbfcf9}
 .shop-toolbar{margin:26px 0 10px}
 .category-pills button{border:1px solid #dfe5dc;border-radius:2px;color:#647168;background:#fff}
-.category-pills button.active,.category-pills button:hover{background:#26372c;border-color:#26372c;color:#fff}
-.sort-control select{color:#26372c}
-.routine-banner{display:grid;grid-template-columns:1fr 1fr;min-height:360px;background:#e9eee4}
+.category-pills button.active,.category-pills button:hover{background:#173b29;border-color:#173b29;color:#fff}
+.sort-control select{color:#173b29}
+.routine-banner{display:grid;grid-template-columns:1fr 1fr;min-height:360px;background:#dfeade}
 .routine-photo{background:linear-gradient(135deg,#e4e9dc,#f8f7ef);position:relative}
 .routine-photo:after{content:"";position:absolute;width:42%;height:65%;left:29%;top:18%;border-radius:48% 48% 10px 10px;background:linear-gradient(100deg,#d7c9a5,#f5f0dc 50%,#c6b78e);box-shadow:20px 22px 40px #28392b20}
 .routine-copy{align-self:center;padding:55px 12%}
-.routine-copy h2{font:500 clamp(34px,4vw,48px) var(--serif);line-height:1.12;color:#26372c}
+.routine-copy h2{font:500 clamp(34px,4vw,48px) var(--serif);line-height:1.12;color:#173b29}
 .routine-copy h2 em{color:#9a854b}
 .routine-copy>p:not(.eyebrow){font-size:12px;color:#6f7c73;line-height:1.8}
-.offer-banner{margin:65px 7%;padding:48px 7%;background:#293b30;color:#fff;grid-template-columns:1fr 1fr}
+.offer-banner{margin:65px 7%;padding:48px 7%;background:#173b29;color:#fff;grid-template-columns:1fr 1fr}
 .offer-banner h2{font-size:clamp(34px,4vw,48px)}
 .offer-banner h2 em{color:#d9c99a}
 .offer-banner .eyebrow{color:#d9c99a}
 .offer-banner p:not(.eyebrow){color:#d5ddd3}
-.light-button{background:#e9e2c9;color:#293b30;border:0}
+.light-button{background:#e9e2c9;color:#173b29;border:0}
 .offer-art{border-color:#d6c99b88;color:#e7dfc4}
 .story-section{background:#f4f6f0}
 .story-image{background:linear-gradient(145deg,#e5eadf,#d2ddcc)}
@@ -86,13 +86,13 @@ body{background:#fff;color:#24352b;font-family:var(--sans)}
 .story-stamp{color:#465448}
 .story-copy>p:not(.eyebrow){color:#6f7c73;line-height:2}
 .instagram-follow{background:#fff;text-align:center}
-.instagram-follow h2{font:500 clamp(26px,3vw,38px) var(--serif);color:#26372c}
-.primary-button{background:#26372c;border-radius:2px;letter-spacing:.08em}
+.instagram-follow h2{font:500 clamp(26px,3vw,38px) var(--serif);color:#173b29}
+.primary-button{background:#173b29;border-radius:2px;letter-spacing:.08em}
 .primary-button:hover{background:#9a854b}
-.newsletter{background:#f7f8f4}
-.newsletter h2{color:#26372c}
+.newsletter{background:#edf3ec}
+.newsletter h2{color:#173b29}
 .newsletter form{border-color:#d6ddcf}
-.newsletter form button{color:#344439}
+.newsletter form button{color:#244c36}
 .site-footer{background:#24352b;color:#f3f4ed}
 .footer-brand .logo-wording{color:#fff}
 .footer-brand .logo-wording small{color:#d7c99a}
@@ -102,10 +102,10 @@ body{background:#fff;color:#24352b;font-family:var(--sans)}
 .footer-links a:hover{color:#d8c89a}
 .footer-bottom{color:#d5ddcf}
 .cart-drawer{border-left:1px solid #e6ebe2}
-.toast{background:#26372c}
+.toast{background:#173b29}
 .app-page{background:#fff}
 .panel{border:1px solid #e5eae1;border-radius:2px}
-.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#fafbf8;border-color:#dfe5dc}
+.form-stack input,.form-stack textarea,.track-form input,.two-fields input,.two-fields select{background:#f3f7f2;border-color:#dfe5dc}
 .payment-choice{background:#f4f6f0}
 .success-panel{background:#f4f6f0}
 @media(max-width:900px){
@@ -133,3 +133,12 @@ body{background:#fff;color:#24352b;font-family:var(--sans)}
  .offer-banner{margin:0 5% 48px;padding:32px 7%;grid-template-columns:1fr}
  .story-image{min-height:270px}
 }
+
+/* Deep forest-green brand color update */
+:root{--ink:#173b29;--green:#174b32;--sage:#dce8dc}
+body{color:#173b29}
+.announcement,.category-pills button.active,.category-pills button:hover,.add-button:hover,.primary-button,.toast{background:#173b29;color:#fff}
+.site-footer{background:#123522}
+.offer-banner{background:#17432d}
+.category-card{background:#dce8dc}
+.hero-banner{background:#e3ede2}
