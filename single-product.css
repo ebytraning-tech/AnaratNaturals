@@ -230,3 +230,10 @@ html{scroll-behavior:smooth}
 }
 .button-dark:hover,.button-dark:focus-visible{background:#173b29!important;color:#fff!important}
 .shop-actions .button:hover{background:#173b29!important;color:#fff!important}
+
+
+/* Navigation menu hover: rounded dark-green button */
+.header nav{align-items:center;gap:10px}
+.header nav a{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid transparent;border-radius:10px;transition:background-color .22s ease,color .22s ease,border-color .22s ease,transform .22s ease}
+.header nav a:hover,.header nav a:focus-visible{background:#173b29;color:#fff!important;border-color:#173b29;transform:translateY(-1px);outline:none}
+@media(max-width:800px){.header nav{gap:5px}.header nav a{padding:9px 10px;border-radius:8px}}
