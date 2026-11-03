@@ -127,3 +127,20 @@ html{scroll-behavior:smooth}
 .anarat-reviews{background:#f4f5ee}
 .faq{background:#fbfcf8}
 .order-section{background:#f4f5ee}
+
+
+/* Nine active ingredients — Anarat cream, green and gold palette */
+.ingredients-section{background:#fbfcf8;padding-top:88px;padding-bottom:88px}
+.ingredient-heading{text-align:center;max-width:760px;margin:0 auto 54px}
+.ingredient-heading h2{font:600 clamp(32px,4vw,46px)/1.08 var(--sans);letter-spacing:-.035em;color:#203f2d;margin:0 0 18px}
+.ingredient-heading h2 em{font-family:var(--serif);font-weight:500;color:#668e70}
+.ingredient-heading p{font:400 15px/1.7 var(--sans);color:#718174;margin:0}
+.ingredient-grid.ingredient-grid-nine{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:1160px;margin:0 auto 22px}
+.ingredient-grid.ingredient-grid-nine article,.ingredient-grid.ingredient-grid-nine article+article{display:flex;flex-direction:row;align-items:center;gap:16px;min-height:100px;padding:20px 24px;background:#f8f5eb;border:1px solid #e4dfca;border-radius:25px;box-shadow:0 6px 18px #173b2909}
+.ingredient-grid-nine .ingredient-icon{flex:0 0 46px;width:46px;height:46px;display:grid;place-items:center;border-radius:50%;background:#e1eddc;color:#4d7958;font-size:21px}
+.ingredient-grid-nine article>div{min-width:0}
+.ingredient-grid-nine h3{font:500 18px/1.3 var(--sans);color:#263f2e;margin:0 0 5px}
+.ingredient-grid-nine p{font:500 13px/1.45 var(--sans);color:#718174;margin:0}
+.ingredient-note{max-width:1160px;margin:18px auto 0;color:#718174;font-size:12px;line-height:1.65;background:#f4f5ee;border:1px solid #e4e8dc}
+@media(max-width:900px){.ingredient-grid.ingredient-grid-nine{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.ingredient-grid.ingredient-grid-nine article,.ingredient-grid.ingredient-grid-nine article+article{min-height:94px;padding:17px 18px}}
+@media(max-width:560px){.ingredients-section{padding-top:64px;padding-bottom:64px}.ingredient-heading{margin-bottom:32px}.ingredient-grid.ingredient-grid-nine{grid-template-columns:1fr;gap:12px}.ingredient-grid.ingredient-grid-nine article,.ingredient-grid.ingredient-grid-nine article+article{min-height:84px;padding:16px 18px;border-radius:20px}.ingredient-grid-nine .ingredient-icon{flex-basis:42px;width:42px;height:42px}.ingredient-grid-nine h3{font-size:17px}.ingredient-grid-nine p{font-size:12px}}
