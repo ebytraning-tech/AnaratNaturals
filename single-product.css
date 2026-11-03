@@ -79,3 +79,42 @@ html{scroll-behavior:smooth}
 .benefit-grid article:hover{transform:translateY(-6px);box-shadow:0 16px 32px #b76e7418}
 @media(max-width:900px){.anarat-benefits{padding:70px 6%}.benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.benefit-grid article,.benefit-grid article+article{min-height:250px;padding:27px;border:1px solid #ffd5d9}.benefit-main-title{margin-bottom:40px}}
 @media(max-width:520px){.anarat-benefits{padding:58px 6%}.benefit-grid{grid-template-columns:1fr;gap:14px}.benefit-grid article,.benefit-grid article+article{min-height:0;padding:25px;border-radius:25px}.benefit-grid article>span.benefit-icon{margin-bottom:18px}.benefit-grid h3{font-size:21px}.benefit-grid p{font-size:13px}}
+
+
+/* Matching rounded white cards across the full storefront */
+.ingredients-section{background:#fff0f1}
+.ingredient-grid{border:0;gap:20px;margin-top:8px}
+.ingredient-grid article,.ingredient-grid article+article{background:#fff;border:1px solid #ffd5d9;border-radius:28px;padding:30px 28px;min-height:220px;box-shadow:0 8px 24px #b76e7410}
+.ingredient-grid article+article{border-left:1px solid #ffd5d9}
+.ingredient-grid article>b{display:inline-block;padding:8px 11px;border-radius:999px;background:#ffedf0;color:#a76c78}
+.ingredient-grid h3{font:600 22px/1.35 var(--sans);margin:20px 0 10px}
+.ingredient-grid p{font-size:13px;line-height:1.75;margin:0}
+.ingredient-note{padding:13px 17px;background:#fff;border:1px solid #ffd5d9;border-radius:15px}
+.anarat-shop{background:#fff0f1}
+.pack-options{gap:12px}
+.pack-options>div{min-height:125px;padding:17px 13px;background:#fff;border:1px solid #ffd5d9;border-radius:22px;box-shadow:0 8px 22px #b76e7410}
+.pack-options b{font-size:10px}
+.pack-options strong{font-size:15px}
+.shop-note{padding:12px 15px;background:#fff;border:1px solid #ffd5d9;border-radius:15px}
+.shop-jar{border-radius:28px 28px 40px 40px;box-shadow:0 16px 35px #b76e7420}
+.anarat-reviews{background:#fff7f7}
+.faq{background:#fff0f1}
+.faq-list details,.faq-list details:first-child{margin:0 0 12px;padding:19px 21px;background:#fff;border:1px solid #ffd5d9;border-radius:19px;box-shadow:0 6px 18px #b76e740a}
+.faq-list details[open]{border-color:#eeb9c0;box-shadow:0 10px 24px #b76e7412}
+.faq-list summary{font-size:12px;font-weight:600}
+.faq-list details p{font-size:11px;line-height:1.85;margin:14px 0 0}
+.order-section{background:#fff7f7}
+.order-note{border:1px solid #ffd5d9;border-radius:30px;box-shadow:0 12px 30px #b76e7412}
+.ritual-steps p{padding:15px 16px;background:#ffffff12;border:1px solid #ffffff25;border-radius:16px}
+@media(max-width:800px){
+ .ingredient-grid{gap:14px}
+ .ingredient-grid article,.ingredient-grid article+article{padding:25px;border-radius:24px;min-height:0}
+ .ingredient-grid article+article{border-top:1px solid #ffd5d9}
+ .pack-options>div{padding:13px 9px;border-radius:18px}
+}
+@media(max-width:520px){
+ .ingredient-grid{gap:12px}
+ .ingredient-grid article,.ingredient-grid article+article{padding:23px;border-radius:22px}
+ .faq-list details,.faq-list details:first-child{padding:17px;border-radius:17px}
+ .order-note{padding:32px 22px;border-radius:24px}
+}
