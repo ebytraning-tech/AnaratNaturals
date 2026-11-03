@@ -22,7 +22,7 @@ const SUPABASE_KEY='sb_publishable_Iym4TQn0eHgRFFaWdwflvw_CS5pkZNy';
 const sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 const $=id=>document.getElementById(id);
 function show(id){['login','pending','dashboard'].forEach(x=>$(x).classList.toggle('hidden',x!==id));$('logout').classList.toggle('hidden',id==='login');}
-$('loginForm').addEventListener('submit',async e=>{e.preventDefault();$('loginMsg').textContent='Sending secure link…';const {error}=await sb.auth.signInWithOtp({email:$('email').value.trim(),options:{emailRedirectTo:location.origin+location.pathname,shouldCreateUser:true}});$('loginMsg').textContent=error?error.message:'Sign-in link sent. Check your inbox (and spam folder).'});
+$('loginForm').addEventListener('submit',async e=>{e.preventDefault();$('loginMsg').textContent='Sending secure link…';const {error}=await sb.auth.signInWithOtp({email:$('email').value.trim(),options:{emailRedirectTo:'https://anaratnaturals.vercel.app/admin.html',shouldCreateUser:true}});$('loginMsg').textContent=error?error.message:'Sign-in link sent. Check your inbox (and spam folder).'});
 async function logout(){await sb.auth.signOut();show('login');}
 $('logout').onclick=logout;$('pendingLogout').onclick=logout;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
