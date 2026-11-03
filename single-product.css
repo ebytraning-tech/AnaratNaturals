@@ -63,3 +63,19 @@ html{scroll-behavior:smooth}
 @keyframes anarat-lid-shimmer{0%,100%{filter:brightness(1)}50%{filter:brightness(1.09)}}
 @keyframes anarat-sheen{0%,65%,100%{left:-65%}35%{left:130%}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.motion-ready .motion-reveal{opacity:1;transform:none}}
+
+
+/* Soft blush benefit cards inspired by the supplied reference */
+.anarat-benefits{background:#fff0f1;padding:82px 7.5% 92px}
+.benefit-title{text-align:center;font-size:9px;font-weight:700;letter-spacing:.2em;color:#6d9476;margin-bottom:14px}
+.benefit-main-title{margin:0 auto 58px;text-align:center;font:600 clamp(30px,4vw,48px)/1.1 var(--sans);letter-spacing:-.035em;color:#528565}
+.benefit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;border:0;max-width:1240px;margin:0 auto}
+.benefit-grid article,.benefit-grid article+article{min-height:290px;padding:32px 32px 30px;background:#fff;border:1px solid #ffd5d9;border-radius:32px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;box-shadow:0 8px 24px #b76e7410}
+.benefit-grid article>span.benefit-icon{width:56px;height:56px;min-height:56px;border-radius:50%;display:grid;place-items:center;font:28px/1 var(--sans);margin:0 0 25px;color:#a85869}
+.benefit-grid article>span.icon-pink{background:#ffdee2;color:#a95769}
+.benefit-grid article>span.icon-green{background:#d7edd8;color:#417553}
+.benefit-grid h3{font:600 23px/1.35 var(--sans);letter-spacing:-.025em;color:#263f2e;margin:0 0 12px}
+.benefit-grid p{font:400 14px/1.65 var(--sans);color:#718174;margin:0}
+.benefit-grid article:hover{transform:translateY(-6px);box-shadow:0 16px 32px #b76e7418}
+@media(max-width:900px){.anarat-benefits{padding:70px 6%}.benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.benefit-grid article,.benefit-grid article+article{min-height:250px;padding:27px;border:1px solid #ffd5d9}.benefit-main-title{margin-bottom:40px}}
+@media(max-width:520px){.anarat-benefits{padding:58px 6%}.benefit-grid{grid-template-columns:1fr;gap:14px}.benefit-grid article,.benefit-grid article+article{min-height:0;padding:25px;border-radius:25px}.benefit-grid article>span.benefit-icon{margin-bottom:18px}.benefit-grid h3{font-size:21px}.benefit-grid p{font-size:13px}}
