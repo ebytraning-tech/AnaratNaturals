@@ -237,3 +237,15 @@ html{scroll-behavior:smooth}
 .header nav a{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid transparent;border-radius:10px;transition:background-color .22s ease,color .22s ease,border-color .22s ease,transform .22s ease}
 .header nav a:hover,.header nav a:focus-visible{background:#173b29;color:#fff!important;border-color:#173b29;transform:translateY(-1px);outline:none}
 @media(max-width:800px){.header nav{gap:5px}.header nav a{padding:9px 10px;border-radius:8px}}
+
+
+/* Cash on delivery checkout form */
+.cod-form{display:grid;gap:13px;margin:22px 0 18px;text-align:left}
+.cod-form label{display:grid;gap:6px;color:#36543d;font:600 12px var(--sans);letter-spacing:.02em}
+.cod-form input,.cod-form textarea,.cod-form select{width:100%;box-sizing:border-box;border:1px solid #d7dfce;border-radius:12px;padding:12px 14px;background:#fbfaf4;color:#203f2d;font:400 14px var(--sans);outline:none;transition:border-color .2s,box-shadow .2s}
+.cod-form input:focus,.cod-form textarea:focus,.cod-form select:focus{border-color:#527d59;box-shadow:0 0 0 3px #527d591c}
+.cod-form textarea{resize:vertical;min-height:78px}
+.cod-submit{width:100%;cursor:pointer;border:1px solid #173b29}
+.cod-submit:hover{background:#173b29}
+.order-note{min-width:0}
+@media(max-width:560px){.cod-form{gap:11px}.cod-form input,.cod-form textarea,.cod-form select{font-size:16px}}
