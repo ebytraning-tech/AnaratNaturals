@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#eee7d8"/></linearGradient>
+ <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#b58a32"/><stop offset=".48" stop-color="#f0d99a"/><stop offset="1" stop-color="#9d7424"/></linearGradient>
+ <linearGradient id="cream" x2="1"><stop stop-color="#d9d2c3"/><stop offset=".2" stop-color="#fffef9"/><stop offset=".78" stop-color="#f4f0e8"/><stop offset="1" stop-color="#c9c0b0"/></linearGradient>
+ <linearGradient id="jar" x2="1"><stop stop-color="#d6d0c3"/><stop offset=".22" stop-color="#fff"/><stop offset=".72" stop-color="#f9f7f1"/><stop offset="1" stop-color="#c8c0b3"/></linearGradient>
+ <radialGradient id="shine"><stop stop-color="#fff8d8"/><stop offset=".72" stop-color="#f0d783"/><stop offset="1" stop-color="#c59d42"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1200" height="850" fill="url(#bg)"/>
+<circle cx="1010" cy="120" r="160" fill="#e7eddd" opacity=".7"/>
+<g fill="#63804c" opacity=".45"><ellipse cx="100" cy="115" rx="88" ry="24" transform="rotate(-32 100 115)"/><ellipse cx="170" cy="70" rx="72" ry="20" transform="rotate(18 170 70)"/><ellipse cx="1080" cy="250" rx="90" ry="23" transform="rotate(-30 1080 250)"/></g>
+<path d="M0 720 Q300 690 600 720 T1200 710 V850 H0Z" fill="#e7decd"/>
+<ellipse cx="620" cy="735" rx="475" ry="52" fill="#6d5730" opacity=".17" filter="url(#shadow)"/>
+<!-- box -->
+<g>
+ <path d="M160 205 L450 145 L450 660 L160 710Z" fill="#d7bd78" stroke="#a98135" stroke-width="3"/>
+ <path d="M160 205 L395 130 L690 195 L450 270Z" fill="#f3e4b7" stroke="#b58b3f" stroke-width="3"/>
+ <path d="M450 270 L690 195 L690 645 L450 660Z" fill="#d0aa57" stroke="#a98135" stroke-width="3"/>
+ <path d="M180 225 L430 165 L430 632 L180 676Z" fill="#f7edcf" stroke="#c39a4c" stroke-width="2"/>
+ <path d="M180 225 L430 165" stroke="#fff8df" stroke-width="8" opacity=".8"/>
+ <path d="M195 245 Q270 310 325 245" fill="none" stroke="#9b7a35" stroke-width="3"/>
+ <g fill="#557341" opacity=".9"><path d="M190 245 Q230 270 245 330 Q208 309 190 245Z"/><path d="M210 230 Q270 245 285 290 Q240 282 210 230Z"/><path d="M190 610 Q250 560 285 565 Q250 620 190 610Z"/></g>
+ <g text-anchor="middle" fill="#243c28">
+  <path d="M295 300 Q278 275 300 250 Q320 275 305 300 Q295 315 295 300Z" fill="url(#gold)" stroke="#98752d" stroke-width="2"/>
+  <text x="305" y="360" font-family="Georgia,serif" font-size="43" font-weight="bold">ANARAT</text>
+  <text x="305" y="405" font-family="Georgia,serif" font-size="43" font-weight="bold">NATURALS</text>
+  <text x="305" y="440" font-family="Georgia,serif" font-size="22">Skin Brightening &amp; Glow</text>
+  <path d="M220 465 H390" stroke="#b38a3d" stroke-width="2"/>
+  <text x="305" y="505" font-family="Georgia,serif" font-size="26" font-style="italic">Premium Quality</text>
+  <text x="305" y="548" font-family="Georgia,serif" font-size="20" font-weight="bold">Transform Your Skin Tone</text>
+  <text x="305" y="577" font-family="Georgia,serif" font-size="17">Helps reduce dark spots, dullness,</text>
+  <text x="305" y="600" font-family="Georgia,serif" font-size="17">and uneven skin tone.</text>
+  <rect x="255" y="620" width="100" height="34" rx="17" fill="url(#gold)"/>
+  <text x="305" y="644" font-family="Georgia,serif" font-size="20" font-weight="bold">110gm</text>
+ </g>
+</g>
+<!-- open jar -->
+<g>
+ <ellipse cx="745" cy="706" rx="260" ry="40" fill="#554321" opacity=".18" filter="url(#shadow)"/>
+ <path d="M500 440 Q500 405 540 398 H945 Q985 405 985 440 L965 690 Q955 735 915 740 H570 Q530 735 520 690Z" fill="url(#jar)" stroke="#c9c0b2" stroke-width="5"/>
+ <path d="M520 445 Q740 470 965 445 L950 675 Q740 715 535 675Z" fill="#f8f4e9" stroke="#ddd4c5" stroke-width="3"/>
+ <path d="M520 445 Q740 465 965 445 L960 565 Q740 585 525 565Z" fill="#f2e4bf" stroke="#c9a95d" stroke-width="2"/>
+ <path d="M520 455 Q740 470 965 455" stroke="#fff" stroke-width="10" opacity=".8"/>
+ <ellipse cx="742" cy="415" rx="220" ry="72" fill="url(#cream)" stroke="#c9c0b2" stroke-width="7"/>
+ <ellipse cx="742" cy="408" rx="197" ry="55" fill="url(#shine)" stroke="#e8d49b" stroke-width="4"/>
+ <path d="M650 420 Q685 395 715 410 Q750 425 790 390 Q825 365 850 390 Q818 420 785 428 Q725 445 650 420Z" fill="#fff1b4" opacity=".8"/>
+ <path d="M720 410 Q765 360 790 322 Q805 365 785 395 Q760 418 720 410Z" fill="#f8e5a3" stroke="#e6ce83" stroke-width="2"/>
+ <g text-anchor="middle" fill="#243c28">
+  <path d="M745 495 Q730 478 745 460 Q762 480 750 495Z" fill="url(#gold)" stroke="#98752d" stroke-width="1"/>
+  <text x="745" y="535" font-family="Georgia,serif" font-size="31" font-weight="bold">ANARAT</text>
+  <text x="745" y="568" font-family="Georgia,serif" font-size="31" font-weight="bold">NATURALS</text>
+  <text x="745" y="594" font-family="Georgia,serif" font-size="17">Skin Brightening &amp; Glow</text>
+  <path d="M625 608 H865" stroke="#b38a3d" stroke-width="2"/>
+  <text x="745" y="637" font-family="Georgia,serif" font-size="20" font-style="italic">Premium Quality</text>
+  <text x="745" y="663" font-family="Georgia,serif" font-size="17" font-weight="bold">110gm</text>
+ </g>
+</g>
+<!-- lid on the right -->
+<g transform="translate(975 500) rotate(17)">
+ <ellipse cx="0" cy="150" rx="135" ry="26" fill="#65512e" opacity=".17" filter="url(#shadow)"/>
+ <rect x="-128" y="-5" width="256" height="250" rx="42" fill="url(#jar)" stroke="#c9c0b2" stroke-width="5"/>
+ <ellipse cx="0" cy="5" rx="128" ry="118" fill="#fffdf8" stroke="#d6cfc2" stroke-width="6"/>
+ <ellipse cx="0" cy="5" rx="98" ry="88" fill="#f2e3bd" stroke="#c9a65c" stroke-width="3"/>
+ <g text-anchor="middle" fill="#243c28">
+  <path d="M0 -55 Q-14 -70 0 -91 Q15 -70 4 -55Z" fill="url(#gold)"/>
+  <text x="0" y="-20" font-family="Georgia,serif" font-size="20" font-weight="bold">ANARAT</text>
+  <text x="0" y="4" font-family="Georgia,serif" font-size="20" font-weight="bold">NATURALS</text>
+  <text x="0" y="27" font-family="Georgia,serif" font-size="11">Skin Brightening &amp; Glow</text>
+  <text x="0" y="55" font-family="Georgia,serif" font-size="13" font-style="italic">Premium Quality</text>
+  <text x="0" y="78" font-family="Georgia,serif" font-size="13" font-weight="bold">110gm</text>
+ </g>
+</g>
+<g fill="#fff" opacity=".78"><circle cx="90" cy="735" r="8"/><circle cx="112" cy="750" r="5"/><circle cx="1080" cy="680" r="7"/></g>
+</svg>
