@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <image href="anarat-naturals-110gm.png.png" x="0" y="0" width="1536" height="1024"/>
+  <g style="mix-blend-mode:multiply">
+    <image href="Golden%20Green%20Droplet%20Leaf%20Logo.png" x="405" y="240" width="150" height="135"/>
+    <image href="Golden%20Green%20Droplet%20Leaf%20Logo.png" x="847" y="515" width="130" height="125"/>
+    <image href="Golden%20Green%20Droplet%20Leaf%20Logo.png" x="1177" y="390" width="120" height="110"/>
+  </g>
+</svg>
