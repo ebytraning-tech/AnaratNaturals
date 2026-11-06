@@ -342,3 +342,16 @@ body.cart-open{overflow:hidden}
 .choose-guide-card ul{padding-left:22px;margin:8px 0 18px}
 .choose-guide-card a{color:#315d40;text-decoration:underline;text-underline-offset:3px;font-weight:600}
 @media(max-width:600px){.competitor-gap-content{padding:54px 6%}.choose-guide-card{padding:27px 23px;border-radius:22px}.choose-guide-card h2{font-size:28px}.choose-guide-card h3{font-size:17px}.choose-guide-card p,.choose-guide-card li{font-size:13px}}
+
+
+/* FAQ support links — refined compact help card */
+.faq-more{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:12px;row-gap:12px;margin:30px 0 0;padding:22px 26px;background:#f3f6ef;border:1px solid #e0e8dc;border-radius:18px}
+.faq-more-kicker{grid-column:1/-1;color:#9a8050;font:700 9px/1.2 var(--sans);letter-spacing:.2em}
+.faq-more>strong{color:#234b35;font:500 20px/1.25 var(--serif)}
+.faq-more-links{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:8px}
+.faq-more-links a{display:inline-flex;align-items:center;gap:8px;padding:10px 13px;border:1px solid #d8e2d4;border-radius:999px;background:#fff;color:#315d40;font:600 10px/1.2 var(--sans);transition:background .2s,color .2s,border-color .2s,transform .2s}
+.faq-more-links a span{color:#a18a52;font-size:12px}
+.faq-more-links a:hover,.faq-more-links a:focus-visible{background:#173b29;border-color:#173b29;color:#fff;transform:translateY(-2px);outline:none}
+.faq-more-links a:hover span,.faq-more-links a:focus-visible span{color:#e4d5a8}
+@media(max-width:850px){.faq-more{grid-template-columns:1fr;gap:12px;padding:21px}.faq-more-links{justify-content:flex-start}}
+@media(max-width:560px){.faq-more{margin-top:24px;padding:19px 17px;border-radius:16px}.faq-more>strong{font-size:19px}.faq-more-links{display:grid;grid-template-columns:1fr;gap:8px}.faq-more-links a{justify-content:space-between;padding:12px 14px;font-size:11px}}
