@@ -364,3 +364,29 @@ body.cart-open{overflow:hidden}
 .header nav a:focus-visible,.faq-more-links a:focus-visible{outline:3px solid #b58a3b!important;outline-offset:3px}
 #main-content:focus{outline:none}
 @media(prefers-reduced-motion:reduce){.skip-link{transition:none}}
+
+
+/* Mobile accessibility refinements: touch targets, contrast, focus and motion */
+@media(max-width:620px){
+  .mobile-menu-toggle{width:44px;height:44px;min-width:44px;min-height:44px}
+  .cart-trigger{min-height:44px;padding:10px 12px}
+  .header-actions{gap:8px}
+  .header nav.is-open a{min-height:44px;display:flex;align-items:center;padding:12px 8px}
+  .header-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+  .wa-float{min-width:48px;min-height:48px}
+  .add-cart,.cart-qty button,.cart-head>button{min-height:44px}
+  .cod-form input,.cod-form select,.cod-form textarea{min-height:44px}
+  .section,.anarat-shop,.anarat-ritual{scroll-margin-top:16px}
+}
+:where(a,button,input,select,textarea,summary):focus-visible{
+  outline:3px solid #79520f!important;
+  outline-offset:3px;
+  box-shadow:0 0 0 2px #fff;
+}
+:where(.intro,.anarat-intro,.ingredient-note,.ritual-card-grid p,.shop-description,.shop-note,.faq-list details p,.shop-points li){
+  color:#536456;
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
