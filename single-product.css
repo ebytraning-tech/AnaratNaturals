@@ -390,3 +390,24 @@ body.cart-open{overflow:hidden}
   html{scroll-behavior:auto!important}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
 }
+
+
+/* Final mobile accessibility polish: reliable touch targets and visible focus */
+@media(max-width:620px){
+  .anarat-social-panel a{width:44px!important;height:44px!important;min-width:44px!important}
+  .anarat-social-links a{min-height:44px}
+  .faq-list summary{min-height:48px;display:flex;align-items:center;gap:12px}
+  .cart-qty{gap:8px}
+  .cart-qty button{min-width:44px;min-height:44px;padding:8px 12px}
+  .cart-qty button:last-child{min-width:64px}
+  .wa-float{min-width:48px;min-height:48px}
+}
+.hero-banner-link:focus-visible,.wa-float:focus-visible,.header-cta:focus-visible,
+.footer a:focus-visible,.anarat-social-panel a:focus-visible{
+  outline:3px solid #79520f!important;
+  outline-offset:4px;
+  box-shadow:0 0 0 2px #fff;
+}
+@media(prefers-reduced-motion:reduce){
+  .mobile-menu-toggle span,.anarat-social-panel a,.anarat-social-links a{transition:none!important}
+}
