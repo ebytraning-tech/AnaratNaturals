@@ -27,3 +27,8 @@
 .blog-more a:hover{background:#173b29;transform:translateY(-2px)}
 @media(max-width:800px){.blog-section-head{grid-template-columns:1fr;gap:13px;margin-bottom:27px}.blog-heading-note{margin:0;max-width:560px}.blog-section .blog-card{min-height:245px}}
 @media(max-width:560px){.blog-section{padding:58px 6%}.blog-section-head h2{font-size:32px}.blog-heading-note{font-size:13px}.blog-card-grid{gap:13px}.blog-section .blog-card{min-height:0;padding:22px}.blog-section .blog-card h3{font-size:21px}.blog-more{margin-top:25px}.blog-more a{width:100%;text-align:center}}
+
+/* Journal listing card heading hierarchy */
+.blog-shell .blog-card h2{font:600 21px/1.28 var(--serif);color:var(--green);margin:14px 0 10px;letter-spacing:-.01em}
+.blog-shell .blog-card a{display:inline-flex;align-items:center;gap:6px;line-height:1.55;text-decoration:underline;text-underline-offset:4px;letter-spacing:0;font-size:11px}
+.blog-shell .blog-card a:focus-visible,.blog-section .blog-card>a:focus-visible,.blog-more a:focus-visible{outline:3px solid #a58a51;outline-offset:4px}
