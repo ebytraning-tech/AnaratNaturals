@@ -411,3 +411,29 @@ body.cart-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){
   .mobile-menu-toggle span,.anarat-social-panel a,.anarat-social-links a{transition:none!important}
 }
+
+
+/* Homepage Journal section — ensure its editorial layout is styled on pages that do not load blog.css */
+.blog-section{display:block;padding:88px 7%;background:linear-gradient(180deg,#f7f8f2 0%,#eef2e9 100%);border-top:1px solid #e8ede3;border-bottom:1px solid #e8ede3}
+.blog-section-inner{max-width:1160px;margin:0 auto}
+.blog-section-head{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:36px;max-width:none;margin:0 auto 38px;text-align:left}
+.blog-heading-copy .eyebrow{margin:0 0 13px}
+.blog-section-head h2{max-width:560px;margin:0;color:var(--green);font:600 clamp(32px,4vw,46px)/1.15 var(--serif);letter-spacing:-.025em}
+.blog-heading-note{max-width:420px;margin:0 0 4px auto;color:#68766b;font-size:14px;line-height:1.85}
+.blog-section .blog-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.blog-section .blog-card{position:relative;display:flex;flex-direction:column;min-width:0;min-height:258px;padding:27px 27px 25px;border:1px solid #e1e8dc;border-radius:17px;box-shadow:0 7px 22px rgba(23,59,41,.045);background:rgba(255,255,255,.94);transition:transform .25s,box-shadow .25s,border-color .25s}
+.blog-section .blog-card:hover{transform:translateY(-4px);border-color:#cbd8c8;box-shadow:0 15px 30px rgba(23,59,41,.085)}
+.blog-section .blog-card-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:19px;border-bottom:1px solid #edf0e9}
+.blog-section .blog-category{display:inline-flex;align-items:center;min-height:25px;padding:0 10px;border-radius:30px;background:#f2f5ed;color:#8d7749;font-size:8px;letter-spacing:.14em;font-weight:700}
+.blog-section .blog-card-number{flex:0 0 auto;color:#a8b4a6;font:500 13px/1 var(--serif)}
+.blog-section .blog-card h3{max-width:300px;margin:19px 0 10px;color:var(--green);font:600 21px/1.3 var(--serif)}
+.blog-section .blog-card p{margin:0 0 22px;color:#6c786e;font-size:12px;line-height:1.75}
+.blog-section .blog-card>a{display:inline-flex;align-items:center;gap:9px;margin-top:auto;color:#285238;font-size:10px;font-weight:700;letter-spacing:.07em;text-decoration:none}
+.blog-section .blog-card>a span{font-size:15px;transition:transform .2s}
+.blog-section .blog-card>a:hover span{transform:translate(3px,-2px)}
+.blog-section .blog-more{text-align:center;margin-top:34px}
+.blog-section .blog-more a{display:inline-flex;align-items:center;gap:9px;padding:14px 22px;border:1px solid #244b34;border-radius:3px;background:#244b34;color:#fff;font-size:9px;letter-spacing:.14em;transition:background .2s,transform .2s}
+.blog-section .blog-more a:hover{background:#173b29;transform:translateY(-2px)}
+.blog-section a:focus-visible{outline:3px solid #a58a51;outline-offset:4px}
+@media(max-width:800px){.blog-section-head{grid-template-columns:1fr;gap:13px;margin-bottom:27px}.blog-heading-note{margin:0;max-width:560px}.blog-section .blog-card{min-height:245px}}
+@media(max-width:560px){.blog-section{padding:58px 6%}.blog-section-head h2{font-size:32px}.blog-heading-note{font-size:13px}.blog-section .blog-card-grid{grid-template-columns:1fr;gap:13px}.blog-section .blog-card{min-height:0;padding:22px}.blog-section .blog-card h3{font-size:21px}.blog-section .blog-more{margin-top:25px}.blog-section .blog-more a{width:100%;justify-content:center;text-align:center}}
